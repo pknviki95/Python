@@ -20,14 +20,31 @@ Variables (or) Identifier
 Naming Rules: 
 -------------
 
-- Variable length can be of anything. 
+- Variable length can be of anything.
+	
+	- q
+	- xyz
+	- qewfev 
 
-- Identifier names should start with an alphabet or underscore(_) followed by zero or more letters, underscores and digits 
+- Identifier names should start with an alphabet or underscore(_) followed by zero or more letters, underscores and digits
+	
+	- x=10 -> correct
+	- _x=10 -> correct
+	- x_=10 -> correct
+	- _12=10 -> correct
+	- @xyz=10 -> Incorrect 
 
 - No other special characters are allowed. 
 
 - Identifier names are case sensitive. 
+	
+	x=10
+	print(X) -> Returns NONE as it is case sensitive
 
 - Reserved words should not be used as a variable 
 
+	class,sum, ->  36 reserved words in python
+
 - Spaces should not be there 
+	
+	- x yz=10 -> Incorrect
