@@ -1,5 +1,32 @@
-Variables (or) Identifier 
--------------------------
+Identifiers: 
+------------
+
+- Identifiers refers to naming in python  
+
+- It can be 
+
+		Variable name 
+
+		Class name 
+
+		Method name 
+
+Name types:
+-----------
+- Variable
+		
+		X=10 
+
+- class
+		
+		class test:
+
+- function/method 
+
+		def function_name():
+
+Variables: 
+---------
   
 
 - Variable are used to store values in reserved memory location. 
