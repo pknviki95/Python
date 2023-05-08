@@ -15,7 +15,7 @@ Concepts:
     - Limitations of Reserved words
 3. [**Modules**](https://github.com/pknviki95/Python/tree/main/concepts/Modules)
     - [keyword module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/keyword)
-    - objects of keyword Module
-        - keyword.kwlist
-        - keyword.iskeyword(parameter)
+        - objects of keyword Module
+            - keyword.kwlist
+            - keyword.iskeyword(parameter)
 
