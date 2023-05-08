@@ -14,13 +14,13 @@ Tables based on Topics:
 
 | Types     | Keywords                                             |
 | ----------| ---------------------------------------------------- |
-| Boolean   | True  False  None |
-| Operator  | and  or  not  is |
-| loops | while  for  break  continue  return  in  yield |
-| conditions   | if  else  elif |
-| exceptions   | try  except  finally  raise  assert |
-| Modules   | import  from  as  class  def pass |
-| variables   | global  nonlocal  lambda  del  with |
+| **Boolean**   | 'True'  'False'  'None' |
+| **Operator**  | 'and'  'or'  'not'  'is' |
+| **loops** | 'while'  'for'  'break'  'continue'  'return'  'in'  'yield' |
+| **conditions**   | 'if'  'else'  'elif' |
+| **exceptions**   | 'try'  'except'  'finally'  'raise'  'assert' |
+| **Modules**   | 'import'  'from'  'as'  'class'  'def' 'pass' |
+| **variables**   | 'global'  'nonlocal'  'lambda'  'del'  'with' |
 
 
 Objects of keywords Module:
