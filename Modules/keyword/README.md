@@ -1,6 +1,6 @@
 Reserved words:
 --------------- 
-
+- Reserved words are predefined identifiers/words
 - It is a reserved words which should not be used as a variable name 
 - There are 36 reserved words in python 
 
@@ -12,11 +12,12 @@ List of keywords in python:
 Objects of keywords Module:
 ----------------------------
 
-        kwlist
-        iskeyword(keyword)
+        keyword.kwlist
+        len(keyword.kwlist)
+        keyword.iskeyword(keyword)
 
-kwlist:
--------
+keyword.kwlist:
+---------------
 - To list all the objects in keyword module
 
  Program: To list all the objects in Keyword:
@@ -42,9 +43,9 @@ Program: To find the total number of keywords:
         #len(keyword.kwlist) - To find the total number of keywords
 
         print("Total number of keywords : {}".format(len(keyword.kwlist)))
-iskeyword(keyword):
--------------------
 
+keyword.iskeyword(keyword):
+---------------------------
 - To find the given parameter is keyword or not
 - It returns the boolean result of parameter if it is keyword or not.
 
