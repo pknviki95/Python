@@ -30,6 +30,18 @@ kwlist:
 
 -----------------------------------------------------------------
 
+len(keyword.kwlist):
+--------------------
+- To find the totalnumber of keywords
+
+Program: To find the total number of keywords:
+----------------------------------------------
+
+        import keyword
+
+        #len(keyword.kwlist) - To find the total number of keywords
+
+        print("Total number of keywords : {}".format(len(keyword.kwlist)))
 iskeyword(keyword):
 -------------------
 
