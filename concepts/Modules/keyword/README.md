@@ -22,7 +22,22 @@ Tables based on Topics:
 | **Modules**   | **'import'  'from'  'as'  'class'  'def' 'pass'** |
 | **variables**   | **'global'  'nonlocal'  'lambda'  'del'  'with'** |
 
+Limitations:
+------------
+- Contains only alphabet symbols
+- All contains lower case symbols/identifiers except boolean keywords
+        **True False None**
+- If the Reserved words are assigned case-insensitive it throws **Name error**
 
+        a=true
+
+        ---------------------------------------------------------------------------
+        NameError                                 Traceback (most recent call last)
+        Cell In[1], line 1
+        ----> 1 a=true
+
+        **NameError: name 'true' is not defined**
+        
 Objects of keywords Module:
 ----------------------------
 
