@@ -75,3 +75,42 @@ Naming Rules:
 - Spaces should not be there 
 	
 	 	x yz=10 -> Incorrect
+
+
+Examples of variable with different dataypes declaration:
+---------------------------------------------------------
+
+- Integer Datatype
+
+		integer_variable=10
+		print("value of integer variable  : {} ; type of variable  : {}".format(integer_variable,type(integer_variable)))
+
+- String Datatype
+
+		string_variable='viki'
+		print("value of string variable  : {} ; type of variable  : {}".format(string_variable,type(string_variable)))
+
+- Boolean Dataype
+
+		Boolean_variable=True
+		print("value of Boolean variable  : {} ; type of variable  : {}".format(Boolean_variable,type(Boolean_variable)))
+
+- List Dataype
+
+		list_variable=[1,2,3,4,'viki']
+		print("value of list_variable  : {} ; type of variable  : {}".format(list_variable,type(list_variable)))
+
+- Tuple Dataype
+
+		tuple_variable=(1,2,3,4,'viki')
+		print("value of tuple_variable  : {} ; type of variable  : {}".format(tuple_variable,type(tuple_variable)))
+
+- Dictionary Dataype
+
+		dictionary_variable={1:'viki',2:'Raj','Vijay':30}
+		print("value of dictionary_variable  : {} ; type of variable  : {}".format(dictionary_variable,type(dictionary_variable)))
+
+- Set Dataype
+
+		set_variable={1,2,3,4,'viki'}
+		print("value of set_variable  : {} ; type of variable  : {}".format(set_variable,type(set_variable)))
