@@ -13,7 +13,7 @@ Concepts:
     - Reserved words
     - Various Reserved words
     - Limitations of Reserved words
-- [**Datatypes**] (https://github.com/pknviki95/Python/tree/main/concepts/Datatypes)
+- [**Datatypes**](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes)
     - Datatypes : Dynamic vs Static datatypes
     - Types of datatypes
 - [**Modules**](https://github.com/pknviki95/Python/tree/main/concepts/Modules)
