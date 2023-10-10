@@ -38,7 +38,7 @@ Various integral form to decimal conversion:
 --------------------------------------------
 
 
-    NOTE: By default Python takes all the integer value as ***decimal value***
+NOTE: By default Python takes all the integer value as ***decimal value***
 
 | Integer type | value    | Conversion formula    | Final output|
 | :---:   | :---: | :---: | :---: |
