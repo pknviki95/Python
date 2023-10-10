@@ -9,15 +9,19 @@ Various types of Numbers Datatypes:
 - Integer
     - int () 
     - Integers – No limit to the value of integers
-
+    - By default Python takes integer as decimal value
+                
+                1,1234
 - float
     - float ()
     -floating point values in scientific or exponential form
-            4.5,-4.6,-4+e18
+
+                4.5,-4.6,-4+e18
 - complex 
     - complex ()
     - complex numbers with real and imaginary numbers
-            3+4j
+            
+                3+4j
  
 
 Different types of integer Numbers forms:
