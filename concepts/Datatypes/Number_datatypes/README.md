@@ -38,11 +38,11 @@ Different types of integer Numbers forms:
 | :---:   | :---: | :---: |
 | Decimal form (base-10) | 0-9   | By default all the number are in decimal form (0-9) |
 | :---:   | :---: | :---: |
-| Binary form (base-2) | 0 and 1   | The binary form has 0b/0B as the prefix |
+| Binary form (base-2) | 0 and 1   | The binary form has **0b/0B** as the prefix |
 | :---:   | :---: | :---: |
-| Octal form (base-8) | 0-7   | The octal form has 0o/0O as the prefix | 
+| Octal form (base-8) | 0-7   | The octal form has **0o/0O** as the prefix | 
 | :---:   | :---: | :---: |
-| Hexadecimal form (base-16) | 0-9 and A-F   | The Hexa decimal form has  0x/0X as a prefix | 
+| Hexadecimal form (base-16) | 0-9 and A-F   | The Hexa decimal form has  **0x/0X** as a prefix | 
 
 
 Various integral form to decimal conversion:
