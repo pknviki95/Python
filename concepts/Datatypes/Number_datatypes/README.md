@@ -53,11 +53,11 @@ NOTE: By default Python takes all the integer value as ***decimal value***
 
 | Integer type | value    | Conversion formula    | Final output|
 | :---:   | :---: | :---: | :---: |
-| Binary to decimal | A=0b1111   | (1111)<sub>2</sub> => (2<sup>3</sup>+2<sup>2</sup>+2<sup>1</sup>+2<sup>0</sup>) = (8*1 + 4*1 + 2*1 + 1*1)   | 15 |
+| Binary to decimal | A=0b1111   | (1111)<sub>2</sub> => (2<sup>3</sup>+2<sup>2</sup>+2<sup>1</sup>+2<sup>0</sup>) = (8 * 1 + 4 * 1 + 2 * 1 + 1 * 1)   | 15 |
 | :---:   | :---: | :---: | :---: |
-| Octal to decimal | A=0o1234   | (1234)<sub>8</sub> => (8<sup>3</sup>+8<sup>2</sup>+8<sup>1</sup>+8<sup>0</sup>) = (512*1 + 64*2 + 8*3 + 1*4)   | 668 |
+| Octal to decimal | A=0o1234   | (1234)<sub>8</sub> => (8<sup>3</sup>+8<sup>2</sup>+8<sup>1</sup>+8<sup>0</sup>) = (512 * 1 + 64 * 2 + 8 * 3 + 1 * 4)   | 668 |
 | :---:   | :---: | :---: | :---: |
-| Hexadecimal to decimal | A=0xFACE | (FACE)<sub>16</sub> => (16<sup>3</sup>+16<sup>2</sup>+16<sup>1</sup>+16<sup>0</sup>) = ( 4096*15 + 256*10 + 16*12 + 1*14 )| 64206 | 
+| Hexadecimal to decimal | A=0xFACE | (FACE)<sub>16</sub> => (16<sup>3</sup>+16<sup>2</sup>+16<sup>1</sup>+16<sup>0</sup>) = ( 4096 * 15 + 256 * 10 + 16 * 12 + 1 * 14 )| 64206 | 
 
 
  
