@@ -38,14 +38,15 @@ Base Conversion in-built function:
             hex()
             oct()
 
-- bin(): 
+- bin():
+-------- 
 
     - To convert other functions to **binary form (base-2)**
 
 Program: To convert decimal form to binary form using bin() function:
 -------------------------------------------------------------------
 
-        - **decimal to binary**:
+- **decimal to binary**:
 
                     dec_bin=53
                     print("The binary form of dec_bin : ",bin(dec_bin))
@@ -53,74 +54,76 @@ Program: To convert decimal form to binary form using bin() function:
 Program: To convert octal form to binary form using bin() function:
 -------------------------------------------------------------------
 
-        - **octal to binary**:
+- **octal to binary**:
 
-                    oct_bin=0o123
-                    print("The binary form of oct_bin : ",bin(oct_bin))
+                oct_bin=0o123
+                print("The binary form of oct_bin : ",bin(oct_bin))
 
  Program: To convert hexadecimal form to binary form using bin() function:
 --------------------------------------------------------------------------
 
-        - **hexadecimal to binary**:
+- **hexadecimal to binary**:
 
-                    hex_bin=0xface
-                    print("The binary form of hex_bin : ",bin(hex_bin))
+                hex_bin=0xface
+                print("The binary form of hex_bin : ",bin(hex_bin))
 
 - hex():
+--------
 
     - To convert other functions to **hexadecimal form (base-16)**
 
 Program: To convert decimal form to hexadecimal form using hex() function:
 --------------------------------------------------------------------------
 
-        - **decimal to hexadecimal**:
+- **decimal to hexadecimal**:
 
-                    dec_hex=123
-                    print("The Hexadecimal form of dec_hex : ",hex(dec_hex)))
+                dec_hex=123
+                print("The Hexadecimal form of dec_hex : ",hex(dec_hex)))
 
 Program: To convert octal form to hexadecimal form using hex() function:
 -------------------------------------------------------------------
 
-        - **octal to hexadecimal**:
+- **octal to hexadecimal**:
 
-                    oct_hex=0o123
-                    print("The Hexadecimal form of oct_hex : ",hex(oct_hex))
+                oct_hex=0o123
+                print("The Hexadecimal form of oct_hex : ",hex(oct_hex))
 
  Program: To convert binary form to hexadecimal form using hex() function:
 --------------------------------------------------------------------------
 
-        - **binary to hexadecimal**:
+- **binary to hexadecimal**:
 
-                    bin_hex=0b1111101011001110
-                    print("The Hexadecimal form of bin_hex : ",hex(bin_hex))
+                bin_hex=0b1111101011001110
+                print("The Hexadecimal form of bin_hex : ",hex(bin_hex))
 
 - oct(): 
+--------
 
     - To convert other functions to **octal form (base-8)**
  
  Program: To convert decimal form to octal form using oct() function:
 --------------------------------------------------------------------------
 
-        - **decimal to octal**:
+- **decimal to octal**:
 
-                    dec_oct=123
-                    print("The octal form of dec_oct : ",oct(dec_oct))
+                dec_oct=123
+                print("The octal form of dec_oct : ",oct(dec_oct))
 
  Program: To convert binary form to octal form using oct() function:
 --------------------------------------------------------------------------
 
-        - **binary to octal**:
+- **binary to octal**:
 
-                    bin_oct=0b1111101011001110
-                    print("The octal form of bin_oct : ",oct(bin_oct))
+                bin_oct=0b1111101011001110
+                print("The octal form of bin_oct : ",oct(bin_oct))
 
  Program: To convert hexadecimal form to octal form using oct() function:
 --------------------------------------------------------------------------
 
-        - **hexadecimal to octal**:
+- **hexadecimal to octal**:
 
-                    hex_oct=0x123
-                    print("The octal form of hex_oct : ",oct(hex_oct))
+                hex_oct=0x123
+                print("The octal form of hex_oct : ",oct(hex_oct))
 
 
 
