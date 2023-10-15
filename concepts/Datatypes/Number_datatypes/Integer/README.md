@@ -38,7 +38,7 @@ Base Conversion in-built function:
             hex()
             oct()
 
-- bin():
+bin():
 -------- 
 
     - To convert other functions to **binary form (base-2)**
@@ -67,7 +67,7 @@ Program: To convert octal form to binary form using bin() function:
                 hex_bin=0xface
                 print("The binary form of hex_bin : ",bin(hex_bin))
 
-- hex():
+hex():
 --------
 
     - To convert other functions to **hexadecimal form (base-16)**
@@ -96,7 +96,7 @@ Program: To convert octal form to hexadecimal form using hex() function:
                 bin_hex=0b1111101011001110
                 print("The Hexadecimal form of bin_hex : ",hex(bin_hex))
 
-- oct(): 
+oct(): 
 --------
 
     - To convert other functions to **octal form (base-8)**
