@@ -25,8 +25,8 @@ Various types of Numbers Datatypes:
 
 | Dataypes | Example program   | output    |
 | :---:   | :---: | :---: |
-| integer  |  x=11 <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: 11 <br> <class 'int'> |
+| **integer**  |  x=11 <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: 11 <br> <class 'int'> |
 | :---:   | :---: | :---: |
-| float    |  y=4.5  <br> print("Y value is:",y)  <br> print(type(y))   |   Y value is: 4.5 <br> <class 'float'> |
+| **float**    |  y=4.5  <br> print("Y value is:",y)  <br> print(type(y))   |   Y value is: 4.5 <br> <class 'float'> |
 | :---:   | :---: | :---: |
-| complex  |     z=3+5j <br> print("Z value is:",z)  <br>print(type(z))               |   Z value is: (3+5j) <br> <class 'complex'>         |
+| **complex**  |     z=3+5j <br> print("Z value is:",z)  <br>print(type(z))               |   Z value is: (3+5j) <br> <class 'complex'>         |
