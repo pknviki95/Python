@@ -6,7 +6,7 @@ float() -float type:
             
             4.5 - postivie float value
             4.6 - Negative float value
-            -4.e18 - Exponential form/Scientific Notation (i.e) -4 . * 10<sup>18</sup>
+            -4.e18 - Exponential form/Scientific Notation (i.e) -4 . * 10^18
 
 NOTE: **float type variable always returns value with decimal point i.e(5.0)**
 
