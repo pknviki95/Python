@@ -1,3 +1,18 @@
+int() - Integer type:
+---------------------
+
+- Integers – No limit to the value of integers
+- By default Python takes integer as decimal value
+                
+            1,1234
+
+Program: To find the integer type variable using type() function:
+-----------------------------------------------------------------
+
+            x=11 
+            print("X value is:",x)   
+            print("The type of x is: ",type(x))
+            
 Different types of integer Numbers forms:
 ------------------------------------------ 
 
