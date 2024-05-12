@@ -8,7 +8,9 @@ float() -float type:
             4.6 - Negative float value
             -4.e18 - Exponential form/Scientific Notation (i.e) -4 . * 10^18
 
-NOTE: **float type variable always returns value with decimal point i.e(5.0)**
+NOTE: 
+    **Float type variable always returns value with decimal point i.e(5.0)**
+    **Float type doesnot support base conversion function it is applicable only for integer type**
 
 Program: To find the float type variable using type() function:
 -----------------------------------------------------------------
