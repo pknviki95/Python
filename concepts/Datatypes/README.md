@@ -1,3 +1,17 @@
+Various types of datatypes:
+------------------------------
+
+            - Integer datatypes
+                    integer
+                    Float
+                    Complex
+             
+            - Boolean datatypes
+                    True
+                    False
+            
+            - String datatypes
+
 Number Data Types: 
 ------------------
  
@@ -30,3 +44,18 @@ Various types of Numbers Datatypes:
 | **float**    |  y=4.5  <br> print("Y value is:",y)  <br> print(type(y))   |   Y value is: 4.5 <br> <class 'float'> |
 | :---:   | :---: | :---: |
 | **complex**  |     z=3+5j <br> print("Z value is:",z)  <br>print(type(z))               |   Z value is: (3+5j) <br> <class 'complex'>         |
+
+Boolean Datatypes:
+-------------------
+
+- Boolean 
+    - bool() is to determine the given value is True or False
+    - It can be determined if the given input exists , condition is valid or etc.,
+
+                    True,False
+
+| Boolean type | value    | Example program   | output    |Description  |
+| :---:   | :---: | :---: | :---: | :---: |
+| **True** | 1   | x=True <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: True <br> <class 'bool'> |By default the value is 1 - True valid declaration |
+| :---:   | :---: | :---: | :---: | :---: |
+| **False**| 0    | x=False <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: False <br> <class 'bool'>|By default the value is 0 - False valid declaration|
