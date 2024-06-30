@@ -1,16 +1,15 @@
-Reserved words:
---------------- 
+# Reserved words:
+ 
 - Reserved words are predefined identifiers/words
 - It is a reserved words which should not be used as a variable name 
 - There are 36 reserved words in python 
 
-List of keywords in python:
----------------------------
+## List of keywords in python:
 
         ['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield'] 
 
-Tables based on Topics:
------------------------
+## Tables based on Topics:
+
 
 | Types     | Keywords                                             |
 | ----------| ---------------------------------------------------- |
@@ -22,10 +21,10 @@ Tables based on Topics:
 | **Modules**   | **'import'  'from'  'as'  'class'  'def' 'pass'** |
 | **variables**   | **'global'  'nonlocal'  'lambda'  'del'  'with'** |
 
-Limitations:
-------------
-- Contains only alphabet symbols
-- All contains lower case symbols/identifiers except boolean keywords
+## Limitations:
+
+- Contains only **alphabet symbols**
+- All contains **lower case symbols/identifiers except boolean keywords**
         **True False None**
 - If the Reserved words are assigned case-insensitive it throws **Name error**
 
@@ -38,19 +37,19 @@ Limitations:
 
         **NameError: name 'true' is not defined**
         
-Objects of keywords Module:
-----------------------------
+## Objects of keywords Module:
+
 
         keyword.kwlist
         len(keyword.kwlist)
         keyword.iskeyword(keyword)
 
-keyword.kwlist:
----------------
+## keyword.kwlist:
+
 - To list all the objects in keyword module
 
- Program: To list all the objects in Keyword:
- --------------------------------------------
+### Program: To list all the objects in Keyword:
+
 
         import keyword
         
@@ -60,27 +59,26 @@ keyword.kwlist:
 
 -----------------------------------------------------------------
 
-len(keyword.kwlist):
---------------------
+## len(keyword.kwlist):
+
 - To find the total number of keywords
 
-Program: To find the total number of keywords:
-----------------------------------------------
+### Program: To find the total number of keywords:
 
         import keyword
 
         #len(keyword.kwlist) - To find the total number of keywords
-
+        
         print("Total number of keywords : {}".format(len(keyword.kwlist)))
 
-keyword.iskeyword(keyword):
----------------------------
+--------------------------------------------------------------------------------------------
+
+## keyword.iskeyword(keyword):
+
 - To find the given parameter is keyword or not
 - It returns the boolean result of parameter if it is keyword or not.
 
- Program: To find the given parameter is keyword or not:
- -------------------------------------------------------
-
+### Program: To find the given parameter is keyword or not:
 
 
         import keyword
