@@ -1,8 +1,6 @@
-Identifiers: 
-------------
+# Identifiers: 
 
 - Identifiers refers to naming in python  
-
 - It can be 
 
 		Variable name 
@@ -11,8 +9,8 @@ Identifiers:
 
 		Method name 
 
-Name types:
------------
+## Name types:
+
 - Variable
 		
 		X=10 
@@ -25,9 +23,7 @@ Name types:
 
 		def function_name():
 
-Variables: 
----------
-  
+## Variables: 
 
 - Variable are used to store values in reserved memory location. 
 
@@ -44,8 +40,7 @@ Variables:
 		Z=5+4j -> complex 
 
 
-Naming Rules: 
--------------
+## Naming Rules: 
 
 - Variable length can be of anything.
 	
@@ -77,40 +72,39 @@ Naming Rules:
 	 	x yz=10 -> Incorrect
 
 
-Examples of variable with different dataypes declaration:
----------------------------------------------------------
+## Examples of variable with different dataypes declaration:
 
-- Integer Datatype
+### Integer Datatype
 
 		integer_variable=10
 		print("value of integer variable  : {} ; type of variable  : {}".format(integer_variable,type(integer_variable)))
 
-- String Datatype
+### String Datatype
 
 		string_variable='viki'
 		print("value of string variable  : {} ; type of variable  : {}".format(string_variable,type(string_variable)))
 
-- Boolean Dataype
+### Boolean Dataype
 
 		Boolean_variable=True
 		print("value of Boolean variable  : {} ; type of variable  : {}".format(Boolean_variable,type(Boolean_variable)))
 
-- List Dataype
+### List Dataype
 
 		list_variable=[1,2,3,4,'viki']
 		print("value of list_variable  : {} ; type of variable  : {}".format(list_variable,type(list_variable)))
 
-- Tuple Dataype
+### Tuple Dataype
 
 		tuple_variable=(1,2,3,4,'viki')
 		print("value of tuple_variable  : {} ; type of variable  : {}".format(tuple_variable,type(tuple_variable)))
 
-- Dictionary Dataype
+### Dictionary Dataype
 
 		dictionary_variable={1:'viki',2:'Raj','Vijay':30}
 		print("value of dictionary_variable  : {} ; type of variable  : {}".format(dictionary_variable,type(dictionary_variable)))
 
-- Set Dataype
+### Set Dataype
 
 		set_variable={1,2,3,4,'viki'}
 		print("value of set_variable  : {} ; type of variable  : {}".format(set_variable,type(set_variable)))

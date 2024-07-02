@@ -1,5 +1,4 @@
-Program-01: Here is a sample line of code that can be executed in Python:
--------------------------------------------------------------------------
+## Program-01: Here is a sample line of code that can be executed in Python:
     
     print("Hello, World!")
     You can just as easily store a string as a variable and then print it to stdout:
@@ -13,8 +12,7 @@ Program-01: Here is a sample line of code that can be executed in Python:
             print("Hello, World!")
 
 
-Program-02: print arithmetic operation for python
--------------------------------------------------------------------------
+## Program-02: print arithmetic operation for python
 
     The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
 
@@ -34,8 +32,7 @@ Program-02: print arithmetic operation for python
 
 
 
-Program-03: print Division arithmetic operation for python with integer Division and Float Division:
-----------------------------------------------------------------------------------------------------
+## Program-03: print Division arithmetic operation for python with integer Division and Float Division:
     
     The provided code stub reads two integers, a and b, from STDIN.
 
@@ -59,8 +56,7 @@ Program-03: print Division arithmetic operation for python with integer Division
                 print(float(a/b)) # float division
 
 
-Program-04: print output based on the if-else condition :
-----------------------------------------------------------------------------------------------------
+## Program-04: print output based on the if-else condition :
 
     Given an integer,n , perform the following conditional actions:
 
@@ -95,8 +91,7 @@ Program-04: print output based on the if-else condition :
                 print("Not Weird")
 
 
-Program-05: print output based on the input with range() function:
-----------------------------------------------------------------------------------------------------
+## Program-05: print output based on the input with range() function:
     
     The included code stub will read an integer, , from STDIN.
 
@@ -116,8 +111,7 @@ Program-05: print output based on the input with range() function:
                 for i in range(1,n+1):      #range(n) (i.e) 0 to n-1 ; so added +1 to get the required range 
                     print(i,end='')         # print(end='') -> it determine the end of priniting by default it is '\n'
 
-Program-06: print square value output based on the input with range() function:
-----------------------------------------------------------------------------------------------------
+## Program-06: print square value output based on the input with range() function:
 
     The provided code stub reads and integer,n , from STDIN. For all non-negative integers i<n, print i**2 .
 

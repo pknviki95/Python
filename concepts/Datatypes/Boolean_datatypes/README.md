@@ -1,4 +1,4 @@
-# bool() - boolean type:
+# bool() - boolean datatypes:
 
 - Boolean – bool() is to determine the given value is True or False
 - It can be determined if the given input exists , condition is valid or etc.,
@@ -23,7 +23,6 @@ NOTE:
 | **False**| 0    | By default the value is 0 - False valid declaration|
 
 ### Program: To find the Boolean type variable using type() function:
-
 
             x=True 
             print("X value is:",x)   

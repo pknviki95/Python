@@ -80,13 +80,9 @@
 
 ### Program: To find the given parameter is keyword or not:
 
-
         import keyword
-
         input_keyword=input("Enter the keyword: ")
-
-        # keyword.iskeyword(parameter) -> It returns the boolean result of parameter if it is keyword or not.
-        
+        # keyword.iskeyword(parameter)          # It returns the boolean result of parameter if it is keyword or not.
         print("The keyword is : {}".format(keyword.iskeyword(input_keyword)))      
 
 -----------------------------------------------------------------
