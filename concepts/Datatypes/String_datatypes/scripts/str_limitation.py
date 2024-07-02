@@ -8,8 +8,10 @@ Limitation of string implementation:
 # String variable Limitaions for Multi-line string literals
 # single/Double quotes:
 
+
 sentence = '- If the string
             - If the string'
+
 
 # Triple quotes
 
