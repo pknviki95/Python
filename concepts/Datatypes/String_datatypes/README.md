@@ -41,7 +41,7 @@
                 sentence = '- If the string
                         ^
             SyntaxError: unterminated string literal (detected at line 13)
---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 2:Using various string quotes as special character:
 
 - Using various **single/double quotes as special character** (i.e) usage of '' or "" inside a string can be done only by declaing the string variable in **triple quotes** or it will throw Syntax error
@@ -62,7 +62,6 @@
                 character= 'Hello all, Welcome to 'Learning''
                                                 ^^^^^^^^
             SyntaxError: invalid syntax
----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Program: To find the integer type variable using type() function:
 
@@ -73,7 +72,6 @@
             print("The type of single quotes x is: ",type(x))
             print("The type of double quotes y is: ",type(y))
             print("The type of triple quotes z is: ",type(z))
-------------------------------------------------------------------------------------------------
 
 ## Indexing:
 
@@ -81,7 +79,8 @@
 - Indexing in Python starts at **0**, which means that the **first element in a sequence has an index of 0, the second element has an index of 1, and so on**. 
 
             variable[index number]
-- Indexing can be peroformed only with the total index present in the string;if we ask for return value that exceeds existing index range it throws Index error
+
+- **Indexing can be peroformed only with the total index present in the string;if we ask for return value that exceeds existing index range it throws Index error**
 
 ### Program: To understand the Indexing range of string - Index error
 
@@ -94,7 +93,6 @@
             File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_index_error.py", line 8, in <module>
                 print('sequence[10]',sequence[10])
             IndexError: string index out of range
------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Types of Index
 
@@ -143,9 +141,8 @@
             print('sequence[-5]',sequence[-5])
             print('sequence[-6]',sequence[-6])
             print('sequence[-7]',sequence[-7])
-----------------------------------------------------------------------------------------------------------------------
 
-## String Slicing: (Working with Index): 
+## String Slicing(Working with Index): 
 
 - Slicing is used **to obtain sub-string from string by accessing index value of string**.
 
@@ -192,4 +189,77 @@
 
             #variable[start index:end index:step] - It returns from index 1->3->5 (start+3(step) till end index value)
             print('Negative variable[start index:end index:step]: ',sequence[-7:-2:3]) 
----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## String Concatination:
+
+- String concatination is the **process of concatinating(joining) between strings using (+) operator**
+(i.e) Basic rules for concatination is that argument that we use should be only between **strings**
+
+            #string concatination
+            str + str 
+
+### Program: concantinate two strings using + operator:
+
+            string_1="Hello"
+            string_2="Good Morning!"
+
+            #String concatination
+
+            final=string_1+'\t'+string_2                        #Hello+\t(tab space)+Good Morning!
+            print("final_concantinated string: ",final)
+
+- String concatination is applicable only if it is between string; if we are triying **concatination with string with other datatypes it throws Type error**
+
+            #Type error
+            str+int
+
+### Program: concantinate strings with other datatype using + operator - Type error:
+
+            string_1="Hello"
+            int_2=10
+
+            #String concatination with other datatype
+
+            final=string_1+'\t'+int_2                   #Type error
+
+            print("final_concantinated string with other datatype : ",final)
+#### error:
+
+            Traceback (most recent call last):
+            File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_cat_type_error.py", line 16, in <module>
+                final=string_1+'\t'+int_2                   #Type error
+            TypeError: can only concatenate str (not "int") to str
+
+## String repetating:
+
+- String repetating is the **process of repeating conconcatination(joining) of string using (*) operator**
+(i.e) Basic rule is one argument should be **by default string and the other integer type for number to perform repetative**
+- The order of usage can be random; it is also possible but make sure it satisfies basic rule of 1 str and 1 int **(i.e) [Number of repeatative] * str also possible**
+            
+            #string repetating
+            str * [Number of repeatative]
+             
+### Program: concantinate string repetatively using * operator:
+
+            string="viki"
+            repetative_count=4
+            print("string repetative: {}".format(string*repetative_count))              #str * [Number of repeatative]
+
+- **If the basic rule is not followed and if both are repetative with str type then it throws type error**
+            
+            #type error
+            str * str
+
+### Program: concantinate two strings using * repetative operator - Type error:
+
+            string_1="Hello"
+            string_2="Good Morning!"
+
+            final=string_1*string_2                    #Hello*Good Morning! 
+            print("final_concantinated string: ",final)
+#### error:
+
+            Traceback (most recent call last):
+            File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_repetative_type_error.py", line 14, in <module>
+                final=string_1*string_2                    #Hello*Good Morning! 
+            TypeError: can't multiply sequence by non-int of type 'str'
