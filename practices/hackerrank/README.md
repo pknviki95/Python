@@ -6,12 +6,12 @@
     my_string = "Hello, World!"
     print(my_string)
     The above code will print Hello, World! on your screen. Try it yourself in the editor below!
+    
+[print_helloworld.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/print_helloworld.py)
 ---------------------------------------------------------------------------------------------------
 
             if __name__ == '__main__':
             print("Hello, World!")
-
-
 ## Program-02: print arithmetic operation for python
 
     The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
@@ -20,6 +20,7 @@
     The second line contains the difference of the two numbers (first - second).
     The third line contains the product of the two numbers.
 
+[arithmetic.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/arithmetic.py)
 -----------------------------------------------------------------------------------------------------------------------
 
             if __name__ == '__main__':
@@ -29,9 +30,6 @@
                 print(a+b)
                 print(a-b)
                 print(a*b)
-
-
-
 ## Program-03: print Division arithmetic operation for python with integer Division and Float Division:
     
     The provided code stub reads two integers, a and b, from STDIN.
@@ -45,7 +43,7 @@
 
     The result of the integer division 3//5=0.
     The result of the float division is 3/5-0.6.
-
+[division.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/division.py)
 -------------------------------------------------------------------------------------------------------------------------------------------
 
             if __name__ == '__main__':
@@ -54,8 +52,6 @@
                 
                 print(a//b)    #integer division
                 print(float(a/b)) # float division
-
-
 ## Program-04: print output based on the if-else condition :
 
     Given an integer,n , perform the following conditional actions:
@@ -64,7 +60,7 @@
     If n is even and in the inclusive range of 2 to 5, print Not Weird
     If n is even and in the inclusive range of 6 to 20, print Weird
     If n is even and greater than 20, print Not Weird
-
+[if_else_condition.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/if_else_condition.py)
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
             import math
@@ -89,8 +85,6 @@
                 
             if n%2==0 and n>20:                 #If n is even and greater than 20, print Not Weird
                 print("Not Weird")
-
-
 ## Program-05: print output based on the input with range() function:
     
     The included code stub will read an integer, , from STDIN.
@@ -103,7 +97,7 @@
     Example
     3
     Print the string 123.
-
+[print_range.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/print_range.py)
 --------------------------------------------------------------------------------------------------------------------------------------------
 
             if __name__ == '__main__':
@@ -118,7 +112,7 @@
     Example
 
     The list of non-negative integers that are less than n=3 is [0,1,2]. Print the square of each number on a separate line.
-
+[print_sqr_loop.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/print_sqr_loop.py)
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
             if __name__ == '__main__':

@@ -1,8 +1,8 @@
 # complex() -complex datatypes:
 
 - complex type is a number combination of  **real and imaginary part**
-- complex can be represented with real+imagj (i.e) 10+12j
-- Complex datatypes are mostly used in mathematical operations,complex calculation etc.
+- complex can be represented with **real+imagj (i.e) 10+12j**
+- Complex datatypes are mostly used in **mathematical operations,complex calculation etc.**
 
 NOTE:
    **imaginary part should always be j/J; if used anyother alphabet it throws error**
@@ -48,12 +48,12 @@ NOTE:
 - The real value of complex number can be a **decimal value,float value,octal,hexadecimal,binary values**
 - **The imaginary value for complex number should be only decimal value if it is declared with other base values it throws syntax error**
 
-| Example | description |
-| :---:   | :---: |
-| x=10+20j | **deciaml values on both real and imag - Allowed** |
-| x=10.5+20.5j | **float values on both real and imag - Allowed** |
-| x=0x123+20j | **hex values 0n real and decimal value on imaginary (same applies for other bases)- Allowed** |
-| x=20+0x123j | **decimal value on real and hex value on imag - Not allowed** |
+| Example | description | Allowance |
+| :---:   | :---: | :---: |
+| **x=10+20j** | **decimal values on both real and imag** | **Allowed** |
+| **x=10.5+20.5j** | **float values on both real and imag** |**Allowed** |
+| **x=0x123+20j** | **hex values 0n real and decimal value on imaginary (same applies for other bases)**| **Allowed** |
+| **x=20+0x123j** | **decimal value on real and hex value on imag** |**Not Allowed** |
 
 ### Program: Syntax error if updated with imaginary other base values(oct,hex,bin):
 

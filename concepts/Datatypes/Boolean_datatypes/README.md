@@ -16,11 +16,10 @@ NOTE:
             x=false
         NameError: name 'false' is not defined
 
-| Boolean type | value    | Description  |
-| :---:   | :---: | :---: |
-| **True** | 1   | By default the value is 1 - True valid declaration |
-| :---:   | :---: | :---: |
-| **False**| 0    | By default the value is 0 - False valid declaration|
+| Boolean type | value    | Description  | Validation |
+| :---:   | :---: | :---: | :---: |
+| **True** | 1   | By default the value is 1 | **True** valid declaration |
+| **False**| 0    | By default the value is 0 | **False** valid declaration|
 
 ### Program: To find the Boolean type variable using type() function:
 
