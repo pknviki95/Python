@@ -16,11 +16,9 @@ NOTE:
             x=11.5 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
------------------------------------------------------------------------------
 
 ### Program: To find the exponential float type variable using type() function:
 
             y=4.e5
             print("Y value is:",y)   
             print("The type of y is: ",type(y))
-----------------------------------------------------------------------------

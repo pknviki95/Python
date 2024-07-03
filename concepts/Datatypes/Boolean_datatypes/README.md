@@ -27,7 +27,6 @@ NOTE:
             x=True 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
-----------------------------------------------------------------------------------
 
 ### Program: To find the Boolean return type of variable when condition is invoked:
 
@@ -36,7 +35,6 @@ NOTE:
             z=x>y 
             print("Z value is:",z)   
             print("The type of x is: ",type(x))
--------------------------------------------------------------------------------
 
 ### Program: To find the arithmetic value of two boolean input:
 
@@ -45,7 +43,6 @@ NOTE:
             z=x+y               # z=1+0=1    
             print("Z value is:",z)   
             print("The type of x is: ",type(x))
--------------------------------------------------------------------------------
 
 NOTE:
     - In matematical expression by default

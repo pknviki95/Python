@@ -113,7 +113,6 @@
 | **String**  |  **v**   |  **i** | **k** | **i** |
 | :---:   | :---: | :---: | :---: | :---: |
 | **Positive Index**  |  **0**   |  **1** | **2** | **3** |
-| :---:   | :---: | :---: | :---: | :---: |
 | **Negative Index**  |  **-4**   |  -**3** | **-2** | **-1** |
 
 ### Program: To find the index value of the string based on positive and negative index

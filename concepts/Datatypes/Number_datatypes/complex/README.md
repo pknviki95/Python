@@ -13,14 +13,12 @@ NOTE:
             x=11+12j 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
------------------------------------------------------------------------------
 
 ### Program: To display the real and imaginary part individually:
 
             x=11+12j 
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
------------------------------------------------------------------
 
 ### Program: To perform arithmetic operation for complex numbers:
 
@@ -43,8 +41,7 @@ NOTE:
             x=11+12j
             y=20+40j
             z=x/y 
-            print("X/Y value is:",z)  
------------------------------------------------------------------
+            print("X/Y value is:",z)
 
 ## Limitation of complex number declaration:
 
@@ -54,13 +51,9 @@ NOTE:
 | Example | description |
 | :---:   | :---: |
 | x=10+20j | **deciaml values on both real and imag - Allowed** |
-| :---:   | :---: |
 | x=10.5+20.5j | **float values on both real and imag - Allowed** |
-| :---:   | :---: |
 | x=0x123+20j | **hex values 0n real and decimal value on imaginary (same applies for other bases)- Allowed** |
-| :---:   | :---: |
 | x=20+0x123j | **decimal value on real and hex value on imag - Not allowed** |
-| :---:   | :---: |
 
 ### Program: Syntax error if updated with imaginary other base values(oct,hex,bin):
 
@@ -82,7 +75,7 @@ NOTE:
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
 
-### Error:
+### error:
 
          cd /home/pknviki95/pknviki/study/python/Python/concepts ; /usr/bin/env /usr/bin/python3.9 /home/pknpknviki95@ubuntu18:~/pknviki/study/python/Python/concepts$  cd /home/pknviki95nsions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 48245 -- /home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Number_datatypes/complex/complex_limitation.py 
          File "/home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Number_datatypes/complex/complex_limitation.py", line 7

@@ -12,7 +12,7 @@
 
 
 | Types     | Keywords                                             |
-| ----------| ---------------------------------------------------- |
+|:---: | :---: |
 | **Boolean**   | **'True'  'False'  'None'** |
 | **Operator**  | **'and'  'or'  'not'  'is'** |
 | **loops** | **'while'  'for'  'break'  'continue'  'return'  'in'  'yield'** |
@@ -28,6 +28,8 @@
         **True False None**
 - If the Reserved words are assigned case-insensitive it throws **Name error**
 
+#### error:
+
         a=true
 
         ---------------------------------------------------------------------------
@@ -35,7 +37,7 @@
         Cell In[1], line 1
         ----> 1 a=true
 
-        **NameError: name 'true' is not defined**
+        NameError: name 'true' is not defined
         
 ## Objects of keywords Module:
 
@@ -46,7 +48,7 @@
 
 ## keyword.kwlist:
 
-- To list all the objects in keyword module
+- **To list all the objects in keyword module**
 
 ### Program: To list all the objects in Keyword:
 
@@ -57,11 +59,9 @@
 
         print("Find the list of keywords in python : ",keyword.kwlist)
 
------------------------------------------------------------------
-
 ## len(keyword.kwlist):
 
-- To find the total number of keywords
+- **To find the total number of keywords**
 
 ### Program: To find the total number of keywords:
 
@@ -71,12 +71,10 @@
         
         print("Total number of keywords : {}".format(len(keyword.kwlist)))
 
---------------------------------------------------------------------------------------------
-
 ## keyword.iskeyword(keyword):
 
-- To find the given parameter is keyword or not
-- It returns the boolean result of parameter if it is keyword or not.
+- To find the **given parameter is keyword or not**
+- It returns **the boolean result of parameter if it is keyword or not**.
 
 ### Program: To find the given parameter is keyword or not:
 
@@ -85,7 +83,6 @@
         # keyword.iskeyword(parameter)          # It returns the boolean result of parameter if it is keyword or not.
         print("The keyword is : {}".format(keyword.iskeyword(input_keyword)))      
 
------------------------------------------------------------------
 
 
 
