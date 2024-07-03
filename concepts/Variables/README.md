@@ -11,15 +11,15 @@
 
 ## Name types:
 
-- Variable
+### Variable
 		
 		X=10 
 
-- class
+### class
 		
 		class test:
 
-- function/method 
+### function/method 
 
 		def function_name():
 
@@ -29,15 +29,15 @@
 
 - No explicit declaration of data types is needed for variable 
 
-	(i.e) int x; -> This is not required 
+		(i.e) int x; -> This is not required 
 
-	Hence python is Dynamically typed programming 
+		Hence python is Dynamically typed programming 
 
-		x=10 -> it automatically take x as integer 
+			x=10 -> it automatically take x as integer 
 
-		Y=4.5 -> float 
+			Y=4.5 -> float 
 
-		Z=5+4j -> complex 
+			Z=5+4j -> complex 
 
 
 ## Naming Rules: 

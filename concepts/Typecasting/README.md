@@ -77,10 +77,13 @@
                 print("String without base-10 converted to int: {}".format(int(string_value))) 
             ValueError: invalid literal for int() with base 10: '0B111'
 
-| **Typecasting**  |  **v**   |  **i** | **k** | **i** |
-| :---:   | :---: | :---: | :---: | :---: |
-| **Positive Index**  |  **0**   |  **1** | **2** | **3** |
-| **Negative Index**  |  **-4**   |  -**3** | **-2** | **-1** |
+| **Typecasting**  |  **Possibilities** | **Description** |
+| :---:   | :---: | :---: |
+| **float to int**  |  **Possible**   |  **It neglects after decimal value and return int value** |
+| **complex to int**  |  **Not Possible**   |  **it has imaginary part to it so it throws type error** |
+| **boolean to int**  |  **Possible**   |  **It returns its equivalent integer value (i.e) True=1 and False=0** |
+| **str with (base-10) to int**  |  **Possible**   |  **It returns its integer value if the value is base-10** |
+| **str without (base-10) to int**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
 ### float()
 ### complex()
