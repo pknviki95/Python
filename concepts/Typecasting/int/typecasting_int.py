@@ -7,6 +7,7 @@ int():
 '''
 
 # float to integer value:
+#--------------------------
 
 float_value=10.998
 
@@ -15,6 +16,7 @@ print("float converted to int: {}".format(int(float_value)))
 
 
 # boolean to integer value:
+#--------------------------
 
 boolean_value=True
 
@@ -22,8 +24,9 @@ boolean_value=True
 print("Boolean converted to int: {}".format(int(boolean_value)))   
 
 # string to integer value:
+#--------------------------
 
 string_value='15'
 
-# #Integer value as it returns integer value as it is in base-10
+# Integer value as it returns integer value as it is in base-10
 print("String converted to int: {}".format(int(string_value)))  

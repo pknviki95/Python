@@ -28,7 +28,7 @@
             
             3+4j
 
-| Dataypes | Example program   | output    |
+|Number types | Example program   | output    |
 | :---:   | :---: | :---: |
 | **integer**  |  x=11 <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: 11 <br> <class 'int'> |
 | **float**    |  y=4.5  <br> print("Y value is:",y)  <br> print(type(y))   |   Y value is: 4.5 <br> <class 'float'> |
@@ -53,7 +53,7 @@
 
             'viki',"siva", '''raja'''
 
-| Data types | Example program   | output    |
+| String types | Example program   | output    |
 | :---:   |  :---: | :---: |
 | **String with single quotes** | x='viki' <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
 | **String with Double quotes** | x="viki" <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
