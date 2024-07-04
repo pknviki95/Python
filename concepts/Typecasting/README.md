@@ -382,6 +382,13 @@
             string non_empty value converted to boolean  : True
             string empty value converted to boolean : False
 
+| **Typecasting**  |  **Possibilities** | **Description** |
+| :---:   | :---: | :--- |
+| **int to bool**  |  **Possible**   | **It returns "True if the value is non-zero" if the value is "zero then it return False"**|
+| **float to bool**  |  **Possible**   |  **It returns "True if the value is non-zero" if the value is "zero then it return False"**|
+| **complex to bool**  |  **Possible**   |  **It returns "True if the value is non-zero" in either real and imaginary part;if the value is "zero in both real and imaginary part then it return False"**|
+| **str to bool**  |  **Possible**   |  **It returns "True if the string is non-empty";return "False if it is empty-string"**|
+
 ## str():
 
 - str() function is used **to convert other datatypes to string type value.**
@@ -439,3 +446,10 @@
             print("complex  value converted to string  : {}".format(str(complex_value)))
 #### output:
             complex  value converted to string  : (123+0j)
+
+| **Typecasting**  |  **Possibilities** | **Description** |
+| :---:   | :---: | :--- |
+| **int to str**  |  **Possible**   | **It returns the string value of integer value**|
+| **float to str**  |  **Possible**   |  **It returns the string value of float value**|
+| **boolean to str**  |  **Possible**   |  **It returns the string value of boolean value**|
+| **complex to str**  |  **Possible**   |  **It returns the string value of complex value**|
