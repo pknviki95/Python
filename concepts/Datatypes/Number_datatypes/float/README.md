@@ -11,14 +11,20 @@ NOTE:
     **Float type variable always returns value with decimal point i.e(5.0)**
     **Float type doesnot support base conversion function it is applicable only for integer type**
 
-### Program: To find the float type variable using type() function:
+### [float_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/float/scripts/float_type.py) - To find the float type variable using type() function:
 
             x=11.5 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
+#### output:
+            X value is: 11.5
+            The type of x is:  <class 'float'>
 
-### Program: To find the exponential float type variable using type() function:
+### [float_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/float/scripts/float_type.py) - To find the exponential float type variable using type() function:
 
             y=4.e5
             print("Y value is:",y)   
             print("The type of y is: ",type(y))
+#### output:
+            Y value is: 400000.0
+            The type of y is:  <class 'float'>

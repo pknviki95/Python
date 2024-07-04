@@ -5,11 +5,18 @@
 
             True,False
                 
-NOTE:
-    - Always the declaration of boolean values should be **True** and **False**
-    - if declared as **true** and **false** it throws error in python
+#### NOTE:
+- Always the declaration of boolean values should be **True** and **False**
+- if declared as **true** and **false** it throws error in python
 
-### Error:
+### [boolean_nameerror.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_nameerror.py) - To find the Boolean type variable using type() function:
+
+            #invalid declaration-it return Name error
+
+            x=false
+            print("X value is:",x)   
+            print("The type of x is: ",type(x))
+#### error:
 
         Traceback (most recent call last):
         File "/home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Boolean_datatypes/Boolean_type.py", line 5, in <module>
@@ -21,30 +28,40 @@ NOTE:
 | **True** | 1   | By default the value is 1 | **True** valid declaration |
 | **False**| 0    | By default the value is 0 | **False** valid declaration|
 
-### Program: To find the Boolean type variable using type() function:
+### [boolean_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_type.py) - To find the Boolean type variable using type() function:
 
             x=True 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
+#### output:
+            X value is: True
+            The type of x is:  <class 'bool'>
 
-### Program: To find the Boolean return type of variable when condition is invoked:
+### [boolean_returntype.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_returntype.py) - To find the Boolean return type of variable when condition is invoked:
 
             x=10
             y=20
             z=x>y 
             print("Z value is:",z)   
             print("The type of x is: ",type(x))
-
-### Program: To find the arithmetic value of two boolean input:
+#### output:
+            Z value is: False
+            The type of x is:  <class 'bool'>
+### [boolean_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_arithmetic.py) - To find the arithmetic value of two boolean input:
 
             x=True              # By default True=1 ; False=0
             y=False
             z=x+y               # z=1+0=1    
             print("Z value is:",z)   
             print("The type of x is: ",type(x))
+#### output:
+            Z value is: 1
+            The type of x is:  <class 'bool'>
 
-NOTE:
-    - In matematical expression by default
+#### NOTE:
+
+- **In matematical expression by default**
+            
             **True=1** 
             **False=0**
 

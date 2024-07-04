@@ -4,7 +4,7 @@
 - **Boolean datatypes**
 - **String datatypes**
 
-## Number Data Types: 
+## Number Datatypes: 
 
 - Python supports the below standard data types: 
 
@@ -46,7 +46,7 @@
 | **True** | 1   | x=True <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: True <br> <class 'bool'> |By default the value is 1 - True valid declaration |
 | **False**| 0    | x=False <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: False <br> <class 'bool'>|By default the value is 0 - False valid declaration|
 
-## String datatypes
+## String Datatypes:
 
 - str() datatype is used to represent the **string variables**
 - In python we dont have concept of **char/character** like in c.It will consider all inside quotes as **string**.

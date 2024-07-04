@@ -78,33 +78,48 @@
 
 		integer_variable=10
 		print("value of integer variable  : {} ; type of variable  : {}".format(integer_variable,type(integer_variable)))
+#### output:
+		value of integer variable  : 10 ; type of variable  : <class 'int'>
 
 ### String Datatype
 
 		string_variable='viki'
 		print("value of string variable  : {} ; type of variable  : {}".format(string_variable,type(string_variable)))
+#### output:
+	value of string variable  : viki ; type of variable  : <class 'str'>
 
 ### Boolean Dataype
 
 		Boolean_variable=True
 		print("value of Boolean variable  : {} ; type of variable  : {}".format(Boolean_variable,type(Boolean_variable)))
+#### output:
+		value of Boolean variable  : True ; type of variable  : <class 'bool'>
 
 ### List Dataype
 
 		list_variable=[1,2,3,4,'viki']
 		print("value of list_variable  : {} ; type of variable  : {}".format(list_variable,type(list_variable)))
+#### output:
+		value of list_variable  : [1, 2, 3, 4, 'viki'] ; type of variable  : <class 'list'>
 
 ### Tuple Dataype
 
 		tuple_variable=(1,2,3,4,'viki')
 		print("value of tuple_variable  : {} ; type of variable  : {}".format(tuple_variable,type(tuple_variable)))
+#### output:
+		value of tuple_variable  : (1, 2, 3, 4, 'viki') ; type of variable  : <class 'tuple'>
 
 ### Dictionary Dataype
 
 		dictionary_variable={1:'viki',2:'Raj','Vijay':30}
 		print("value of dictionary_variable  : {} ; type of variable  : {}".format(dictionary_variable,type(dictionary_variable)))
+#### output:
+		value of dictionary_variable  : {1: 'viki', 2: 'Raj', 'Vijay': 30} ; type of variable  : <class 'dict'>
 
 ### Set Dataype
 
 		set_variable={1,2,3,4,'viki'}
 		print("value of set_variable  : {} ; type of variable  : {}".format(set_variable,type(set_variable)))
+#### output:
+
+		value of set_variable  : {1, 2, 3, 4, 'viki'} ; type of variable  : <class 'set'>

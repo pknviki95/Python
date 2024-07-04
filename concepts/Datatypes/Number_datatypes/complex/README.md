@@ -4,45 +4,65 @@
 - complex can be represented with **real+imagj (i.e) 10+12j**
 - Complex datatypes are mostly used in **mathematical operations,complex calculation etc.**
 
-NOTE:
-   **imaginary part should always be j/J; if used anyother alphabet it throws error**
+#### NOTE:
+- **imaginary part should always be j/J; if used anyother alphabet it throws error**
 
-### Program: To find the complex type variable using type() function:
+### [complex_img_j_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_img_j_error.py) - imaginary part should always be j/J if not it throws error - Syntax error:
 
+            # if used anyother alphabet used in imaginary part it throws error
+
+            x=11+12i
+            print("X value is:",x)
+#### error:
+         File "/home/pknviki95/Learning/Python/concepts/Datatypes/Number_datatypes/complex/scripts/complex_img_j_error.py", line 1
+            x=11+12i 
+                  ^
+         SyntaxError: invalid decimal literal
+### [complex_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_type.py) - To find the complex type variable using type() function:
 
             x=11+12j 
             print("X value is:",x)   
             print("The type of x is: ",type(x))
-
-### Program: To display the real and imaginary part individually:
+#### output:
+         X value is: (11+12j)
+         The type of x is:  <class 'complex'>
+### [complex_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_type.py) - To display the real and imaginary part individually:
 
             x=11+12j 
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
+#### output:
+         X real value is: 11.0
+         X imaginary value is: 12.0
 
-### Program: To perform arithmetic operation for complex numbers:
+### [complex_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_arithmetic.py) - To perform arithmetic operation for complex numbers:
 
-#### Addition
+### Addition
 
             x=11+12j
             y=20+40j
             z=x+y 
             print("X+Y value is:",z)
+#### output:
+         X+Y value is: (31+52j)
 
-#### Multiplication
+### Multiplication
 
             x=11+12j
             y=20+40j
             z=x*y 
             print("X*Y value is:",z) 
+#### output:
+         X*Y value is: (-260+680j)
 
-#### Division
+### Division
 
             x=11+12j
             y=20+40j
             z=x/y 
             print("X/Y value is:",z)
-
+#### output:         
+         X/Y value is: (0.35-0.1j)
 ## Limitation of complex number declaration:
 
 - The real value of complex number can be a **decimal value,float value,octal,hexadecimal,binary values**
@@ -55,30 +75,29 @@ NOTE:
 | **x=0x123+20j** | **hex values 0n real and decimal value on imaginary (same applies for other bases)**| **Allowed** |
 | **x=20+0x123j** | **decimal value on real and hex value on imag** |**Not Allowed** |
 
-### Program: Syntax error if updated with imaginary other base values(oct,hex,bin):
+### [complex_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_limitation.py) - if updated with imaginary other base values(oct,hex,bin) - Syntax error :
 
-#### binary value:
+### binary value:
 
             x=20+0b1111101011001110j 
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
 
-#### octal value:
+### octal value:
 
             x=20+0o123j 
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
 
-#### hexadecimal value:
+### hexadecimal value:
 
             x=20+0x123j 
             print("X real value is:",x.real)   
             print("X imaginary value is:",x.imag)
 
-### error:
+#### error:
 
-         cd /home/pknviki95/pknviki/study/python/Python/concepts ; /usr/bin/env /usr/bin/python3.9 /home/pknpknviki95@ubuntu18:~/pknviki/study/python/Python/concepts$  cd /home/pknviki95nsions/ms-python.debugpy-2024.6.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 48245 -- /home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Number_datatypes/complex/complex_limitation.py 
-         File "/home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Number_datatypes/complex/complex_limitation.py", line 7
-         x=20+0b1111101011001110j 
-                           ^
-         SyntaxError: invalid syntax    
+         File "/home/pknviki95/Learning/Python/concepts/Datatypes/Number_datatypes/complex/scripts/complex_limitation.py", line 10
+            x=20+0b1111101011001110j 
+                                 ^
+         SyntaxError: invalid binary literal
