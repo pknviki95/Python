@@ -3,6 +3,12 @@
 - **Number datatypes**
 - **Boolean datatypes**
 - **String datatypes**
+- **List datatypes**
+- **Tuple datatypes**
+- **Set datatypes**
+- **frozenset datatypes**
+- **Dictionary datatypes**
+- **Range datatypes**
 
 ## Number Datatypes: 
 
@@ -59,11 +65,13 @@
 | **String with Double quotes** | x="viki" <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
 | **String with Triple quotes** | x='''viki''' <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
 
+## Differences between Datatypes based on its characteristics:
 
 | **Datatypes**  |  **Ordered**   |  **Un-ordered** | **Muttable** | **Immutabe** |
 | :---:   | :---: | :---: | :---: | :---: |
 | **Integer**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **Float**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **complex**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **boolean**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **string**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **list**  |  :heavy_check_mark:  |  :x: | :heavy_check_mark: | :x: |
@@ -72,3 +80,5 @@
 | **set**    | :x:  |  :heavy_check_mark: | :heavy_check_mark: | :x: |
 | **frozenset**  | :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **range**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: |
+| **bytes**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: |
+| **Byte array**  |  :heavy_check_mark:  |  :x: | :heavy_check_mark: | :x: |

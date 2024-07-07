@@ -87,7 +87,7 @@
 
 #### set with list elements:
 
-                set_variable_list={[1,2]}
+                set_variable_list=set({[1,2]})
                 print(" The set variable with list elements: ",set_variable_list)
 
 #### error:
@@ -99,7 +99,7 @@
 
 #### set with dict elements:
 
-                set_variable_dict={{1:'viki'}}
+                set_variable_dict=set({{1:'viki'}})
                 print(" The set variable with dict elements: ",set_variable_dict)
 
 #### error:
@@ -111,7 +111,7 @@
 
 #### set with set elements:
 
-                set_variable_set={{1,2}}
+                set_variable_set=set({{1,2}})
                 print(" The set variable with set elements: ",set_variable_set)
 
 #### error:
