@@ -7,7 +7,7 @@
 
 - Frozenset variable cannot contain **duplicate elements**
 - Frozenset variable **un-ordered elements so indexing/Slicing operations cannot be performed.if tried indexing operation it throws type error**
-- **The Main difference between "set" and "frozenset" is set is "Mutable" and Frozenset is "Immutable"**
+- **The Main difference between "set" and "frozenset" is that set is "Mutable" and Frozenset is "Immutable"**
 - **(i.e) "set objects values can be changed as it is mutable" but not for "frozen set as it is immutable"**
 
 ### [frozenset_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Frozenset_datatypes/scripts/frozenset_type.py) - To find the frozenset type variable using type() function:

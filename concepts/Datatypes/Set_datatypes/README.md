@@ -83,7 +83,7 @@
 - **Heterogeneous objects are allowed in set (i.e) it can hold int,str,tuple etc., elements within its collection enclosed in {} bracket.**
 - If any values like dict,list,set( Mutable objects) inside set variable it throws Type error -  unhashable type
 
-#### [set_unhashable_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py)  - Declaring dict,list,set( Mutable objects) inside set variable it throws - Type error - unhashable type:
+### [set_unhashable_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py)  - Declaring dict,list,set( Mutable objects) inside set variable it throws - Type error - unhashable type:
 
 #### set with list elements:
 
@@ -98,8 +98,9 @@
                 TypeError: unhashable type: 'list'
 
 #### set with dict elements:
-set_variable_dict={{1:'viki'}}
-print(" The set variable with dict elements: ",set_variable_dict)
+
+                set_variable_dict={{1:'viki'}}
+                print(" The set variable with dict elements: ",set_variable_dict)
 
 #### error:
 
