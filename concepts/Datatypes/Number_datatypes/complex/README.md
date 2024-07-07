@@ -4,6 +4,8 @@
 - complex can be represented with **real+imagj (i.e) 10+12j**
 - Complex datatypes are mostly used in **mathematical operations,complex calculation etc.**
 
+            complex_variable = real_variable_[imaginary_variable]j
+
 #### NOTE:
 - **imaginary part should always be j/J; if used anyother alphabet it throws error**
 

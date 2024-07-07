@@ -171,11 +171,11 @@
             variable[start index:end index:step] 
 
             start index : starting index-value of string 
-            end index : ending index-value for string (i.e) end-1 
+            end index : ending index-value for string (i.e) len(str) 
             step : range of sub-string from string 
 
 
-### [str_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_slicing.py) - To find the index value of the string based on positive and negative index:
+### [str_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_slicing.py) - To obtain sub-string from string based on positive and negative index:
 
 ### Positive Index slicing
 
