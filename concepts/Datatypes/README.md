@@ -58,3 +58,17 @@
 | **String with single quotes** | x='viki' <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
 | **String with Double quotes** | x="viki" <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
 | **String with Triple quotes** | x='''viki''' <br>  print("X value is:",x) <br>   print(type(x))   |  X value is: viki <br> <class 'str'> |
+
+
+| **Datatypes**  |  **Ordered**   |  **Un-ordered** | **Muttable** | **Immutabe** |
+| :---:   | :---: | :---: | :---: | :---: |
+| **Integer**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **Float**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **boolean**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **string**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **list**  |  :heavy_check_mark:  |  :x: | :heavy_check_mark: | :x: |
+| **tuple**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: |
+| **dictionary**  |  :x: |  :heavy_check_mark:  | :heavy_check_mark: | :x: |
+| **set**    | :x:  |  :heavy_check_mark: | :heavy_check_mark: | :x: |
+| **frozenset**  | :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **range**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: |

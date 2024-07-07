@@ -222,6 +222,7 @@
 		Float
 		Strings
 		Boolean
+		Range
 		Frozenset
 		Tuples
 		Byte
@@ -332,7 +333,7 @@
 | :--- | :--- | :--- |
 |Definition|	Data type whose values can be changed after creation.	|Data types whose values can’t be changed or altered.|
 |Memory Location	| Retains the same memory location even after the content is modified.|	Any modification results in a new object and new memory location|
-|Example	| List, Dictionaries, Set ,	Bytearray, Array| 	 Integer,Float,Strings,Boolean,Frozenset,Tuples,Byte |
+|Example	| List, Dictionaries, Set ,	Bytearray, Array| Integer, Float, Strings, Boolean, Frozenset, Tuples, Byte, Range |
 |Performance|	It is memory-efficient, as no new objects are created for frequent changes.|	It might be faster in some scenarios as there’s no need to track changes.|
 |Thread-Safety|	Not inherently thread-safe. Concurrent modification can lead to unpredictable results. |	They are inherently thread-safe due to their unchangeable nature.|
 |Use-cases|	When you need to modify, add, or remove existing data frequently.	| When you want to ensure data remains consistent and unaltered.|
