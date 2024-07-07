@@ -78,7 +78,7 @@
 | **tuple**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |
 | **set**    | :x:  |  :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: |
 | **frozenset**  | :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |
-| **dictionary**  |  :x: |  :heavy_check_mark:  | :heavy_check_mark: | :x: | :heavy_check_mark: **only for values not for key**| :x: |
+| **dictionary**  |  :x: |  :heavy_check_mark:  | :heavy_check_mark: | :x: | :heavy_check_mark: for values ; :x: for key| :x: |
 | **range**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **bytes**  |  :heavy_check_mark:  |  :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |
 | **Byte array**  |  :heavy_check_mark:  |  :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |:heavy_check_mark: |
