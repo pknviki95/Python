@@ -9,7 +9,7 @@
 - **Heterogeneous objects are allowed in tuple (i.e) it can hold int,str,list,dict,etc., elements within its collection enclosed in () bracket.**
 - Tuple is **immutable object - (i.e) Values of tuple object cannot be changed**
 
-### [tuple_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_type.py) - To find the type type variable using type() function:
+### [tuple_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_type.py) - To find the tuple variable using type() function:
 
                 tuple_variable =(1,'viki',[2,3],1)
                 print("The type of tuple_variable is: ",type(tuple_variable))
@@ -109,7 +109,7 @@
                 Negative variable[start index:end index:step]:  (1, 1)
 
 - **Tuple is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error**
-- **Based on above dir() function tuple doesn't have any write related operation only read related operations.**
+- **Based on below dir() function tuple doesn't have any write related operation only read related operations.**
 - **If any attributes used apart from available one it throws attribute error**
 
 ### [tuple_attribute_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_attribute_error.py) - tuple is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error:

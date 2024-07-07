@@ -64,7 +64,7 @@
                                                 ^^^^^^^^
             SyntaxError: invalid syntax
 
-### [str_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_type.py) - To find the integer type variable using type() function:
+### [str_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_type.py) - To find the string type variable using type() function:
 
             x='viki'                        #single quotes
             y="siva"                        #double quotes
