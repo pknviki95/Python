@@ -11,15 +11,15 @@
 
 ## Name types:
 
-### Variable/objects
+### Variable/objects:
 		
 		X=10 
 
-### class
+### class:
 		
 		class test:
 
-### function/method 
+### function/method: 
 
 		def function_name():
 

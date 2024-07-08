@@ -3,18 +3,19 @@
 ## Concepts:
 
 - [**Variables/Identifiers**](https://github.com/pknviki95/Python/tree/main/concepts/Variables)
-    - identifiers
+    
+    - Identifiers
     - Types of identifiers
     - variables
+    - Reserrved words
     - Naming rules for variables
-- [**Reserved Words**](https://github.com/pknviki95/Python/tree/main/concepts/Modules/keyword#reserved-words)
-    - Reserved words
-    - Various Reserved words
-    - Limitations of Reserved words
-- Escape characters/comments
+    - Escape characters/comments/constants
+
 - [**Datatypes**](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes)
+
     - Datatypes : Dynamic vs Static datatypes
     - Types of datatypes
+
 - [**Modules**](https://github.com/pknviki95/Python/tree/main/concepts/Modules)
     - keyword module
         - objects of keyword Module
