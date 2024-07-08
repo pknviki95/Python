@@ -453,3 +453,13 @@
 | **float to str**  |  **Possible**   |  **It returns the string value of float value**|
 | **boolean to str**  |  **Possible**   |  **It returns the string value of boolean value**|
 | **complex to str**  |  **Possible**   |  **It returns the string value of complex value**|
+
+## Summary of Typecasting:
+
+| **Typecasting**  |  **int()** | **float()** | **bool()** | **complex()** |**str()** |
+| :---:   | :---: | :---: | :---:   | :---: | :---: |
+| **int()**  | :heavy_check_mark:  | *:heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: - for int with base-10 <br> :x: - for int without base-10(float,hex,oct,bin) |
+| **float()**  |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: |:heavy_check_mark: - for int/float base-10 <br> :x: - for int/float without base-10 |
+| **bool()**  |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: |
+| **complex()**  |  :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: - for str base-10 1<sup>st</sup> argument <br> :x: - for str base-10 2<sup>nd</sup> argument <br> :x: - for str without (base-10)|
+| **str()**  |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:|
