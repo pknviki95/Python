@@ -3,7 +3,7 @@
 - keywords are **predefined identifiers/words**
 - keywords should not be used as a **variable name.**
 - There are **36 keywords** in python
-- **Keywords() module to perform operations related to keywords.
+- **Keywords() module to perform operations related to keywords.**
 
                 import keyword
                 keyword.keyword_objects()      
