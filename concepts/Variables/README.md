@@ -338,3 +338,146 @@
 |Thread-Safety|	Not inherently thread-safe. Concurrent modification can lead to unpredictable results. |	They are inherently thread-safe due to their unchangeable nature.|
 |Use-cases|	When you need to modify, add, or remove existing data frequently.	| When you want to ensure data remains consistent and unaltered.|
 
+## Escape characters:
+
+- **An escape character is a character followed by a backslash (\).** 
+- **It tells the Interpreter that this escape character (sequence) has a special meaning.**
+
+
+|Escape Character |	Meaning | Description |
+| :---: | :---: | :---: |
+|**\’**|	Single quote| It helps **to use single quotes inside string** |
+|**\”**|	Double quote | It helps **to use Double quotes inside string** |
+|**\\** | backslash | It helps **to use backslash inside string** |
+|**\n** 	|New line| It helps **to print the string in new line** |
+|**\r**	|Carriage Return| It helps **to move the changes to begining of the same line** |
+|**\t**	|Horizontal tab| It helps **to move the changes to tab (2 spaces) of the line** |
+|**\b**	|Backspace|  It helps **to delete the changes one character back of the line** |
+|**\f**	|form feed| It helps **to move to the next page** |
+|**\v**	|vertical tab| It helps **to move the change to vertical tab.** |
+|**\0**	|Null character|
+|**\N{name}**	|Unicode Character Database named Lookup|
+|**\uxxxxxxxx**|	Unicode Character with 16-bit hex value XXXX|
+|**\Uxxxxxxxx**|	Unicode Character with 32-bit hex value XXXXXXXX|
+|**\ooo**	|Character with octal value OOO|
+|**\xhh**	|Character with hex value HH|
+
+###  [escape_character.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/escape_character.py) - Escape character and its applications:
+
+### \’	- Single quote:
+
+- It helps to **use single quotes inside string.**
+
+				# \’	- Single quote:
+
+				# It helps to use single quotes inside string
+				print('Hello! \'Good Morning!!!\'')
+#### output:
+				Hello! 'Good Morning!!!'
+
+### \ "	- Double quote:
+
+- It helps to **use Double quotes inside string.**
+
+				# \"	- Double quote:
+
+				# It helps to use Double quotes inside string
+				print('Hello! \"Good Morning!!!\"')
+#### output:
+				Hello! "Good Morning!!!"
+
+### \	- backslash:
+
+- It helps to **use backslash inside string**
+- Mosty used in declaring path as string
+
+				# \	- backslash
+
+				# It helps to use backslash inside string - Mostly on path usage
+
+				print('C:\\Program Files\\norton\\appx')
+#### output:
+				C:\Program Files\norton\appx
+
+### \n	- New line:
+
+- It helps to **print the string in new line.**
+				
+				# \n	- New line
+						
+				# It helps to print the change in new line
+				print('Hello!\nWelcome to India')
+#### output:
+				Hello!
+				Welcome to India
+
+### \r	- Carriage Return:
+
+- It helps to **move the changes to begining of the same line.**
+				
+				# \r	- Carriage Return
+
+				# It helps to print the change in beginning of same line
+				print('Hello!\rWelcome to India')	
+#### output:
+				Welcome to India
+
+### \t	- Horizontal tab:
+
+- It helps **to move the change to horizontal tab (2 spaces) of same line.**
+
+				# \t	- Horizontal tab	
+
+				# It helps to move the change to horizontal tab (2 spaces) of same line
+				print('Hello!\tWelcome to India')
+#### output:
+				Hello!  Welcome to India
+
+### \b	- Backspace:		
+
+-  It helps **to remove the one character back ; perform backspace operation**
+				
+				# \b	- Backspace		
+
+				# It helps to remove the change; perform backspace operation
+				print('Hello!\bWelcome to India')
+#### output:
+				HelloWelcome to India
+
+### \v	- vertical tab:	
+- It helps **to move the change to vertical tab.**
+
+				# \v	- vertical tab	
+
+				# It helps to move the change to vertical tab.
+				print('Hello!\vWelcome to India')
+#### output:
+				Hello!
+					  Welcome to India
+
+## comments:
+
+- Comments can be used **to explain Python code.** 
+- Comments can be used **to make the code more readable.** 
+- Comments can be used **to prevent execution when testing code.**
+ - **"#" is used to comment the single line.**
+ - Python doesn't have **explicit multi-line comment.**           
+                
+                # [single-line comment]
+
+## How to declare comments?:
+
+- **"#" is used to declare a comment so below print statement is not executed.**
+
+###  [comments.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/comments.py) - Comments declaration and its purpose:
+
+				# This is single-line comment
+
+				# "#" is used to comment so below print operation doesn't execute
+
+				# print("Hello!")
+
+## Constants:
+
+- **Constants concepts is not applicable in python**
+- **Python doesn't support constants;every variable/objects in python can be declared and changed**

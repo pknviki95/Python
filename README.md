@@ -11,6 +11,7 @@
     - Reserved words
     - Various Reserved words
     - Limitations of Reserved words
+- Escape characters/comments
 - [**Datatypes**](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes)
     - Datatypes : Dynamic vs Static datatypes
     - Types of datatypes
