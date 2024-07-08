@@ -71,8 +71,27 @@
 	
 	 	x yz=10 -> Incorrect
 
+## Reserved words:
+ 
+- Reserved words are **predefined identifiers/words**
+- It is a reserved words which **should not be used as a variable name** 
+- There are 36 reserved words in python 
+
+### List of Reserved words in python:
+
+| Types     | Reserved                                             |
+|:--- | :--- |
+| **Boolean**   | **'True'  'False'  'None'** |
+| **Operator**  | **'and'  'or'  'not'  'is'** |
+| **loops** | **'while'  'for'  'break'  'continue'  'return'  'in'  'yield'** |
+| **conditions**   | **'if'  'else'  'elif'** |
+| **exceptions**   | **'try'  'except'  'finally'  'raise'  'assert'** |
+| **Modules**   | **'import'  'from'  'as'  'class'  'def' 'pass'** |
+| **variables**   | **'global'  'nonlocal'  'lambda'  'del'  'with'** |
 
 ## Examples of variable with different dataypes declaration:
+
+###  [variables.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/variables.py) - Examples of variable with different dataypes declaration:
 
 ### Integer Datatype
 
