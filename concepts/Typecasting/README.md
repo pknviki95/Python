@@ -167,7 +167,7 @@
 | :---:   | :---: | :--- |
 | **int to float**  |  **Possible**   |  **It include after decimal value and return float value** |
 | **complex to float**  |  **Not Possible**   |  **it has imaginary part to it so it throws type error** |
-| **boolean to float**  |  **Possible**   |  **It returns its equivalent integer value with decimalpoint(i.e) True=1 and False=0** |
+| **boolean to float**  |  **Possible**   |  **It returns its equivalent integer value with decimal point(i.e) True=1 and False=0** |
 | **str with (base-10) to float**  |  **Possible**   |  **It returns its integer value with decimal point if the value is base-10** |
 | **str without (base-10) to float**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
@@ -264,7 +264,7 @@
             print("str converted to complex real value: {}".format(complex(string_value))) 
 #### output:
             str converted to complex real value: (15+0j)
-- **It throws Type error as second argument in complex() function should not be a string; only first argument of complex function supports string varibale**
+- **It throws Type error as second argument in complex() function should not be a string; only first argument of complex function supports string variable**
 
             (i.e) complex('real variable')  
 
@@ -285,7 +285,7 @@
 - **If the basic rule as above if any string is not defined in integral with base-10 it will throw value error**
 **(i.e) value should be decimal/float values ; oct,bin,hex values are not possible to typecast**
 
-### [typecast_diffbase_str_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_diffbase_str_complex_error.py) - To convert string datatypes to complex value using compplex() without base-10 - Value error:
+### [typecast_diffbase_str_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_diffbase_str_complex_error.py) - To convert string datatypes to complex value using complex() without base-10 - Value error:
 
             string_value='0B111'
 
@@ -300,7 +300,7 @@
 
 | **Typecasting**  |  **Possibilities** | **Description** |
 | :---:   | :---: | :--- |
-| **int to complex**  |  **Possible**   |  **It include interger value to real and imaginary part based on argument passed in complex() function** |
+| **int to complex**  |  **Possible**   |  **It include integer value to real and imaginary part based on argument passed in complex() function** |
 | **float to complex**  |  **Possible**   |  **It include float value to real and imaginary part based on argument passed in complex() function** |
 | **boolean to complex**  |  **Possible**   |  **It returns its equivalent integer value to real and imaginary part based on argument passed in complex() function (i.e) True=1 and False=0** |
 | **str with (base-10) to complex in 1<sup>st</sup> argument**  |  **Possible**   |  **It returns its integer value to real and imaginary part based on argument passed in complex() function if the value is base-10** <br> **complex('str variable',not str variable) - correct argument passing** </br>|

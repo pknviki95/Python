@@ -131,16 +131,16 @@
                     tuple_variable.append(2)
                 AttributeError: 'tuple' object has no attribute 'append'
 
-## Limititaions: 
+## Limitations:  
 
 ### 1: Single valued tuple should ends with "," comma:
 
 - By default all the single values of object is considered as single tuple object by Python virtual machine
 - (i.e) consider assigning a integer value 10 
 
-            x=10 is equivaluent to x=(10)
+            x=10 is equivalent to x=(10)
 - Due to this above scenario all the single object elements inside tuple is considered to its equivalent datatypes
-- To overcome come this scenario we need to tell the PVM that it is tuple varibale/object by adding , after single tuple element
+- To overcome come this scenario we need to tell the PVM that it is tuple variable/object by adding , after single tuple element
 
             x=(10,)
 

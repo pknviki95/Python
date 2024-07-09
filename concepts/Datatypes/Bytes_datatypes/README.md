@@ -6,7 +6,7 @@
 - Bytes are an **immutable sequence data type**, meaning once a bytes object is created, it cannot be changed.
 - **They are ordered sequence (i.e) Indexing and slicing operation are possible.**
 
-                list_variable=[element_1,eement_2,...]
+                list_variable=[element_1,element_2,...]
                 bytes_variable=bytes(list_variable)
 
 
@@ -140,7 +140,7 @@
                     bytes_variable=bytes(list_variable)
                 ValueError: bytes must be in range(0, 256)
 
-### [bytes_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_type_error.py) - Bytes type cannot be updaed or changed as it is immutable if done it throws error- Type error :
+### [bytes_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_type_error.py) - Bytes type cannot be updated or changed as it is immutable if done it throws error- Type error :
 
                 sequence = [65,66,67,68]
                 bytes_variable=bytes(sequence)

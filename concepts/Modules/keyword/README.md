@@ -1,4 +1,4 @@
-# Keyword() - Keywod module:
+# Keyword() - Keyword module:
 
 - keywords are **predefined identifiers/words**
 - keywords should not be used as a **variable name.**
@@ -35,7 +35,7 @@
 
         import keyword
         
-        #keyword.kwlist - List all theobjects of keyword module
+        #keyword.kwlist - List all the objects of keyword module
 
         print("Find the list of keywords in python : ",keyword.kwlist)
 #### output:

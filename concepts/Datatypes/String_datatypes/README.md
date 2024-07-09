@@ -1,7 +1,7 @@
 # str() - string datatypes
 
 - str() datatype is used to represent the **string variables**
-- In python we dont have concept of **char/character** like in c.It will consider all inside quotes as **string**.
+- In python we don't have concept of **char/character** like in c.It will consider all inside quotes as **string**.
 
             'viki',"siva", '''raja'''
 
@@ -15,12 +15,12 @@
 
 ### 1:Multi-line string literals:
 
-- If the string are represented in singleline then it is considered as string datatypes in python
+- If the string are represented in single line then it is considered as string datatypes in python
 - If the string that needs to be implemented for multi-line then **Single Quotes(' ')** or **Double Quotes(" ")** is not possible it will throw Syntax error
 - As to resolve this issue only **Triple quotes """ """/''' '''** is possible to assign multi-line string for any variable 
 - (i.e) Triple-quotes are used to define multi-line string literals
 
-### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitaions for Multi-line string literals:
+### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitations for Multi-line string literals:
 
             #single/Double quotes:
 
@@ -45,7 +45,7 @@
 
 ### 2:Using various string quotes as special character:
 
-- Using various **single/double quotes as special character** (i.e) usage of '' or "" inside a string can be done only by declaing the string variable in **triple quotes** or it will throw Syntax error
+- Using various **single/double quotes as special character** (i.e) usage of '' or "" inside a string can be done only by declaring the string variable in **triple quotes** or it will throw Syntax error
 
 ### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitaions for using various single/double quotes as special character:
 
@@ -85,7 +85,7 @@
 
             variable[index number]
 
-- **Indexing can be peroformed only with the total index present in the string;if we ask for return value that exceeds existing index range it throws Index error**
+- **Indexing can be performed only with the total index present in the string;if we ask for return value that exceeds existing index range it throws Index error**
 
 ### [str_index_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_index_error.py) - To understand the Indexing range of string - Index error:
 
@@ -223,27 +223,27 @@
             Negative variable[start index:]:  vignesh
             Negative variable[start index:end index:step]:  vn
 
-## String Concatination:
+## String Concatenation:
 
-- String concatination is the **process of concatinating(joining) between strings using (+) operator**
-- (i.e) Basic rules for concatination is that argument that we use should be only between **strings**
+- String concatenation is the **process of concatenating(joining) between strings using (+) operator**
+- (i.e) Basic rules for concatenation is that argument that we use should be only between **strings**
 
-            #string concatination
+            #string concatenation
             str + str 
 
-### [str_concantinate.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_concantinate.py) -  concantinate two strings using + operator:
+### [str_concantinate.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_concantinate.py) -  concatenate two strings using + operator:
 
             string_1="Hello"
             string_2="Good Morning!"
 
-            #String concatination
+            #String concatenation
 
             final=string_1+'\t'+string_2                        #Hello+\t(tab space)+Good Morning!
             print("final_concantinated string: ",final)
 #### output:
             final_concantinated string:  Hello      Good Morning!
 
-- String concatination is applicable only if it is between string; if we are triying **concatination with string with other datatypes it throws Type error**
+- String concatenation is applicable only if it is between string; if we are trying **concatenation with string with other datatypes it throws Type error**
 
             #Type error
             str+int
@@ -267,14 +267,14 @@
 
 ## String repetating:
 
-- String repetating is the **process of repeating conconcatination(joining) of string using (*) operator**
+- String repetating is the **process of repeating concatenation(joining) of string using (*) operator**
 - (i.e) Basic rule is one argument should be **by default string and the other integer type for number to perform repetative**
 - The order of usage can be random; it is also possible but make sure it satisfies basic rule of 1 str and 1 int **(i.e) [Number of repeatative] * str also possible**
             
             #string repetating
             str * [Number of repeatative]
              
-### [str_repetative.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetative.py) - concantinate string repetatively using * operator:
+### [str_repetative.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetative.py) - concatenate string repetitively using * operator:
 
             string="viki"
             repetative_count=4
@@ -287,7 +287,7 @@
             #type error
             str * str
 
-### [str_repetative_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetative_type_error.py) -  concantinate two strings using * repetative operator - Type error:
+### [str_repetative_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetative_type_error.py) -  concatenate two strings using * repetative operator - Type error:
 
             string_1="Hello"
             string_2="Good Morning!"

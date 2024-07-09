@@ -91,7 +91,7 @@
 
 ## Examples of variable with different dataypes declaration:
 
-###  [variables.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/variables.py) - Examples of variable with different dataypes declaration:
+###  [variables.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/variables.py) - Examples of variable with different datatypes declaration:
 
 ### Integer Datatype
 
@@ -107,35 +107,35 @@
 #### output:
 	value of string variable  : viki ; type of variable  : <class 'str'>
 
-### Boolean Dataype
+### Boolean Datatype
 
 		Boolean_variable=True
 		print("value of Boolean variable  : {} ; type of variable  : {}".format(Boolean_variable,type(Boolean_variable)))
 #### output:
 		value of Boolean variable  : True ; type of variable  : <class 'bool'>
 
-### List Dataype
+### List Datatype
 
 		list_variable=[1,2,3,4,'viki']
 		print("value of list_variable  : {} ; type of variable  : {}".format(list_variable,type(list_variable)))
 #### output:
 		value of list_variable  : [1, 2, 3, 4, 'viki'] ; type of variable  : <class 'list'>
 
-### Tuple Dataype
+### Tuple Datatype
 
 		tuple_variable=(1,2,3,4,'viki')
 		print("value of tuple_variable  : {} ; type of variable  : {}".format(tuple_variable,type(tuple_variable)))
 #### output:
 		value of tuple_variable  : (1, 2, 3, 4, 'viki') ; type of variable  : <class 'tuple'>
 
-### Dictionary Dataype
+### Dictionary Datatype
 
 		dictionary_variable={1:'viki',2:'Raj','Vijay':30}
 		print("value of dictionary_variable  : {} ; type of variable  : {}".format(dictionary_variable,type(dictionary_variable)))
 #### output:
 		value of dictionary_variable  : {1: 'viki', 2: 'Raj', 'Vijay': 30} ; type of variable  : <class 'dict'>
 
-### Set Dataype
+### Set Datatype
 
 		set_variable={1,2,3,4,'viki'}
 		print("value of set_variable  : {} ; type of variable  : {}".format(set_variable,type(set_variable)))
@@ -150,7 +150,7 @@
 
 - Mutable objects are those that **allow you to change their value or data in place without affecting the object's identity**
 - **Even if any changes is made on objects the identity of objects doesn't change**
-- Muttable objects are as below
+- Mutable objects are as below
 
 		List
 		Set
@@ -162,7 +162,7 @@
 
 ### List object:
 
-				# id vaue of initial object declaration
+				# id value of initial object declaration
 				list_variable_1=[1,2,3,4,'viki']
 				print("id value of list_variable_1: {}".format(id(list_variable_1)))
 
@@ -179,7 +179,7 @@
 				id value of list_variable_after: 140225086847424
 ### Dictionary object:
 
-				# id vaue of initial object declaration 
+				# id value of initial object declaration 
 				dictionary_variable_1={1:'viki',2:'Raj','Vijay':30}
 				print("id value of dictionary_variable_1  : {} ".format(id(dictionary_variable_1)))
 
@@ -212,10 +212,10 @@
 				value of set_variable_2  : 140225086760640
 				value of set_variable_after  : 140225086760416
 
-### What is happenning in background on mutable object?
+### What is happening in background on mutable object?
 
-- **In All above Scenario the address of the object/variable is different in all scenario referring to muttable objects** 
-- **(i.e) id changes if the change are made in values - Different id's for muttable objects eventhough their values are same**
+- **In All above Scenario the address of the object/variable is different in all scenario referring to mutable objects** 
+- **(i.e) id changes if the change are made in values - Different id's for mutable objects even though their values are same**
 - **New objects are created for all declarations like the output below** 
 
 - In this scenario three objects are created where **set_variable_1,set_variable_2** with **same value** and **set_variable_after** with **different value**
@@ -234,8 +234,8 @@
 ### Immutable object:
 
 - Immutable objects are those that **doesn't allow you to change their value or data in place**
-- **If any changes is made in the object then the identity of that object chages**
-- Immuttable objects are as below
+- **If any changes is made in the object then the identity of that object changes**
+- Immutable objects are as below
 
 		Integer
 		Float
@@ -326,7 +326,7 @@
 				value of tuple_variable_1  : 139849131587152
 				value of tuple_variable_after  : 139849127464960
 
-### What is happenning in background on Immmutable object?
+### What is happening in background on Immutable object?
 
 - In this scenario three objects are created where **integer_variable_1,integer_variable_2** with **same value** and **integer_variable_after** with **different value**
 			
@@ -342,7 +342,7 @@
 
 - **The "integer_variable_1","integer_variable_2" object have same value** 
 - **Python virtual machine in background checks if value is assigned to any objects that are assigned already then it just points the new object to same object location which inturn same identity for Immutable objects**
-- **If the object name "integer_variable_1" assigned again with different value then new object with new dentity is created since it is Immutable objects** 
+- **If the object name "integer_variable_1" assigned again with different value then new object with new identity is created since it is Immutable objects** 
 - **(i.e) Any objects with same value will be considered as same objects even though it has different object names by PVM**
 
 
@@ -408,7 +408,7 @@
 ### \	- backslash:
 
 - It helps to **use backslash inside string**
-- Mosty used in declaring path as string
+- Mainly used in declaring path as string
 
 				# \	- backslash
 
@@ -432,7 +432,7 @@
 
 ### \r	- Carriage Return:
 
-- It helps to **move the changes to begining of the same line.**
+- It helps to **move the changes to beginning of the same line.**
 				
 				# \r	- Carriage Return
 

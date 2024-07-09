@@ -55,7 +55,7 @@
 ## String Datatypes:
 
 - str() datatype is used to represent the **string variables**
-- In python we dont have concept of **char/character** like in c.It will consider all inside quotes as **string**.
+- In python we don't have concept of **char/character** like in c.It will consider all inside quotes as **string**.
 
             'viki',"siva", '''raja'''
 
@@ -67,7 +67,7 @@
 
 ## Differences between Datatypes based on its characteristics:
 
-| **Datatypes**  |  **Ordered**   |  **Un-ordered** | **Muttable** | **Immutabe** | **Duplicates** | **Indexing/Slicing** |
+| **Datatypes**  |  **Ordered**   |  **Un-ordered** | **Mutable** | **Immutable** | **Duplicates** | **Indexing/Slicing** |
 | :---:   | :---: | :---: | :---: | :---: | ---: | :---: | 
 | **Integer**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |
 | **Float**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |

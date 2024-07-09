@@ -11,7 +11,7 @@ None - None datatypes.
 none_variable=None
 none_variable_1=None
 
-# Id of the None variabe remain same as it is pointing to same object value
+# Id of the None variable remain same as it is pointing to same object value
 
 print("The identity of none_variable: ",id(none_variable))
 print("The identity of none_variable_1: ",id(none_variable_1))

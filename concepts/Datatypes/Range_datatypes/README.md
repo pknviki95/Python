@@ -125,7 +125,7 @@
 
 - Range Datatype is **immutable (i.e) Its values cannot be Updated or changed** 
 
-### [range_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_type_error.py) - range vaues cannot be changed as it is immutable if tried to change it throws error - Type error:
+### [range_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_type_error.py) - range values cannot be changed as it is immutable if tried to change it throws error - Type error:
 
 
                 sequence = range(4)

@@ -51,7 +51,7 @@
                 unordered set_variable: {1, 2, (1, 2), 3, 4, 'viki'}  # Un-ordered value return for set
                 The type of set variable: <class 'set'>
 
-## Limititaions:
+## Limitations:
 
 ### 1: Empty {} variable is considered as dictionary objects:
 
@@ -63,7 +63,7 @@
 ### [set_limitiation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_limitiation.py) - To convert default empty dict to set object by declaring set() function:
 
 #### without set () fun returns dict:
-                # Empty varibale with {} braces
+                # Empty variable with {} braces
                 set_variable={}
                 print("unordered set_variable type without set() function: {}".format(type(set_variable)))
 
@@ -71,7 +71,7 @@
                 unordered set_variable type without set() function: <class 'dict'>
 
 #### with set () fun returns set:
-                # Empty varibale with {} braces
+                # Empty variable with {} braces
                 set_variable={}
                 print("unordered set_variable type with set() function: {}".format(type(set(set_variable))))
 #### output:

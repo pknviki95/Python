@@ -60,7 +60,7 @@
 
 #### NOTE:
 
-- **In matematical expression by default**
+- **In mathematical expression by default**
             
             **True=1** 
             **False=0**

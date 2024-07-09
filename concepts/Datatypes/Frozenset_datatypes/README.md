@@ -1,6 +1,6 @@
 # frozenset() - Frozenset datatypes:
 
-- **Frozenset datatypes is similar to Set data type in python that can store values separated by ',' and enclosed within '{}'. but it should be assigned to frozenset(set_variable)**
+- **Frozenset datatypes is similar to Set data type in python that can store values separated by ',' and enclosed within '{}'.but it should be assigned to frozenset(set_variable)**
 
             set_variable={element 1,element 2,...}   # set variable
             frozenset(set_variable)                  # frozen set variable

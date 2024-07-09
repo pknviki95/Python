@@ -15,11 +15,11 @@
 #### output:
                 The type of dictionary_variable is:  <class 'dict'>
 
-- **Key and values can be added to dictionary by assiging of value to key for a given dictionary using below syntax.**
+- **Key and values can be added to dictionary by assigning of value to key for a given dictionary using below syntax.**
 
                 dictionary_variable[key]=value 
                 
-### [dict_add_value_key.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_add_value_key.py) - To add the value to key to empty dictionary or add key and vaue to dictionary:
+### [dict_add_value_key.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_add_value_key.py) - To add the value to key to empty dictionary or add key and value to dictionary:
 
 
                 dictionary_variable = {1:'viki',2:'siva'}
@@ -36,9 +36,9 @@
                 The type of dictionary_variable is:  {1: 'viki', 2: 'siva', 3: 'karthi'}
 
 - **Duplicate keys are not allowed but duplicate values are allowed** 
-- **It doesn't throw error when duplicate key is used instead it updaes the existing key to new value assigned to it**
+- **It doesn't throw error when duplicate key is used instead it updates the existing key to new value assigned to it**
 
-### [dict_dup_key_value.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_dup_key_value.py) - To veify the condition of duplicate key and value in dictionary:
+### [dict_dup_key_value.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_dup_key_value.py) - To verify the condition of duplicate key and value in dictionary:
 
 ### Duplicate key:
                 dictionary_variable={1:'viki',2:'guru'}

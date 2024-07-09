@@ -68,7 +68,7 @@
 
 - **Sequence of bytes elements can be accessed using slicing**
 
-### [bytearray_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_slicing.py) - To access the sequence of bytes based on positive and negative index usig slicing operation:
+### [bytearray_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_slicing.py) - To access the sequence of bytes based on positive and negative index using slicing operation:
 
 ### Positive Index slicing
 
@@ -137,7 +137,7 @@
                     bytearray_variable=bytearray(list_variable)
                 ValueError: byte must be in range(0, 256)
 
-### [bytearray_assigning.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_assigning.py) - Bytearray type can be updaed or changed as it is mutable:
+### [bytearray_assigning.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_assigning.py) - Bytearray type can be updated or changed as it is mutable:
 
                 sequence = [65,66,67,68]
                 bytearray_variable=bytearray(sequence)
