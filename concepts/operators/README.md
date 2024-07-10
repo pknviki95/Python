@@ -5,6 +5,7 @@
             
     - **Arithmetic operator**
     - **Relational operator**
+    - **Equality Operator**
 
             
 ## Arithmetic operators:
@@ -335,3 +336,99 @@
                 print("y value is : ",y)
 #### output:
                 y value is :  False
+
+## Equality Operator:
+
+- **Equality operators are used to validate if the given two values are equal to (==) and not equal to (!=)**
+
+
+
+### Integer value:
+
+### Equal to(==):
+
+                x=10
+                y=20
+
+                Equal_to=x==y
+
+                print("x is equal to y: ",Equal_to)
+#### output:
+                x is equal to y:  False
+
+### Not Equal to(!=):
+
+                x=10
+                y=20
+
+                not_Equal_to=x!=y
+
+                print("x is not equal to y: ",not_Equal_to)
+#### output:
+            x is not equal to y:  True
+
+### string value:
+
+                x='viki'
+                y='guru'
+
+                Equal_to=x==y
+
+                print("x is equal to y: ",Equal_to)
+
+#### output:
+                x is equal to y:  False
+
+### Not Equal to(!=):
+                x='viki'
+                y='guru'
+
+                not_Equal_to=x!=y
+
+                print("x is not equal to y: ",not_Equal_to)
+#### output:
+                x is not equal to y:  True
+
+### Boolean value:
+
+                x=True
+                y=False
+
+                Equal_to=x==y
+                
+                print("x is equal to y: ",Equal_to)
+#### output:
+                x is equal to y:  False
+
+### Not Equal to(!=):
+
+                x=True
+                y=False
+
+                not_Equal_to=x!=y
+                
+                print("x is not equal to y: ",not_Equal_to)
+#### output:
+                x is not equal to y:  True
+
+### 4: Multiple Equality operations:
+
+- **Multiple Equality operation can be performed for a values** 
+- **It returns True boolean result if all the return values are True.** 
+- **It returns False even if there is single false value**
+
+### All values return True:
+
+                x=10==20==30==40
+                print("x value is : ",x)
+#### output:
+                x value is :  False
+
+### Atleast 1 values false return false:
+
+                y=10==20==30==40!=50
+                print("y value is : ",y)
+#### output:
+                y value is :  False
+
+## Logical operator:

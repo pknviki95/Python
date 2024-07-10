@@ -9,7 +9,7 @@
 
 		Method name 
 
-## Name types:
+## Types of identifiers:
 
 ### Variable/objects:
 		
@@ -40,7 +40,7 @@
 			Z=5+4j -> complex 
 
 
-## Naming Rules: 
+## Naming Rules of variable: 
 
 - Variable length can be of anything.
 	
@@ -89,7 +89,7 @@
 | **Modules**   | **'import'  'from'  'as'  'class'  'def' 'pass'** |
 | **variables**   | **'global'  'nonlocal'  'lambda'  'del'  'with'** |
 
-## Examples of variable with different dataypes declaration:
+## Examples of variable with different datatype declaration:
 
 ###  [variables.py](https://github.com/pknviki95/Python/tree/main/concepts/Variables/variables.py) - Examples of variable with different datatypes declaration:
 

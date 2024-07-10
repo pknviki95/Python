@@ -9,6 +9,8 @@
 - **frozenset datatypes**
 - **Dictionary datatypes**
 - **Range datatypes**
+- **Bytes datatypes**
+- **Bytearray datatypes**
 
 ## Number Datatypes: 
 

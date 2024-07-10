@@ -4,8 +4,15 @@
 - It is also called **type coersion**
 
 ## Types of type casting function:
+- **integer typecasting**
+- **float typecasting**
+- **complex typecasting**
+- **boolean typecasting**
+- **string typecasting**
 
-## int():
+## integer typecasting :
+
+### int():
 
 - int() function is used **to convert other datatypes to integer type value.**
 
@@ -88,8 +95,8 @@
 | **str with (base-10) to int**  |  **Possible**   |  **It returns its integer value if the value is base-10** |
 | **str without (base-10) to int**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## float():
-
+## float typecasting :
+### float():
 - float() function is used **to convert other datatypes to float type value.**
 
             float(variable)
@@ -171,8 +178,8 @@
 | **str with (base-10) to float**  |  **Possible**   |  **It returns its integer value with decimal point if the value is base-10** |
 | **str without (base-10) to float**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## complex():
-
+## complex typecasting :
+### complex():
 - complex() function is used **to convert other datatypes to complex type value.**
 
             complex(real variable,imaginary variable)
@@ -307,7 +314,8 @@
 | **str with (base-10) to complex in 2<sup>nd</sup> argument**  |  **Not Possible**   |  **Only first argument of the complex function can be passed with string if it is passed in second argument it throws Type error** <br> **complex('str variable','str variable') - type error** </br>|
 | **str without (base-10) to complex**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## bool():
+## boolean typecasting :
+### bool():
 
 - bool() function is used **to convert other datatypes to bool type value.**
 
@@ -389,7 +397,10 @@
 | **complex to bool**  |  **Possible**   |  **It returns "True if the value is non-zero" in either real and imaginary part;if the value is "zero in both real and imaginary part then it return False"**|
 | **str to bool**  |  **Possible**   |  **It returns "True if the string is non-empty";return "False if it is empty-string"**|
 
-## str():
+
+## string typecasting :
+
+### str():
 
 - str() function is used **to convert other datatypes to string type value.**
 
