@@ -70,7 +70,7 @@
 ## Differences between Datatypes based on its characteristics:
 
 | **Datatypes**  |  **Ordered**   |  **Un-ordered** | **Mutable** | **Immutable** | **Duplicates** | **Indexing/Slicing** |
-| :---:   | :---: | :---: | :---: | :---: | ---: | :---: | 
+| :---:   | :---: | :---: | :---: | :---: | :---: | :---: | 
 | **Integer**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |
 | **Float**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |
 | **complex**  |  :x:  |  :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: |
