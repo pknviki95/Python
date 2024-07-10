@@ -12,6 +12,9 @@
             print("Hello, World!")
 #### output:
             Hello, World!
+#### Explanation:
+- print("") function is used to print value that is passed on screen.
+- "Hello, World!" - Passed inside function prints on screen. 
 ## Program-02: [arithmetic.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/Introduction/arithmetic.py) -print arithmetic operation for python
 
     The provided code stub reads two integers from STDIN, a and b. Add code to print three lines where:
@@ -37,6 +40,10 @@
             3
             -1
             2
+#### Explanation:
+- Arithmetic operators are used to perform arithmetic operations such as Addition(+),Subtraction(-),Multiplication(*)
+- Variable "a" and "b" performs addition(a+b),Subtraction(a-b),Multiplication(a*b) and returns its arithmetic values
+
 ## Program-03: [division.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/Introduction/division.py) - Print Division arithmetic operation for python with integer Division and Float Division:
     
     The provided code stub reads two integers, a and b, from STDIN.
@@ -65,6 +72,10 @@
 #### output
             0
             0.3333333333333333
+#### Explanation:
+- a//b - Floor division returns integer or float value based on input passed.return value without decimal point if both are integer input
+- a/b - Division by default always return float value (i.e) with decimal value
+
 ## Program-04: [if_else_condition.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/Introduction/if_else_condition.py) - Print output based on the if-else condition :
 
     Given an integer,n , perform the following conditional actions:

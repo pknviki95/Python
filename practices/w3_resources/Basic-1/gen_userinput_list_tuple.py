@@ -10,7 +10,7 @@ Tuple : ('3', ' 5', ' 7', ' 23')
 '''
 
 comma_sep_numbers=input("Enter the sequence of comma-separated numbers : ")
-
+print(type(comma_sep_numbers))
 # Converting user input to list using split():
 
 user_list= comma_sep_numbers.split(',')
