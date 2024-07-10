@@ -1,4 +1,4 @@
-# bytearray() -  ByteArray Datatypes:
+# bytearray() - ByteArray Datatypes:
 
 - Python bytearray are a **sequence of integers in the range of 0-255**. it is similar to bytes 
 - Bytearray are an **mutable sequence data type**, meaning once a bytes object is created, it can be changed.

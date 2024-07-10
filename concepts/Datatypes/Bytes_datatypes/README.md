@@ -1,7 +1,5 @@
 # bytes() - Bytes Datatypes:
 
-## bytes():
-
 - Python bytes are a **sequence of integers in the range of 0-255**. 
 - Bytes are an **immutable sequence data type**, meaning once a bytes object is created, it cannot be changed.
 - **They are ordered sequence (i.e) Indexing and slicing operation are possible.**

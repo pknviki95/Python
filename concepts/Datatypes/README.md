@@ -16,7 +16,7 @@
 
 - Python supports the below standard data types: 
 
-## Various types of Numbers Datatypes:
+### Various types of Numbers Datatypes:
 
 ### Integer- int () 
     

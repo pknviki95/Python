@@ -1,14 +1,19 @@
 # Python Operators:
 
 - **Operators are used to perform operations on variables and values.**
+
+## Types of operators:
+
 - **Based on types of operation it is divided into different types.** 
             
     - **Arithmetic operator**
     - **Relational operator**
-    - **Equality Operator**
+    - **Equality operator**
+    - **Logical operator**
+    - **Bitwise operator**
 
             
-## Arithmetic operators:
+## Arithmetic operator:
 
 - **Arithmetic operators are used to perform arithmetic operations such as addition,Subtraction,Multiplication,Division,Modulo,Floor division,Exponential**
 
@@ -148,7 +153,7 @@
 
 ## Relational operator:
 
-- **Relational Operators in python helps to find the relation between values and return boolean result; some of the relationa operations are greater than(>),greater than or equal to (>=), lesser than (<), less than or equal to(<=)**
+- **Relational Operators in python helps to find the relation between values and return boolean result; some of the relational operations are greater than(>),greater than or equal to (>=), lesser than (<), less than or equal to(<=)**
 
 ### [Relational_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Relational_operator.py) - Relational operations - greater than(>),greater than or equal to (>=), lesser than (<), less than or equal to(<=):
 
@@ -327,7 +332,7 @@
 #### output:
                 x value is :  True
 
-### Atleast 1 values false return false:
+### At least 1 values false return false:
                 
                 # Atleast 1 values false return false
                 
@@ -337,11 +342,11 @@
 #### output:
                 y value is :  False
 
-## Equality Operator:
+## Equality operator:
 
 - **Equality operators are used to validate if the given two values are equal to (==) and not equal to (!=)**
 
-
+### [Equality_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Equality_operator.py) - Equality operations - equal to (==) and not equal to (!=):
 
 ### Integer value:
 
@@ -424,7 +429,7 @@
 #### output:
                 x value is :  False
 
-### Atleast 1 values false return false:
+### At least 1 values false return false:
 
                 y=10==20==30==40!=50
                 print("y value is : ",y)
@@ -432,3 +437,115 @@
                 y value is :  False
 
 ## Logical operator:
+
+- **Logical operator is used to combine conditional statements using and,or,not**
+- **Incase of "and";If only every condition passed is satisfied then it return True ; If even one condition doesn't satisfy then it returns False**
+- **Incase of "or"; Even if any one condition passed it returns True; returns False if all the conditions failed**
+- **"not" return complement value of each other**
+
+### [Logical_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Logical_operator.py) - Logical operations - and,or,not:
+
+### Boolean Types:
+
+### and:
+
+- **Return "True" if "both condition passes"**
+- **Return "False" "even if one condition fails"**
+    
+                # Return True if both condition passes:
+                # Return False even if one condition fails:
+
+                print("Both True: ",True and True)                  # True
+                print("1st True and 2nd False: ",True and False)    # False
+                print("1st False and 2nd True: ",False and True)    # False
+                print("Both False: ",False and False)               # False
+
+#### output:
+
+                Both True:  True
+                1st True and 2nd False:  False
+                1st False and 2nd True:  False
+                Both False:  False
+
+### or:
+
+- **Return "True" if "at least one condition passes"**
+- **Return "False" if "all condition fails"**
+
+                # Return True if at least one condition passes:
+                # Return False if all condition fails:
+
+                print("Both True: ",True or True)               # True
+                print("1st True or 2nd False: ",True or False) # True
+                print("1st False or 2nd True: ",False or True) # True
+                print("Both False: ",False or False)            # False
+#### output:
+                Both True:  True
+                1st True or 2nd False:  True
+                1st False or 2nd True:  True
+                Both False:  False
+
+### not:
+
+- **Return "False" if "condition True"**
+- **Return "True" if "condition False"**
+
+                # Return False if condition True
+                # Return True if condition False
+
+                print("not True: ",not True)                # False
+                print("not False: ",not False)              # True
+
+#### output:
+                not True:  False
+                not False:  True
+
+### Non-Boolean Types:
+
+###  and:
+
+- **In Non-boolean Types "and" if the "1<sup>st</sup> argument condition is False"; It returns "1<sup>st</sup> argument value"**
+- **If the "1<sup>st</sup> argument condition is True"; It return "2<sup>nd</sup> argument value"**
+
+### 1<sup>st</sup> argument non-empty - True
+
+                x=10
+                y=20
+
+                print("Non-boolean and 1st argument True returns 2nd argument value: ",x and y)
+#### output:
+                Non-boolean and 1st argument True returns 2nd argument value:  20
+
+### 1<sup>st</sup> argument empty - False
+
+                x=''
+                y='viki'
+
+                print("Non-boolean and 1st argument False returns 1st argument value: ",x and y)
+#### output:
+                Non-boolean and 1st argument False returns 1st argument value:  
+
+### or:
+
+- **In Non-boolean Types or if the "1<sup>st</sup> argument condition is False"; It return "2<sup>nd</sup> argument value".**
+- **If the "1<sup>st</sup> argument condition is True"; It return "1<sup>st</sup> argument value."**
+
+### 1<sup>st</sup> argument non-empty - True
+
+                x=10
+                y=20
+
+                print("Non-boolean or 1st argument True returns 1st argument value: ",x or y)
+#### output:
+                Non-boolean or 1st argument True returns 1st argument value:  10
+
+### 1<sup>st</sup> argument empty - False
+
+                x=''
+                y='viki'
+
+                print("Non-boolean or 1st argument False returns 2nd argument value: ",x or y)
+#### output:
+                Non-boolean or 1st argument False returns 2nd argument value:  viki
+
+## Bitwise operator:

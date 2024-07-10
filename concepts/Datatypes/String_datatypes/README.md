@@ -1,4 +1,4 @@
-# str() - string datatypes
+# str() - string datatypes:
 
 - str() datatype is used to represent the **string variables**
 - In python we don't have concept of **char/character** like in c.It will consider all inside quotes as **string**.

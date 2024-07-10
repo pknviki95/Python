@@ -10,7 +10,7 @@
 - **boolean typecasting**
 - **string typecasting**
 
-## integer typecasting :
+## integer typecasting:
 
 ### int():
 
@@ -95,7 +95,7 @@
 | **str with (base-10) to int**  |  **Possible**   |  **It returns its integer value if the value is base-10** |
 | **str without (base-10) to int**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## float typecasting :
+## float typecasting:
 ### float():
 - float() function is used **to convert other datatypes to float type value.**
 
@@ -178,7 +178,7 @@
 | **str with (base-10) to float**  |  **Possible**   |  **It returns its integer value with decimal point if the value is base-10** |
 | **str without (base-10) to float**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## complex typecasting :
+## complex typecasting:
 ### complex():
 - complex() function is used **to convert other datatypes to complex type value.**
 
@@ -314,7 +314,7 @@
 | **str with (base-10) to complex in 2<sup>nd</sup> argument**  |  **Not Possible**   |  **Only first argument of the complex function can be passed with string if it is passed in second argument it throws Type error** <br> **complex('str variable','str variable') - type error** </br>|
 | **str without (base-10) to complex**  |  **Not Possible**   |  **It throws type error if the value is not base-10** |
 
-## boolean typecasting :
+## boolean typecasting:
 ### bool():
 
 - bool() function is used **to convert other datatypes to bool type value.**
@@ -398,7 +398,7 @@
 | **str to bool**  |  **Possible**   |  **It returns "True if the string is non-empty";return "False if it is empty-string"**|
 
 
-## string typecasting :
+## string typecasting:
 
 ### str():
 
