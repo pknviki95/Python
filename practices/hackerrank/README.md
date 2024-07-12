@@ -112,6 +112,14 @@
             15
 #### output
             Weird
+#### Explanation:
+
+**combination of logical operators and relational:**
+
+- n%2==0 - if reminder value is zero it is even number - print "Weird"
+- n%2==0 and n>=2 and n<=5 - If n is even ;n greater than or equal to 2 and  n lesser than and equal to 5 - print "Not Weird"  
+- n%2==0 and n>=6 and n<=20 - If n is even ;n greater than or equal to 6 and  n lesser than and equal to 20 - print "Weird"
+- n%2==0 and n>20 If n is even ;n greater than 20 - print "Not Weird" 
 ## Program-05: [print_range.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/Introduction/print_range.py) - Print output based on the input with range() function:
     
     The included code stub will read an integer, , from STDIN.
@@ -135,6 +143,9 @@
             5
 #### output:
             12345
+#### Explanation:
+- range(1,n+1) ranges of number from1 to n+1
+- print(end='') will print the values in same line by default end=\n - newline in print() function.
 ## Program-06: [print_sqr_loop.py](https://github.com/pknviki95/Python/tree/main/practices/hackerrank/Introduction/print_sqr_loop.py) - Print square value output based on the input with range() function:
 
     The provided code stub reads and integer,n , from STDIN. For all non-negative integers i<n, print i**2 .
@@ -154,3 +165,6 @@
             0
             1
             4
+### Explanation:
+- Exponential operator in Arithmetic operation i**n is used to perform power values
+- i**2 performs square for a given range of number from 0-n
