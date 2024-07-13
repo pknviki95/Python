@@ -17,6 +17,14 @@
 
 - **Arithmetic operators are used to perform arithmetic operations such as addition,Subtraction,Multiplication,Division,Modulo,Floor division,Exponential**
 
+    - **Arithmetic addition (+)**
+    - **Arithmetic Subtraction(-)**
+    - **Arithmetic Multiplication(*)**
+    - **Arithmetic Division(/)**
+    - **Arithmetic Modulo(%)**
+    - **Arithmetic Floor division(//)**
+    - **Arithmetic Exponential(i<sup>\*\*n</sup>).** 
+
 ### [Arithmetic_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Arithmetic_operator.py) - Arithmetic operation for given values:
 
 ### Addition:
@@ -154,6 +162,11 @@
 ## Relational operator:
 
 - **Relational Operators in python helps to find the relation between values and return boolean result; some of the relational operations are greater than(>),greater than or equal to (>=), lesser than (<), less than or equal to(<=)**
+
+    - **Relational greater than(>)**
+    - **Relational greater than or equal to (>=)** 
+    - **Relational lesser than (<)**
+    - **Relational less than or equal to(<=)**
 
 ### [Relational_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Relational_operator.py) - Relational operations - greater than(>),greater than or equal to (>=), lesser than (<), less than or equal to(<=):
 
@@ -345,6 +358,9 @@
 ## Equality operator:
 
 - **Equality operators are used to validate if the given two values are equal to (==) and not equal to (!=)**
+    
+    - **Equality equal to (==)** 
+    - **Equality not equal to (!=)**
 
 ### [Equality_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Equality_operator.py) - Equality operations - equal to (==) and not equal to (!=):
 
@@ -439,6 +455,11 @@
 ## Logical operator:
 
 - **Logical operator is used to combine conditional statements using and,or,not**
+    
+    - **Logical and (and)**
+    - **Logical or (or)**
+    - **Logical not (not)**
+
 - **Incase of "and";If only every condition passed is satisfied then it return True ; If even one condition doesn't satisfy then it returns False**
 - **Incase of "or"; Even if any one condition passed it returns True; returns False if all the conditions failed**
 - **"not" return complement value of each other**
@@ -549,3 +570,282 @@
                 Non-boolean or 1st argument False returns 2nd argument value:  viki
 
 ## Bitwise operator:
+
+- **Bitwise operators are used to compare (binary) numbers**
+    - **Bitwise and (&)** 
+    - **Bitwise or (|)** 
+    - **Bitwise x-or (^)** 
+    - **Bitwise complement (~)** 
+    - **Bitwise left shift (<<)** 
+    - **Bitwise Right shift (>>)** 
+
+- **Bitwise operators are applicable only for "int" and "bool" datatype**
+- **If other datatypes are performed with Bitwise operation it returns type error.**
+
+### [Bitwise_typeerror.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Bitwise_typeerror.py) - Bitwise operations throws error is used other than "int"/"bool" type - Type error
+
+                str_input_1='viki'
+                str_input_2='guru'
+
+                # Bitwise & operations throws error - Type error
+
+                print("Bitwise operation for string values: ",str_input_1&str_input_2)
+#### error:
+                Traceback (most recent call last):
+                File "/home/pknviki95/Learning/Python/concepts/operators/scripts/Bitwise_typeerror.py", line 12, in <module>
+                    print("Bitwise operation for string values: ",str_input_1&str_input_2)
+                TypeError: unsupported operand type(s) for &: 'str' and 'str'
+
+### [Bitwise_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Bitwise_operator.py) - Bitwise operator - &, |, ^, ~,<<, >> :
+
+### Bitwise and (&):
+
+- **Returns "1" if both values are "bitwise 1"**
+- **Returns "0" if anyone values are "bitwise 0"** 
+
+                x=10
+                y=40
+
+                # Both 1/True return 1
+                # If any one 0 return 0
+
+                print("Bitwise and (&) for x and y: ",x&y)
+
+#### Explanation:
+
+| Integer/Bitwise | 32 |16|8|4|2|1|
+|----- |:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 |  0|0|1|0|1|0|
+| 40 | 1 |0|1|0|0|0|
+| Bitwise (&) | 0|0|1|0|0|0|
+| Final value (+)|0|0|8|0|0|0|
+
+#### output:
+                Bitwise and (&) for x and y:  8
+
+
+### Bitwise or (|):
+
+- **Returns "1" even if one value is "bitwise 1"**
+- **Returns "0" if both values are "bitwise 0"** 
+
+                x=10
+                y=40
+
+                # Both 1/True return 1
+                # If at least 1 return 1
+                # If Both zero returns 0
+
+                print("Bitwise or (|) for x or y: ",x|y)
+
+#### Explanation:
+
+| Integer/Bitwise| 32 |16|8|4|2|1|
+|----- |:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 |  0|0|1|0|1|0|
+| 40 | 1 |0|1|0|0|0|
+| Bitwise or  | 1|0|1|0|1|0|
+| Final value (+)|32|0|8|0|2|0 |
+
+#### output:
+                Bitwise or (|) for x or y:  42
+
+### Bitwise x-or (^):
+
+- **Returns "1" if both values are "different"**
+- **Returns "0" if anyone values are "same"** 
+              
+                x=10
+                y=40
+
+                # Both different return 1
+                # If both same returns 0
+
+                print("Bitwise x-or (^) for x x-or y: ",x^y)
+
+#### Explanation:
+
+| Integer/Bitwise| 32 |16|8|4|2|1|
+|----- |:---:|:---:|:---:|:---:|:---:|:---:|
+| 10 |  0|0|1|0|1|0|
+| 40 | 1 |0|1|0|0|0|
+| Bitwise ^  | 1|0|0|0|1|0|
+| Final value (+)|32|0|0|0|2|0 |
+
+#### output:
+                Bitwise x-or (^) for x x-or y:  34
+
+### Bitwise complement(~):
+
+- **Bitwise complement performs specific mathematical complement operations.**
+- **By default Python has 32-bit values**
+- **The Most significant bits acts as "sign bit"** 
+- **MSB values are always used to determine the positive or negative value**
+                
+                0 - It is Positive
+                1 - It is Negative
+
+- Positive numbers are directly added to the memory
+- Negative numbers are represented in 2'<sup>s</sup> complement.
+
+### Positive value complement:
+
+
+                z=4
+
+                print("Bitwise complement (~) for positive ~z: ",~z)
+
+#### output:
+                Bitwise complement (~) for positive ~z:  -5
+
+#### Flow of 2'<sup>s</sup>  complement for positive value calculation explanation:
+
+
+- Step-1 : **Initial value with 32-bit:**
+    - MSB (0 - if Initial value is Positive )
+    - other 31-bit based on Initial value
+- Step-2 : **(~) complement value:**
+    - Converting all values to complement values of initial bit value ( 0 to 1 ; 1 to 0)  
+- Step-3 : **1's complement on 31-bits:**
+    - 1'<sup>s</sup> complement is converting the 31-bit complement values with its complement values (i.e) ( 0 to 1 ; 1 to 0) on 31-bit
+
+            1's complement = 0 to 1 ; 1 to 0 on 31-bit
+
+    - MSB value remains same as complement value.   
+- Step-4 : **2's complement on 1's complement 31-bits value:**
+    - 2'<sup>s</sup> complement is adding 1 to 1'<sup>s</sup> complement 
+
+            2's complement = 1's complement + 1
+
+- Step-5 : **Final value MSB+2'<sup>s</sup> complement 31-bit:**
+    - Based on MSB
+
+                0 - It is Positive
+                1 - It is Negative
+    -  2'<sup>s</sup> complement 31-bit value
+
+| Values | MSB          | 31-bit |
+| :--- |:---|:---|
+|   4           | 0 | 000 0000 0000 0000 0000 0000 0000 0100|
+|~ 4 (complement)|1|111 1111 1111 1111 1111 1111 1111 1011|
+|**1'<sup>s</sup> complement** on 31-bit values of complement |1| 000 0000 0000 0000 0000 0000 0000 0100|
+|**(2'<sup>s</sup> complement = 1'<sup>s</sup> complement + 1)**  on 31- bit values|1|**2'<sup>s</sup> complement** = **1'<sup>s</sup> complement**  + 1 <br><br>   000 0000 0000 0000 0000 0000 0000 0101|
+|**Final value**|-| 5|
+
+### Negative value complement:
+
+                z=-11
+
+                print("Bitwise complement (~) for Negative ~z: ",~z)
+#### output:
+            Bitwise complement (~) for Negative ~z:  10
+
+#### Flow of 2'<sup>s</sup>  complement for Negative value calculation explanation:
+
+- Step-1 : **Initial value with 32-bit:**
+    - MSB ( 1 - if Initial value is Negative)
+    - other 31-bit based on Initial value
+- Step-2: **Covert 31-bit values to 2'<sup>s</sup> complement value:**
+    - 1'<sup>s</sup> complement is converting the 31-bit complement values with its complement values (i.e) ( 0 to 1 ; 1 to 0) on 31-bit
+
+            1's complement = 0 to 1 ; 1 to 0 on 31-bit
+    - 2'<sup>s</sup> complement is adding 1 to 1'<sup>s</sup> complement 
+
+            2's complement = 1's complement + 1
+- Step-3 : **(~) complement value of above converted negative values:**
+    - Converting all values to complement values of 2'<sup>s</sup> complement obtained from above ( 0 to 1 ; 1 to 0)
+
+        1's complement = 0 to 1 ; 1 to 0 on 31-bit
+
+- Step-4 : **Final value of 32-bit complement value:**
+    - Based on MSB
+
+                0 - It is Positive
+                1 - It is Negative
+    -  31-bit value is taken as it is as it is positive MSB value.
+    - 2<sup>n</sup> * bit value (i.e) (2<sup>8</sup>x1)+(2<sup>1</sup>x1) = 10**
+
+| Values | MSB          | 31-bit |
+| :--- |:---|:---|
+|  - 11           | 1 | 000 0000 0000 0000 0000 0000 0000 1011|
+|**1'<sup>s</sup> complement** on 31-bit values of value |1| 111 1111 1111 1111 1111 1111 1111 0100|
+|**(2'<sup>s</sup> complement = 1'<sup>s</sup> complement + 1)**  on 31- bit values|1|**2'<sup>s</sup> complement** = **1'<sup>s</sup> complement**  + 1 <br><br>   111 1111 1111 1111 1111 1111 1111 0101|
+|~ -11 (complement)|0|000 0000 0000 0000 0000 0000 0000 1010|
+|**Final value**|+| 10|
+ 
+### Bitwise left shift(<<):
+- **Shift of bit values to the left.**
+- **The values would be Multiple of 2<sup>n</sup> (i.e) n - shift range**
+- **Left shift is filled with "0" bits in missing position**
+### Positive value:
+
+                z=24
+                # shift left by 2 bits
+                print("Bitwise leftshift (<<) for Positive z: ",z<<2)
+#### output:
+                Bitwise leftshift (<<) for Positive z:  96
+
+| Values | MSB          | value bits |
+| :--- |:---|:---|
+|  24           | 0 | 11000 |
+|**Bit wise left shift (<<)**|0|11000 00|
+|**Final value**|+| (2<sup>6</sup>x1)+(2<sup>5</sup>x1)<br>=  96|
+
+#### :100: Left shift : multiple of valuex2<sup>n</sup> (i.e) 24x2<sup>2</sup> = 24*4 = 96** 
+
+### Negative value:
+
+                z=-24
+                # shift left by 2 bits
+                print("Bitwise leftshift (<<) for Negative z: ",z<<2)
+#### output:
+                Bitwise leftshift (<<) for Negative z:  -96
+
+| Values | MSB          | value bits |
+| :--- |:---|:---|
+|  - 24           | 1 | 11000 |
+|**1'<sup>s</sup> complement** on value bits of value |1| 00111|
+|**(2'<sup>s</sup> complement = 1'<sup>s</sup> complement + 1)**  on value bits|1|**2'<sup>s</sup> complement** = **1'<sup>s</sup> complement**  + 1 <br><br>   01000|
+|**Bit wise Left shift (<<)**|1|01000 00|
+|**Final value**|-| (2<sup>7</sup>x1)+(2<sup>5</sup>x1)<br>= -96|
+
+### Bitwise right shift(>>):
+
+- **Shift of bit values to the right.**
+- **The values would be divisible of 2<sup>n</sup> (i.e) n - shift range**
+- **Right shift is filled with "sign bit" in missing position**
+
+### Positive value:
+
+                z=24
+                # shift right by 2 bits
+                print("Bitwise rightshift (>>) for Positive z: ",z>>2)
+
+#### output:
+                Bitwise rightshift (>>) for Positive z:  6
+
+| Values | MSB          | value bits |
+| :--- |:---|:---|
+|  24           | 0 | 11000 |
+|**Bit wise right shift (>>)**|0|110|
+|**Final value**|+| (2<sup>2</sup>x1)+(2<sup>1</sup>x1)<br>=  6|
+
+#### :100: Right shift : divisible of value/2<sup>n</sup> (i.e) 24/2<sup>2</sup> = 24/4 = 6** 
+
+### Negative value:
+
+                z=-24
+                # shift right by 2 bits
+                print("Bitwise rightshift (>>) for Negative z: ",z>>2)
+
+#### output:
+
+                Bitwise rightshift (>>) for Negative z:  -6
+
+| Values | MSB          | value bits |
+| :--- |:---|:---|
+|  - 24           | 1 | 11000 |
+|**1'<sup>s</sup> complement** on value bits of value |1| 00111|
+|**(2'<sup>s</sup> complement = 1'<sup>s</sup> complement + 1)**  on value bits|1|**2'<sup>s</sup> complement** = **1'<sup>s</sup> complement**  + 1 <br><br>   01000|
+|**Bit wise right shift (>>)**|1|010|
+|**Final value**|-| (2<sup>3</sup>x1)+(2<sup>1</sup>x1)<br>= - 6|
