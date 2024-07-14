@@ -51,6 +51,7 @@
     - [Bitwise operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Bitwise-operator)
     - [Assignment operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Assignment-operator)
     - [Ternary operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Ternary-operator)
+    - [Identity operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Identity-operator)
     - [Membership operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Membership-operator)
     - [operator precedence](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#operator-precedence)
 
@@ -59,7 +60,8 @@
 6. **Flow controls:**
 7. **Python Functions:**
 8. **Python Modules:**
-    
+    - [Modules](https://github.com/pknviki95/Python/tree/main/concepts/Modules/README.md#Modules)
+    - [Various ways of declaring modules](https://github.com/pknviki95/Python/tree/main/concepts/Modules/README.md#Various-ways-of-declaring-modules)
     - [keyword module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/keyword/README.md#Keyword()---Keyword-module)
     - [math module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/math/README.md#math()---Math-module)
     - [os module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/os/README.md#os()---OS-module)
