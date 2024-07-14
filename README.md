@@ -32,6 +32,7 @@
     - [Differences between Datatypes based on its characteristics](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/README.md#Differences-between-Datatypes-based-on-its-characteristics)
 
 3. **Typecasting:**
+
     - [Types of type casting function](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/README.md#Types-of-type-casting-function)
     - [integer typecasting](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/README.md#integer-typecasting)
     - [float typecasting](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/README.md#float-typecasting)
@@ -40,17 +41,28 @@
     - [string typecasting](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting#string-typecasting)
     - [Summary of Typecasting](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/README.md#Summary-of-Typecasting)
 
-4. **operators**:
+4. **operators:**
+
     - [Types of operators](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Types-of-operators)
     - [Arithmetic operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Arithmetic-operator)
     - [Relational operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Relational-operator)
     - [Equality operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Equality-operator)
     - [Logical operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Logical-operator)
     - [Bitwise operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Bitwise-operator)
+    - [Assignment operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Assignment-operator)
+    - [Ternary operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Ternary-operator)
+    - [Membership operator](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Membership-operator)
+    - [operator precedence](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#operator-precedence)
 
-Modules
-    - keyword module
-        - objects of keyword Module
-            - keyword.kwlist
-            - keyword.iskeyword(parameter)
+5. **Input and output statements:**
+
+6. **Flow controls:**
+7. **Python Functions:**
+8. **Python Modules:**
+    
+    - [keyword module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/keyword/README.md#Keyword()---Keyword-module)
+    - [math module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/math/README.md#math()---Math-module)
+    - [os module](https://github.com/pknviki95/Python/tree/main/concepts/Modules/os/README.md#os()---OS-module)
+
+
 

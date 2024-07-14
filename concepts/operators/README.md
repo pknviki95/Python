@@ -11,6 +11,10 @@
     - **Equality operator**
     - **Logical operator**
     - **Bitwise operator**
+    - **Assignment operator**
+    - **Ternary operator**
+    - **Identity operator**
+    - **Membership operator**
 
             
 ## Arithmetic operator:
@@ -849,3 +853,476 @@
 |**(2'<sup>s</sup> complement = 1'<sup>s</sup> complement + 1)**  on value bits|1|**2'<sup>s</sup> complement** = **1'<sup>s</sup> complement**  + 1 <br><br>   01000|
 |**Bit wise right shift (>>)**|1|010|
 |**Final value**|-| (2<sup>3</sup>x1)+(2<sup>1</sup>x1)<br>= - 6|
+
+## Assignment operator:
+
+- **Performs operation to assign values to left object/operand.**
+- **combination of Assign operator with other operator**
+    
+    - **Assign operator (=)**
+
+- **Assign with Arithmetic operation:** 
+    - **Add and Assign operator (+=)**
+    - **Subtract and Assign operator (-=)**
+    - **Multiply and Assign operator (*=)**
+    - **Division and Assign operator (/=)**
+    - **Floordivision and Assign operator (//=)**
+    - **Modulo and Assign operator (%=)**
+    - **Exponential and Assign operator (\*\*=)**
+- **Assign with Bitwise operation:**
+    - **Bitwise and (&) and Assign operator (&=)**
+    - **Bitwise or (|) and Assign operator (|=)**
+    - **Bitwise x-or (^) and Assign operator (^=)**
+    - **Bitwise leftshift (<<) and Assign operator (<<=)**
+    - **Bitwise rightshift (>>) and Assign operator (>>=)**
+
+### [Assignment_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Assignment_operator.py) - Assignment operator - &=, |=, ^=,<<=, >>= :
+
+### Assign operator (=):
+
+                x=20   #left operand = value
+                y=10
+
+                print("Assignment operator(=): ",(x,y))
+#### output:
+                Assignment operator(=):  (20, 10)
+
+### Assign with Arithmetic operation:
+
+### Add and Assign operator (+=):
+
+                x=20   #left operand = value
+                y=10
+
+                x+=y   # equivalent to x=x+y
+
+                print("Add and Assign operator (+=) of x : ",x)
+#### output:
+                Add and Assign operator (+=) of x :  30
+
+### Subtract and Assign operator (-=):
+
+                x=20   #left operand = value
+                y=10
+                
+                x-=y   # equivalent to x=x-y
+
+                print("Subtract and Assign operator (-=): of x : ",x)
+#### output:
+                Subtract and Assign operator (-=): of x :  10
+
+
+### Multiply and Assign operator (*=):
+
+                x=20   #left operand = value
+                y=10
+
+                x*=y   # equivalent to x=x*y
+
+                print("Multiply and Assign operator (*=) of x : ",x)
+#### output:
+                Multiply and Assign operator (*=) of x :  200
+
+### Division and Assign operator (/=):
+               
+                x=20   #left operand = value
+                y=10
+                
+                x/=y   # equivalent to x=x/y
+
+                print("Division and Assign operator (/=) of x : ",x)
+#### output:
+                Division and Assign operator (/=) of x :  2.0
+
+### Floordivision and Assign operator (//=):
+               
+                x=20   #left operand = value
+                y=10
+              
+                x//=y   # equivalent to x=x//y
+
+                print("Floordivision and Assign operator (//=) of x : ",x)
+#### output:
+                Floordivision and Assign operator (//=) of x :  2
+
+### Exponential and Assign operator (**=):
+                
+                x=20   #left operand = value
+                y=10
+
+                x**=y   # equivalent to x=x**y
+
+                print("Exponential and Assign operator (**=) of x : ",x)
+#### output:
+                Exponential and Assign operator (**=) of x :  10240000000000
+
+### Modulo and Assign operator (%=):
+                
+                x=20   #left operand = value
+                y=10
+
+                x%=y   # equivalent to x=x%y
+
+                print("Modulo and Assign operator (%=) x : ",x)
+#### output:
+                Modulo and Assign operator (%=) x :  0
+
+### Assign with Bitwise operation:
+
+### Bitwise and (&) and Assign operator (&=):
+
+                x=20
+                y=10
+
+                x&=y   # equivalent to x=x&y
+
+                print("Bitwise and (&) and Assign operator (&=) x : ",x)
+#### output:
+                Bitwise and (&) and Assign operator (&=) x :  0
+
+### Bitwise or (|) and Assign operator (|=)
+
+                x=20
+                y=10
+
+                x|=y   # equivalent to x=x|y
+
+                print("Bitwise or (|) and Assign operator (|=) x : ",x)
+#### output:
+                Bitwise or (|) and Assign operator (|=) x :  30
+
+### Bitwise x-or (^) and Assign operator (^=)
+
+                x=20
+                y=10
+
+                x^=y   # equivalent to x=x^y
+
+                print("Bitwise x-or (^) and Assign operator (^=) x : ",x)
+#### output:
+                Bitwise x-or (^) and Assign operator (^=) x :  30
+
+### Bitwise leftshift (<<) and Assign operator (<<=)
+                x=20
+                y=10
+
+                x<<=y   # equivalent to x=x<<y
+
+                print("Bitwise leftshift (<<) and Assign operator (<<=) x : ",x)
+#### output:
+                Bitwise leftshift (<<) and Assign operator (<<=) x :  20480
+
+### Bitwise rightshift (>>) and Assign operator (>>=):
+                x=20
+                y=10
+                
+                x>>=y   # equivalent to x=x>>y
+
+                print("Bitwise rightshift (>>) and Assign operator (>>=) x : ",x)
+#### output:
+                Bitwise rightshift (>>) and Assign operator (>>=) x :  0
+
+## Ternary operator:
+
+- Python supports ternary operator as it supports operation of three operands.
+
+### Syntax:
+            [True value] if [condition] else [false value]
+
+### [Ternary_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Ternary_operator.py) - Ternary operator characteristics :
+                a=10
+                b=20
+
+                # [True value] if [condition] else [false value]
+
+                c=50 if a==b else 40
+
+                print("Ternary operator value of c: ",c)
+#### output:
+                Ternary operator value of c:  40
+
+### Nesting of ternary operator:
+
+- **Nested ternary operator can be performed for multiple operands scenario.**
+
+### Syntax:
+            [True value] if [condition] else [True value] if [condition] else [false value]
+
+### [ternary_nested_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/ternary_nested_operator.py) -Nested ternary operator with multiple operands scenario:
+
+                a=30
+                b=20
+                c=60
+
+                # [True value] if [condition] else [True value] if [condition] else [false value]
+
+                final=a if a<b and a<c else b if b<a and b<c else c
+
+                print("Ternary operator value of final: ",final)
+#### output:
+                Ternary operator value of final:  20
+
+## Identity operator:
+
+- **Identity operators returns boolean values by verifying the identity values of objects.**
+
+    - **Identity operator is**
+    - **Identity operator isnot**
+- **The Identity operator is applicable only if you want to compare address/reference values**
+
+### [Identity_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Identity_operator.py) -Identity operator - is, isnot :
+
+### Identity operator is:
+
+- **Returns "True" if both identity values point to the same objects; else it returns "False".** 
+
+### Identity operator is:
+
+### is same identity - Returns True:
+
+                x=10
+                y=10
+
+                print(f"identity of x= {id(x)}")
+                print(f"identity of y= {id(y)}")
+
+                # Is same identity - Returns True
+
+                print("x is y",x is y)
+#### output:
+                identity of x= 130218328064528
+                identity of y= 130218328064528
+                x is y True
+### is Different identity - Returns False
+                x=10
+                y=20
+
+                print(f"identity of x= {id(x)}")
+                print(f"identity of y= {id(y)}")
+
+                # Is Different identity - Returns True
+
+                print("x is y",x is y)
+#### output:
+                identity of x= 130218328064528
+                identity of y= 130218328064848
+                x is y False
+
+### Identity operator isnot:
+
+- **Returns "True" if both identity values doesn't point to the same objects; else it returns "False".** 
+
+### isnot same identity - Returns False
+
+                x=10
+                y=10
+
+                print(f"identity of x= {id(x)}")
+                print(f"identity of y= {id(y)}")
+
+                # isnot same identity - Returns False
+
+                print("x is y",x is y)
+#### output:
+                identity of x= 136481443152400
+                identity of y= 136481443152400
+                x is y True
+
+### isnot same identity - Returns False
+
+                x=10
+                y=20
+
+                print(f"identity of x= {id(x)}")
+                print(f"identity of y= {id(y)}")
+
+                # isnot Different identity - Returns True
+
+                print("x is y",x is y)
+#### output:
+                identity of x= 136481443152400
+                identity of y= 136481443152720
+                x is y False
+
+## Membership operator:
+
+- **Membership operator returns the boolean values of members/elements in sequence objects.**
+    
+    - **Membership operator in**
+    - **Membership operator not in**
+
+### [Membership_operator.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Membership_operator.py) - Membership operator - in, notin :
+
+### Membership operator in:
+
+- **Returns "True" if member/element present in sequence objects; else it returns "False".** 
+
+### String Sequence:
+
+                str_sequence="I am Vignesh"
+
+                print(" member present in str_sequence: ",'V' in str_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present in str_sequence: ",'v' in str_sequence)
+#### output:
+                member present in str_sequence:  True
+                member present in str_sequence:  False
+
+### List Sequence:
+
+                list_sequence=[1,2,5,'viki',2.5]
+
+                print(" member present in list_sequence: ",1 in list_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present in list_sequence: ",'Viki' in list_sequence)
+#### output:
+                member present in list_sequence:  True
+                member present in list_sequence:  False
+
+### Tuple Sequence:
+
+                tuple_sequence=(1,2,5,'viki',2.5)
+
+                print(" member present in tuple_sequence: ",8 in tuple_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present in tuple_sequence: ",'viki' in tuple_sequence)
+#### output:
+                member present in tuple_sequence:  False
+                member present in tuple_sequence:  True
+
+### Set Sequence:
+
+                Set_sequence={1,2,5,'viki',2.5}
+
+                print(" member present in Set_sequence: ",8 in Set_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present in Set_sequence: ",'Viki' in Set_sequence)
+#### output:
+                member present in Set_sequence:  False
+                member present in Set_sequence:  False
+
+### Dictionary Sequence:
+
+                dict_sequence={1:2,5:'viki',7:2.5}
+
+                print(" member present in dict_sequence: ",1 in dict_sequence)
+
+                # Python is case-sensitive so it return false
+                # By default in looks for key values in dictionary
+                print(" member present in dict_sequence: ",'viki' in dict_sequence)
+#### output:
+                member present in dict_sequence:  True
+                member present in dict_sequence:  False
+
+### Membership operator not in:
+
+- **Returns "True" if member/element not present in sequence objects; else it returns "False".** 
+
+### String Sequence:
+
+                str_sequence="I am Vignesh"
+
+                print(" member present not in str_sequence: ",'V' not in str_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present not in str_sequence: ",'v' not in str_sequence)
+#### output:
+                member present not in str_sequence:  False
+                member present not in str_sequence:  True
+
+### List Sequence:
+
+                list_sequence=[1,2,5,'viki',2.5]
+
+                print(" member present not in list_sequence: ",1 not in list_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present not in list_sequence: ",'Viki' not in list_sequence)
+#### output:
+                member present not in list_sequence:  False
+                member present not in list_sequence:  True
+
+### Tuple Sequence:
+
+                tuple_sequence=(1,2,5,'viki',2.5)
+
+                print(" member present not in tuple_sequence: ",8 not in tuple_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present not in tuple_sequence: ",'viki' not in tuple_sequence)
+#### output:
+                member present not in tuple_sequence:  True
+                member present not in tuple_sequence:  False
+
+### Set Sequence:
+
+                Set_sequence={1,2,5,'viki',2.5}
+
+                print(" member present not in Set_sequence: ",8 not in Set_sequence)
+
+                # Python is case-sensitive so it return false
+
+                print(" member present not in Set_sequence: ",'Viki' not in Set_sequence)
+#### output:
+                member present not in Set_sequence:  True
+                member present not in Set_sequence:  True
+
+### Dictionary Sequence:
+
+                dict_sequence={1:2,5:'viki',7:2.5}
+
+                print(" member present not in dict_sequence: ",1 not in dict_sequence)
+
+                # Python is case-sensitive so it return false
+                # By default in looks for key values in dictionary
+                print(" member present not in dict_sequence: ",'viki' not in dict_sequence)
+#### output:
+                member present not in dict_sequence:  False
+                member present not in dict_sequence:  True
+
+## operator precedence:
+
+- **Operator precedence describes the order in which operations are performed**
+
+|Operator| Precedence order|
+|:---|:---|
+|( ) |Parenthesis  |
+|**  |Exponentiation (raise to the power) |
+|~  +  -  |Complement, unary plus and minus (method names for the last two are +@ and -@) |
+|* / % //  |Multiply, divide, modulo and floor division |
+|+ -  |Addition and subtraction |
+|>> <<  |Right and left bitwise shift |
+|&  |Bitwise 'AND' |
+|^ \|  |Bitwise exclusive 'OR' and regular 'OR' |
+|<= < > >=  |Comparison operators |
+|== !=  |Equality operators |
+|= %= /= //= -= += *= **=  |Assignment operators |
+|is isnot  |Identity operators |
+|in not in  |Membership operators |
+|not or and  |Logical operators |
+
+### [operator_precedence.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/operator_precedence.py) - operator precedence order:
+
+                x=3/2*4+3+(10/5)**3-2
+                print(x)
+#### output:
+                15.0
+
+#### Precedence order for above :
+
+                1. (10/5) =2 - parenthesis 
+                2. 2**3 = 8 - Exponential
+                3. 3/2 = 1.5 - Division
+                4. 1.5*4 = 6.0 - Multiplication 
+                5. 6+3+8-2 = 15.0- Addition and subtraction
