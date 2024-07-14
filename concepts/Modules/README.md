@@ -9,18 +9,20 @@
 #### Syntax:
 
 #### To import module:
-
+```python
                 import [module name]
-
+```
 #### To import functions from module:
-
+```python
                 import [module name]
                 [module.name].[function name]
-
+```
 ###  To import variable declared from module:       
 
+```python
                 import [module name]
                 [module.name].[variable name]
+```
 
 ### Example for Module with Explanation:
 
@@ -29,81 +31,99 @@
 
 ### [module_dmath.py](https://github.com/pknviki95/Python/tree/main/concepts/Modules/scripts/module_dmath.py) - File declared with functions and variable to use as module in other main program:
 
-                # Function to add two values
+```python
+# Function to add two values
 
-                def add_fn(a,b):
-                    return a+b
+def add_fn(a,b):
+    return a+b
 
-                # Function to Subtract two values
+# Function to Subtract two values
 
-                def diff_fn(a,b):
-                    return a-b
+def diff_fn(a,b):
+    return a-b
 
-                # string variable
+# string variable
 
-                string='viki'
+string='viki'
+```
 
 ### [module_main.py](https://github.com/pknviki95/Python/tree/main/concepts/Modules/scripts/module_main.py) - To Import modules declared and call its functions and variables inside other python file :
 
-                #### To import module:
+```python
+#### To import module:
 
-                import module_dmath
+import module_dmath
 
-                #### To import functions from module:
+#### To import functions from module:
 
-                # [module.name].[function name]
+# [module.name].[function name]
 
-                sum_value=module_dmath.add_fn(1,2)
-                print("module_dmath.add_fn(): ",sum_value)
+sum_value=module_dmath.add_fn(1,2)
+print("module_dmath.add_fn(): ",sum_value)
 
-                diff_value=module_dmath.diff_fn(3,2)
-                print("module_dmath.diff_fn(): ",diff_value)
+diff_value=module_dmath.diff_fn(3,2)
+print("module_dmath.diff_fn(): ",diff_value)
 
-                # [module.name].[variable name]
-                print("module_dmath.variable: ",module_dmath.string)
+# [module.name].[variable name]
+print("module_dmath.variable: ",module_dmath.string)
+```
 
 #### output:
-
-                module_dmath.add_fn():  3
-                module_dmath.diff_fn():  1
-                module_dmath.variable:  viki
-
+```
+module_dmath.add_fn():  3
+module_dmath.diff_fn():  1
+module_dmath.variable:  viki
+```
 ## Various ways of declaring modules:
 
 |S.no|Declaration Types| Description|
 |:--|:--| :--|
-|1.|**import [module name]<br><br># module function/variable call <br><br>[module name].[function/variable name]**|  **- It imports module t the program <br> - To access the individual functions or variable we need to use below syntax <br> [module name].[function/variable name]**|
-|2.|**from [module name] import [function/variable]<br><br># module function/variable call <br><br>[function/variable name]** |**- It imports specific function/variable declared in module using "from" keyword <br> - To access this functions and variable using below syntax <br><br> [function/variable name] <br><br> - PVM directly access specific function or variable inside that module <br> - No need of declaring <br> [module name].[function/variable name]** |
-|3.|**from [module name] import \*<br><br># module function/variable call <br><br>[function/variable name]** |**- It imports all function/variable declared in module using "from" keyword <br> - To access this functions and variable using below syntax <br><br> [function/variable name] <br><br> - PVM directly access function or variable inside that module <br> - No need of declaring <br> [module name].[function/variable name]** |
+|1.|**```import [module name]```<br><br># module function/variable call <br><br>```[module name].[function/variable name]```**|  **- It imports module t the program <br> - To access the individual functions or variable we need to use below syntax <br> [module name].[function/variable name]**|
+|2.|**```from [module name] import [function/variable]```<br><br># module function/variable call <br><br>```[function/variable name]```** |**- It imports specific function/variable declared in module using "from" keyword <br> - To access this functions and variable using below syntax <br><br> [function/variable name] <br><br> - PVM directly access specific function or variable inside that module <br> - No need of declaring <br> [module name].[function/variable name]** |
+|3.|**```from [module name] import *```<br><br># module function/variable call <br><br>```[function/variable name]```** |**- It imports all function/variable declared in module using "from" keyword <br> - To access this functions and variable using below syntax <br><br> [function/variable name] <br><br> - PVM directly access function or variable inside that module <br> - No need of declaring <br> [module name].[function/variable name]** |
 
 ### [module_import_nameerror.py](https://github.com/pknviki95/Python/tree/main/concepts/Modules/scripts/module_import_nameerror.py) - importing of specific function and variable and using function/variable not imported causes error - Name error:
 
-                # importing only add_fn from module_dmath module
+```python
+# importing only add_fn from module_dmath module
 
-                from module_dmath import add_fn
+from module_dmath import add_fn
 
-                # using function that is imported returns value
+# using function that is imported returns value
 
-                sum_value=add_fn(3,2)
+sum_value=add_fn(3,2)
 
-                print("add_fn(): ",sum_value)
+print("add_fn(): ",sum_value)
 
-                # using function that is not imported throws - Name error
+# using function that is not imported throws - Name error
 
-                diff_value=diff_fn(3,2)
+diff_value=diff_fn(3,2)
 
-                print("diff_fn(): ",diff_value)
+print("diff_fn(): ",diff_value)
+```
+
 #### output:
-                add_fn():  5
+```
+    add_fn():  5         
+```
 
 #### error:
 
-                Traceback (most recent call last):
-                File "/home/pknviki95/Learning/Python/concepts/Modules/scripts/module_import_nameerror.py", line 17, in <module>
-                    diff_value=diff_fn(3,2)
-                NameError: name 'diff_fn' is not defined
+```python
+        Traceback (most recent call last):
+        File "/home/pknviki95/Learning/Python/concepts/Modules/scripts/module_import_nameerror.py", line 17, in <module>
+            diff_value=diff_fn(3,2)
+        NameError: name 'diff_fn' is not defined
+```
 #### Explanation:
 
 - **Importing specific function/variable declared in module using "from" keyword**
 - **function that is imported returns value**
 - **function that is not imported throws - Name error**
+
+## Various Built-in modules:
+
+| Built-In Modules | attributes | uses |
+| :---| :--- | :--- |
+| **Keyword Module**| ```keyword.kwlist``` | - **Lists the keyword list** |
+|                   | ```keyword.iskeyword(argument)``` | - **checks is the argument passed is keyword or not** | 
