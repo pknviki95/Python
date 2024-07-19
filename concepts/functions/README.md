@@ -1,3 +1,5 @@
+# Functions:
+
 ## Built-in Functions:
 
 ### dir():

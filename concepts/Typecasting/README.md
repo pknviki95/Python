@@ -1,9 +1,9 @@
-# Type casting
+# Type casting:
 
 - The process of converting one datatype value to other is called Type casting.
 - It is also called type coercion.
 
-## Types of type casting function:
+### Types of type casting function:
 - **integer typecasting**
 - **float typecasting**
 - **complex typecasting**
@@ -27,7 +27,7 @@
 
 - float value can be converted to integer value; it neglects the decimal value and return the int value present before decimal point.
 
-### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert float datatypes to integer value using int():
+#### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert float datatypes to integer value using int():
 
 ```python
 float_value=10.998
@@ -44,7 +44,7 @@ float converted to int: 10
 
 - complex value cannot be converted to integer value as it has imaginary part to it so it throws type error.
 
-### [typecast_int_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecast_int_complex_error.py) - To convert complex datatypes to integer value using int()- Type error:
+#### [typecast_int_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecast_int_complex_error.py) - To convert complex datatypes to integer value using int()- Type error:
 
 ```python
 complex_value=10+20j
@@ -66,7 +66,7 @@ TypeError: int() argument must be a string, a bytes-like object or a real number
 
 - Boolean value can be converted to integer value; it returns its equivalent integer value (i.e) True=1 and False=0
 
-### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert Boolean datatypes to integer value using int():
+#### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert Boolean datatypes to integer value using int():
             
 ```python
 boolean_value=True
@@ -83,7 +83,7 @@ Boolean converted to int: 1
 
 - String value can be converted to integer value; but the value should be integral and base-10 defined.
 
-### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert string datatypes to integer value using int() with base-10 :
+#### [typecasting_int.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecasting_int.py) - To convert string datatypes to integer value using int() with base-10 :
 
 ```python
 string_value='15'
@@ -99,7 +99,7 @@ String converted to int: 15
 - If the basic rule as above if any string is not defined in integral with base-10 it will throw value error
 - (i.e) value should be decimal values ; oct,bin,hex,float values are not possible to typecast
 
-### [typecast_diffbase_str_int_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecast_diffbase_str_int_error.py) - To convert string datatypes to integer value using int() without base-10 - Value error:
+#### [typecast_diffbase_str_int_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/int/typecast_diffbase_str_int_error.py) - To convert string datatypes to integer value using int() without base-10 - Value error:
 
 ```python
 string_value='0B111'
@@ -140,7 +140,7 @@ ValueError: invalid literal for int() with base 10: '0B111'
 
 - Integer value can be converted to float value; it includes the decimal value and return the float value with decimal point.
 
-### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert integer datatypes to float value using float():
+#### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert integer datatypes to float value using float():
 
 ```python
 integer_value=10
@@ -157,7 +157,7 @@ integer converted to float: 10.0
 
 - complex value cannot be converted to float value as it has imaginary part to it so it throws type error.
 
-### [typecast_float_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecast_float_complex_error.py) - To convert complex datatypes to float value using float()- Type error:
+#### [typecast_float_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecast_float_complex_error.py) - To convert complex datatypes to float value using float()- Type error:
 
 ```python
 complex_value=10+20j
@@ -179,7 +179,7 @@ TypeError: float() argument must be a string or a real number, not 'complex'
 
 - Boolean value can be converted to float value; it returns its equivalent integer value with decimal point (i.e) ```True=1.0``` and ```False=0.0```.
 
-### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert Boolean datatypes to float value using float():
+#### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert Boolean datatypes to float value using float():
             
 ```python
 boolean_value=True
@@ -196,7 +196,7 @@ Boolean converted to float: 1.0
 
 - String value can be converted to float value; but the value should be integral and float with base-10 defined.
 
-### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert string datatypes to float value using float() with base-10 :
+#### [typecasting_float.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecasting_float.py) - To convert string datatypes to float value using float() with base-10 :
 
 ```python
 string_value='15'
@@ -212,7 +212,7 @@ String converted to float: 15.0
 - If the basic rule as above if any string is not defined in integral with base-10 it will throw value error
 - (i.e) value should be decimal/float values ; oct,bin,hex values are not possible to typecast
 
-### [typecast_diffbase_str_float_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecast_diffbase_str_float_error.py) - To convert string datatypes to float value using float() without base-10 - Value error:
+#### [typecast_diffbase_str_float_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/float/typecast_diffbase_str_float_error.py) - To convert string datatypes to float value using float() without base-10 - Value error:
 
 ```python
 string_value='0B111'
@@ -248,7 +248,7 @@ ValueError: could not convert string to float: '0B111'
 ```python
                 complex(real variable,imaginary variable)
 ```
-### [typecasting_complex.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecasting_complex.py) - To convert integer/float/bool/string datatypes to complex value using complex() for real and imaginary values:
+#### [typecasting_complex.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecasting_complex.py) - To convert integer/float/bool/string datatypes to complex value using complex() for real and imaginary values:
 
 #### Integer to complex value:
 
@@ -380,7 +380,7 @@ str converted to complex real value: (15+0j)
                 complex('real variable')  
 ```
 
-### [typecast_str_complex_arg_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_str_complex_arg_error.py) - To convert string datatypes to complex value using complex() for real value and imaginary value - Type error:
+#### [typecast_str_complex_arg_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_str_complex_arg_error.py) - To convert string datatypes to complex value using complex() for real value and imaginary value - Type error:
 
 ```python
 str_real_value='10.5'
@@ -402,7 +402,7 @@ TypeError: complex() can't take second arg if first is a string
 - If the basic rule as above if any string is not defined in integral with base-10 it will throw value error.
 - (i.e) value should be decimal/float values ; oct,bin,hex values are not possible to typecast.
 
-### [typecast_diffbase_str_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_diffbase_str_complex_error.py) - To convert string datatypes to complex value using complex() without base-10 - Value error:
+#### [typecast_diffbase_str_complex_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/complex/typecast_diffbase_str_complex_error.py) - To convert string datatypes to complex value using complex() without base-10 - Value error:
 
 ```python
 string_value='0B111'
@@ -441,7 +441,7 @@ ValueError: complex() arg is a malformed string
                 bool(variable)
 ```
 
-### [typecasting_bool.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/bool/typecasting_bool.py) - To convert integer/float/string/complex datatypes to boolean  value using bool():
+#### [typecasting_bool.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/bool/typecasting_bool.py) - To convert integer/float/string/complex datatypes to boolean  value using bool():
 
 #### Integer to bool value:
 
@@ -555,7 +555,7 @@ string empty value converted to boolean : False
                 str(variable)
 ```
 
-### [typecasting_str.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/str/typecasting_str.py) - To convert Integer/float,complex/boolean datatypes to string value using str():
+#### [typecasting_str.py](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/str/typecasting_str.py) - To convert Integer/float,complex/boolean datatypes to string value using str():
 
 #### Integer to string:
 
@@ -640,7 +640,7 @@ complex  value converted to string  : (123+0j)
 <details>
 <summary>Summary of Typecasting:</summary>
 
-## Summary of Typecasting:
+### Summary of Typecasting:
 
 | **Typecasting**  |  **int()** | **float()** | **bool()** | **complex()** |**str()** |
 | :---:   | :---: | :---: | :---:   | :---: | :---: |
