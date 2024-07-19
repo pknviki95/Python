@@ -24,7 +24,7 @@
 
 ### Various types of Numbers Datatypes:
 
-- Number datatype are classified based on type of value we use
+- Number datatype are classified based on type of value we use.
 
     - **Integer datatype**
     - **float datatype**
@@ -197,7 +197,7 @@ The octal form of bin_oct :  0o175316
 
 ## float datatypes - float():
 
-- Float, or "floating point number" is a number, positive or negative, containing one or more decimals
+- Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
 - Float can be represented with Exponential form/Scientific Notation with an "e" to indicate the power of 10.
             
 ```python
@@ -206,9 +206,9 @@ The octal form of bin_oct :  0o175316
         -4.e18  # Exponential form/Scientific Notation (i.e) -4 . * 10^18
 ```
 
-[!NOTE]
-- Float type variable always returns value with decimal point (i.e) ```5.0```
-- Float type doesn't support base conversion function it is applicable only for integer type
+#### NOTE:
+- Float type variable always returns value with decimal point. (i.e) ```5.0```
+- Float type doesn't support base conversion function it is applicable only for integer type.
 
 #### [float_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/float/scripts/float_type.py) - Program-1 : To find the float type variable using type() function:
 
@@ -246,7 +246,7 @@ The type of y is:  <class 'float'>
     complex_variable = real_variable+[imaginary_variable]j
 ```
 
-[!NOTE]
+#### NOTE:
 - imaginary part should always be ```j``` / ```J```; if used any other alphabet it throws error.
 
 #### [complex_img_j_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_img_j_error.py) - imaginary part should always be j/J if not it throws error - Syntax error:
@@ -401,7 +401,7 @@ SyntaxError: invalid binary literal
             False
 ```
                 
-[!NOTE]
+#### NOTE:
 - Always the declaration of boolean values should be ```True``` and ```False```
 - if declared as ```true``` and ```false``` it throws error in python.
 
@@ -470,7 +470,7 @@ Z value is: 1
 The type of x is:  <class 'bool'>
 ```
 
-[!NOTE]
+#### NOTE:
 
 - In mathematical expression by default.
 ```python            
@@ -1470,7 +1470,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
 
 ## Dictionary datatypes - dict():
 
-- The dict datatype is used to represent collection of elements in "{key:value}" pair.
+- The dict datatype is used to represent collection of elements in ```{key:value}``` pair.
 - The dictionary datatype is un-ordered collection of key value pair elements (i.e) Indexing and slicing is not possible
 - Dictionary is mutable (i.e) The value of dictionary can be edited or changed.
 
@@ -1921,7 +1921,7 @@ File "/home/pknviki95/Learning/Python/concepts/Datatypes/Bytes_datatypes/scripts
 TypeError: 'bytes' object does not support item assignment
 ```
 
-[!NOTE] 
+#### NOTE: 
 - Above Type error is neglected by using the bytearray() datatype as it is Mutable object - [Bytearray datatypes](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes)
 
 </details>
