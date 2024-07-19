@@ -53,7 +53,7 @@ print(f"identity of y= {id(y)}")
 
 print("x is y",x is y)
 
-### isnot same identity - Returns False
+### isnot Different identity - Returns True
 
 x=10
 y=20
