@@ -4,7 +4,7 @@
 - [Python Datatypes](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/README.md#Python-Datatypes)
 - [Typecasting](https://github.com/pknviki95/Python/tree/main/concepts/Typecasting/README.md#Type-casting)
 - [operators](https://github.com/pknviki95/Python/tree/main/concepts/operators/README.md#Python-Operators)
-- [Input and output statements](https://github.com/pknviki95/Python/tree/main/concepts/nput_output_statements/README.md#Input-and-output-statements)
+- [Input and output statements](https://github.com/pknviki95/Python/tree/main/concepts/Input_output_statements/README.md#Input-and-output-statements)
 - [Flow controls](https://github.com/pknviki95/Python/tree/main/concepts/Flow_control/README.md#Flow-control)
 - [Python Functions](https://github.com/pknviki95/Python/tree/main/concepts/functions/README.md#Functions)
 - [Python Modules](https://github.com/pknviki95/Python/tree/main/concepts/Modules/README.md#Modules)
