@@ -1,6 +1,6 @@
 ## Durgasoft programs:
 
-#### Program-01: [ternary_operator_min_value.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/ternary_operator_min_value.py) - Write a  program to find a min value using ternary operator with two user input :
+#### Program-01: [P01_ternary_operator_min_value.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/P01_ternary_operator_min_value.py) - Write a  program to find a min value using ternary operator with two user input :
 
 ```python
 value_1=int(input("Enter value 1: "))
@@ -24,7 +24,7 @@ print("The minimum value: ",min_value)
 The minimum value:  200
 ```
 
-#### Program-02: [ternary_nested_max.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/ternary_nested_max.py) - Write a  program to find a max value using nested ternary operator with two user input :
+#### Program-02: [P02_ternary_nested_max.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/P02_ternary_nested_max.py) - Write a  program to find a max value using nested ternary operator with two user input :
 ```
     Get two user input value
     If both numbers are equal print "Both Numbers are equal" 
@@ -48,7 +48,7 @@ print("Both Numbers are equal") if value_1==value_2 else print("first number is 
 first number is greater than second number
 ```
 
-#### Program-03: [input_user_sum.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/ternary_operator_min_value.py) - Write a  program to get two user input and print sum of two inputs:
+#### Program-03: [P03_input_user_sum.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/P03_input_user_sum.py) - Write a  program to get two user input and print sum of two inputs:
 
 ```python
 user_input_1=int(input("Enter value 1: "))
@@ -70,7 +70,7 @@ Enter value 2: 15
 Sum of user_input_1 and user_input_2 =  25
 ```
 
-#### Program-04: [user_input_employee_data.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/user_input_employee_data.py) - Write a  program to get employee data as user input and print the data:
+#### Program-04: [P04_user_input_employee_data.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/P04_user_input_employee_data.py) - Write a  program to get employee data as user input and print the data:
 
 ```python
 # Employee user input:
