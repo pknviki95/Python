@@ -172,7 +172,7 @@ dictionary_variable={1:'viki',2:'Raj','Vijay':30}
 print("value of dictionary_variable  : {} ; type of variable  : {}".format(dictionary_variable,type(dictionary_variable)))
 ```
 #### output:
-```c
+```python
 value of dictionary_variable  : {1: 'viki', 2: 'Raj', 'Vijay': 30} ; type of variable  : <class 'dict'>
 ```
 

@@ -706,7 +706,7 @@ y='viki'
 print("Non-boolean and 1st argument False returns 1st argument value: ",x and y)
 ```
 #### output:
-```c
+```python
 Non-boolean and 1st argument False returns 1st argument value:  
 ```
 
@@ -1518,7 +1518,7 @@ print(" member present in tuple_sequence: ",8 in tuple_sequence)
 print(" member present in tuple_sequence: ",'viki' in tuple_sequence)
 ```
 #### output:
-```c
+```python
 member present in tuple_sequence:  False
 member present in tuple_sequence:  True
 ```

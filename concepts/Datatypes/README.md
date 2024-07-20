@@ -964,7 +964,7 @@ print('Positive variable[start index:end index:step]: ',sequence[1:6:2])
 ```
 
 #### output:
-```c
+```python
 Positive variable[start index:end index]:  [[2, 3], 1, {1: 'viki'}, (1, 3)]
 Positive variable[:end index]:  [1, 'viki', [2, 3], 1, {1: 'viki'}, (1, 3)]
 Positive variable[start index:]:  [[2, 3], 1, {1: 'viki'}, (1, 3)]
@@ -1538,7 +1538,7 @@ dictionary_variable after adding duplicate key:  {1: 'viki', 2: 'karthi'}
 
 #### Duplicate value:
 
-```c
+```python
 dictionary_variable={1:'viki',2:'guru'}
 
 # Adding duplicate value to dictionary_variable
