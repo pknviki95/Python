@@ -1,1 +1,1 @@
-# os() - OS module:
+# Os Module - os():

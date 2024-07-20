@@ -196,7 +196,7 @@ value of set_variable  : {1, 2, 3, 4, 'viki'} ; type of variable  : <class 'set'
 - Mutable objects are those that allow you to change their value or data in place without affecting the object's identity.
 - Even if any changes is made on objects the identity of objects doesn't change.
 - Mutable objects are as below
-**	- **List**
+	- **List**
 	- **Set**
 	- **Dictionary**
 	- **Bytearray**

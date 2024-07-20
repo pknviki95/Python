@@ -1,9 +1,9 @@
-# Keyword() - Keyword module:
+# Keyword module - keyword():
 
 - keywords are predefined identifiers/words.
 - keywords should not be used as a variable name.
 - There are 36 keywords in python.
-- Keywords() module to perform. operations related to keywords.
+- keyword module to perform operations related to keywords.
 ```python
             import keyword
             keyword.methods() 
@@ -51,9 +51,12 @@ List of attributes in keyword module:  ['__all__', '__builtins__', '__cached__',
 ```
 ### Methods of keywords Module:
 
+- **keyword.iskeyword(keyword)**
+
+### variables of keywords Module:
+
 - **keyword.kwlist**
 - **len(keyword.kwlist)**
-- **keyword.iskeyword(keyword)**
 
 #### keyword.kwlist:
 

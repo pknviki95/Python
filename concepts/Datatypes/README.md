@@ -32,8 +32,8 @@
 
 ## Integer datatypes - int():
  
-- Integers – No limit to the value of integers
-- By default Python takes integer as decimal value
+- Integers – No limit to the value of integers.
+- By default Python takes integer as decimal value.
                 
 ```python
         1,1234
@@ -239,7 +239,7 @@ The type of y is:  <class 'float'>
 ## complex datatypes - complex():
 
 - complex type is a number combination of real and imaginary part.
-- complex can be represented with ```real+imagj``` (i.e) ```10+12j```
+- complex can be represented with ```real+imagj``` (i.e) ```10+12j```.
 - Complex datatypes are mostly used in mathematical operations,complex calculation etc.
 
 ```python
@@ -510,10 +510,10 @@ The type of x is:  <class 'bool'>
 
 #### 1:Multi-line string literals:
 
-- If the string are represented in single line then it is considered as string datatypes in python
+- If the string are represented in single line then it is considered as string datatypes in python.
 - If the string that needs to be implemented for multi-line then ```Single Quotes(' ')``` or ```Double Quotes(" ")``` is not possible it will throw Syntax error
-- As to resolve this issue only ```Triple quotes (""" """)/(''' ''') ``` is possible to assign multi-line string for any variable 
-- (i.e) Triple-quotes are used to define multi-line string literals
+- As to resolve this issue only ```Triple quotes (""" """)/(''' ''') ``` is possible to assign multi-line string for any variable.
+- (i.e) Triple-quotes are used to define multi-line string literals.
 
 #### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitations for Multi-line string literals:
 
@@ -544,7 +544,7 @@ SyntaxError: unterminated string literal (detected at line 13)
 
 #### 2:Using various string quotes as special character:
 
-- Using various single/double quotes as special character (i.e) usage of ```''``` or ```""``` inside a string can be done only by declaring the string variable in ```triple quotes``` or it will throw Syntax error
+- Using various single/double quotes as special character (i.e) usage of ```''``` or ```""``` inside a string can be done only by declaring the string variable in ```triple quotes``` or it will throw Syntax error.
 
 #### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitations for using various single/double quotes as special character:
 
@@ -618,24 +618,24 @@ IndexError: string index out of range
 
 #### Positive Index:
 
-- Positive Index starts from first character of string (i.e) ```0 to n```
+- Positive Index starts from first character of string. (i.e) ```0 to n```
 - It consists of positive index numbers. 
-- It starts from ```left to right (-->)```
+- It starts from ```left to right (-->)```.
 - first index value of string always starts with ```0```.
 
 #### Negative Index:
 
-- Positive Index starts from last character of string (i.e) ```-n to -1```
+- Positive Index starts from last character of string. (i.e) ```-n to -1```
 - It consists of Negative index numbers. 
-- It starts from ```right to left (<--)```
-- first index value of string always starts with ```-1```
+- It starts from ```right to left (<--)```.
+- first index value of string always starts with ```-1```.
 
 | **String**  |  **v**   |  **i** | **k** | **i** |
 | :---:   | :---: | :---: | :---: | :---: |
 | **Positive Index**  |  ```0```   |  ```1``` | ```2``` | ```3``` |
 | **Negative Index**  |  ```-4```   |  ```-3``` | ```-2``` | ```-1``` |
 
-#### [str_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_indexing.py) - To find the index value of the string based on positive and negative index
+#### [str_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_indexing.py) - To find the index value of the string based on positive and negative index:
 
 #### Positive Index:
 
