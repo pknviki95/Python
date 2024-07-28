@@ -98,3 +98,43 @@ Employee_Age: 29
 Employee_Salary: 15000.25 
 Employee_Address: Ramnad
 ```
+
+#### Program-05: [P05_sys_argv_command_line_argument_sum.py](https://github.com/pknviki95/Python/tree/main/practices/DurgaSoft/P05_sys_argv_command_line_argument_sum.py) - Write a  program to get sum of given number passed as an arguments:
+
+```
+py <script> <sum of arguments>
+```
+
+```python
+import sys
+
+print("List elements of sys.argv variable: ", sys.argv)
+
+print("length of sys.argv: ",len(sys.argv))
+
+sum_value=0
+
+for index_value in sys.argv[1:]:
+    sum_value+=int(index_value)
+print("sum of argv values {}'s output = {}".format(sys.argv[1:],sum_value))
+```
+
+#### input:
+```python
+py P05_sys_argv_command_line_argument_sum.py 1 2 3 24
+```
+
+#### output:
+
+```python
+List elements of sys.argv variable:  ['P05_sys_argv_command_line_argument_sum.py', '1', '2', '3', '24']
+length of sys.argv:  5
+sum of argv values ['1', '2', '3', '24']'s output = 30
+```
+#### Explanation:
+
+- ```sys.argv``` holds list elements ```['P05_sys_argv_command_line_argument_sum.py', '1', '2', '3', '24']```
+- ```sys.argv[1:]``` Index value to start from first argument.
+- ```sum_value+=int(index_value)``` :
+    - ```+=``` - Addition and assign argument to sum value.
+    - ```int(index_value)``` - typecast to int as list elements is string values.
