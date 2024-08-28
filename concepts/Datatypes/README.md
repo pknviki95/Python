@@ -79,7 +79,7 @@ print("The type of x is: ",type(x))
 
 ### bin():
 
-- To convert other functions to ```binary form (base-2)```
+- To convert other functions to ```binary form (base-2).```
 
 #### [bin_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/Integer/scripts/bin_base_conversion.py) - To convert decimal/octal/hexadecimal form to binary form using bin() function:
 
