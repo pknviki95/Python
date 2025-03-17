@@ -1298,42 +1298,7 @@ print("Bitwise rightshift (>>) and Assign operator (>>=) x : ",x)
 ```python
 Bitwise rightshift (>>) and Assign operator (>>=) x :  0
 ```
-#### Limitation of Assignment operator:
 
-#### Initialization of variable:
-- If you are trying to perform any operations for a variable without initializing throws error - ```Name error``` 
-
-#### [Assignment_arithmetic_Nameerror.py](https://github.com/pknviki95/Python/tree/main/concepts/operators/scripts/Assignment_arithmetic_Nameerror.py) - To perform any operations for a variable without initializing throws error - ```Name error```
-
-```python
-list_numbers=eval(input("Enter the list of numbers: "))
-
-'''
-commenting empty global variable initialization 
-To understand the non-initialization - Name error
-'''
-# sum_value=0
-
-for numbers in list_numbers:
-
-    # Arithmetic and Assign operator to perform sum
-
-    sum_value+=numbers
-
-print(sum_value)
-```
-#### input:
-```python
-Enter the list of numbers: [1,2]
-```
-#### error:
-
-```python
-Traceback (most recent call last):
-  File "/home/pknviki95/Learning/Python/practices/DurgaSoft/P10_for_loop_sum_of_num_list.py", line 15, in <module>
-    sum_value+=numbers
-NameError: name 'sum_value' is not defined
-```
 </details>
 <details>
 <summary>Ternary operator:</summary>

@@ -1,10 +1,10 @@
 '''
-Assignment operator:
+## Assignment operator:
 
-- Performs operation to assign values to left object/operand.**
-- combination of Assign operator with other operator**
+- **Performs operation to assign values to left object/operand.**
+- **combination of Assign operator with other operator**
     
-    - Assign operator (=)
+    - **Assign operator (=)**
 
 '''
 ### Assign operator (=):
