@@ -39,7 +39,7 @@
         1,1234
 ```
 
-#### [integer_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/Integer/scripts/integer_type.py) - To find the integer type variable using type() function:
+#### [integer_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/Integer/scripts/integer_type.py) - To find the integer type variable using type() function:
 
 ```python
 x=11 
@@ -81,7 +81,7 @@ print("The type of x is: ",type(x))
 
 - To convert other functions to ```binary form (base-2)```
 
-#### [bin_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/Integer/scripts/bin_base_conversion.py) - To convert decimal/octal/hexadecimal form to binary form using bin() function:
+#### [bin_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/Integer/scripts/bin_base_conversion.py) - To convert decimal/octal/hexadecimal form to binary form using bin() function:
 
 #### decimal to binary:
 ```python
@@ -119,7 +119,7 @@ The binary form of hex_bin :  0b1111101011001110
 
 - To convert other functions to ```hexadecimal form (base-16)```.
 
-#### [hex_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/Integer/scripts/hex_base_conversion.py) -  To convert decimal/octal/binary form to hexadecimal form using hex() function:
+#### [hex_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/Integer/scripts/hex_base_conversion.py) -  To convert decimal/octal/binary form to hexadecimal form using hex() function:
 
 #### decimal to hexadecimal:
 
@@ -159,7 +159,7 @@ The Hexadecimal form of bin_hex :  0xface
 
 - To convert other functions to ```octal form (base-8)```.
 
-#### [oct_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/Integer/scripts/oct_base_conversion.py) -  To convert decimal/hexadecimal/binary form to octal form using oct() function:
+#### [oct_base_conversion.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/Integer/scripts/oct_base_conversion.py) -  To convert decimal/hexadecimal/binary form to octal form using oct() function:
 
 #### decimal to octal:
 
@@ -210,7 +210,7 @@ The octal form of bin_oct :  0o175316
 - Float type variable always returns value with decimal point. (i.e) ```5.0```
 - Float type doesn't support base conversion function it is applicable only for integer type.
 
-#### [float_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/float/scripts/float_type.py) - Program-1 : To find the float type variable using type() function:
+#### [float_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/float/scripts/float_type.py) - Program-1 : To find the float type variable using type() function:
 
 ```python
 x=11.5 
@@ -249,7 +249,7 @@ The type of y is:  <class 'float'>
 #### NOTE:
 - imaginary part should always be ```j``` / ```J```; if used any other alphabet it throws error.
 
-#### [complex_img_j_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/complex/scripts/complex_img_j_error.py) - imaginary part should always be j/J if not it throws error - Syntax error:
+#### [complex_img_j_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_img_j_error.py) - imaginary part should always be j/J if not it throws error - Syntax error:
 
 ```python
 # if used any other alphabet used in imaginary part it throws error
@@ -259,13 +259,13 @@ print("X value is:",x)
 ```
 #### error:
 ```python
-File "/home/pknviki95/Learning/Python/concepts/datatype/Number_datatype/complex/scripts/complex_img_j_error.py", line 1
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Number_datatypes/complex/scripts/complex_img_j_error.py", line 1
 x=11+12i 
         ^
 SyntaxError: invalid decimal literal
 ```
 
-#### [complex_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/complex/scripts/complex_type.py) - Program-1 : To find the complex type variable using type() function:
+#### [complex_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_type.py) - Program-1 : To find the complex type variable using type() function:
 
 ```python
 x=11+12j 
@@ -291,7 +291,7 @@ X real value is: 11.0
 X imaginary value is: 12.0
 ```
 
-#### [complex_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/complex/scripts/complex_arithmetic.py) - To perform arithmetic operation for complex numbers:
+#### [complex_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_arithmetic.py) - To perform arithmetic operation for complex numbers:
 
 #### Addition:
 
@@ -344,7 +344,7 @@ X/Y value is: (0.35-0.1j)
 | ```x=0x123+20j``` | hex values 0n real and decimal value on imaginary (same applies for other bases)| **Allowed** |
 | ```x=20+0x123j``` | decimal value on real and hex value on imag |**Not Allowed** |
 
-#### [complex_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Number_datatype/complex/scripts/complex_limitation.py) - if updated with imaginary other base values(oct,hex,bin) - Syntax error :
+#### [complex_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Number_datatypes/complex/scripts/complex_limitation.py) - if updated with imaginary other base values(oct,hex,bin) - Syntax error :
 
 #### binary value:
 
@@ -373,7 +373,7 @@ print("X imaginary value is:",x.imag)
 #### error:
 
 ```python
-File "/home/pknviki95/Learning/Python/concepts/datatype/Number_datatype/complex/scripts/complex_limitation.py", line 10
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Number_datatypes/complex/scripts/complex_limitation.py", line 10
 x=20+0b1111101011001110j 
                         ^
 SyntaxError: invalid binary literal
@@ -405,7 +405,7 @@ SyntaxError: invalid binary literal
 - Always the declaration of boolean values should be ```True``` and ```False```
 - if declared as ```true``` and ```false``` it throws error in python.
 
-#### [boolean_nameerror.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Boolean_datatype/scripts/boolean_nameerror.py) - To find the Boolean type variable using type() function:
+#### [boolean_nameerror.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_nameerror.py) - To find the Boolean type variable using type() function:
 
 ```python
 #invalid declaration-it return Name error
@@ -418,7 +418,7 @@ print("The type of x is: ",type(x))
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/pknviki/study/python/Python/concepts/datatype/Boolean_datatype/Boolean_type.py", line 5, in <module>
+File "/home/pknviki95/pknviki/study/python/Python/concepts/Datatypes/Boolean_datatypes/Boolean_type.py", line 5, in <module>
     x=false
 NameError: name 'false' is not defined
 ```
@@ -428,7 +428,7 @@ NameError: name 'false' is not defined
 | ```True``` | 1   | By default the value is 1 | **True** valid declaration |
 | ```False```| 0    | By default the value is 0 | **False** valid declaration|
 
-#### [boolean_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Boolean_datatype/scripts/boolean_type.py) - To find the Boolean type variable using type() function:
+#### [boolean_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_type.py) - To find the Boolean type variable using type() function:
 
 ```python
 x=True 
@@ -441,7 +441,7 @@ X value is: True
 The type of x is:  <class 'bool'>
 ```
 
-#### [boolean_returntype.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Boolean_datatype/scripts/boolean_returntype.py) - To find the Boolean return type of variable when condition is invoked:
+#### [boolean_returntype.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_returntype.py) - To find the Boolean return type of variable when condition is invoked:
 
 ```python
 x=10
@@ -455,7 +455,7 @@ print("The type of x is: ",type(x))
 Z value is: False
 The type of x is:  <class 'bool'>
 ```
-#### [boolean_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Boolean_datatype/scripts/boolean_arithmetic.py) - To find the arithmetic value of two boolean input:
+#### [boolean_arithmetic.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Boolean_datatypes/scripts/boolean_arithmetic.py) - To find the arithmetic value of two boolean input:
 
 ```python
 x=True              # By default True=1 ; False=0
@@ -515,7 +515,7 @@ The type of x is:  <class 'bool'>
 - As to resolve this issue only ```Triple quotes (""" """)/(''' ''') ``` is possible to assign multi-line string for any variable.
 - (i.e) Triple-quotes are used to define multi-line string literals.
 
-#### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_limitation.py) - String variable Limitations for Multi-line string literals:
+#### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitations for Multi-line string literals:
 
 ```python
 #single/Double quotes:
@@ -535,8 +535,8 @@ print("multi_line_sentence: ",multi_line_sentence)
 #### error:
 
 ```python
-pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/Python/concepts/datatype/String_datatype/scripts$ py str_limitation.py 
-File "/home/pknviki95/Learning/Python/concepts/datatype/String_datatype/scripts/str_limitation.py", line 13
+pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/Python/concepts/Datatypes/String_datatypes/scripts$ py str_limitation.py 
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_limitation.py", line 13
     sentence = '- If the string
             ^
 SyntaxError: unterminated string literal (detected at line 13)
@@ -546,7 +546,7 @@ SyntaxError: unterminated string literal (detected at line 13)
 
 - Using various single/double quotes as special character (i.e) usage of ```''``` or ```""``` inside a string can be done only by declaring the string variable in ```triple quotes``` or it will throw Syntax error.
 
-#### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_limitation.py) - String variable Limitations for using various single/double quotes as special character:
+#### [str_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_limitation.py) - String variable Limitations for using various single/double quotes as special character:
 
 ```python
 #single quotes
@@ -560,14 +560,14 @@ print(character)
 #### error:
 
 ```python
-pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/Python/concepts/datatype/String_datatype/scripts$ py str_limitation.py 
-File "/home/pknviki95/Learning/Python/concepts/datatype/String_datatype/scripts/str_limitation.py", line 25
+pknviki95@pknviki95-Lenovo-ideapad-330:~/Learning/Python/concepts/Datatypes/String_datatypes/scripts$ py str_limitation.py 
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_limitation.py", line 25
     character= 'Hello all, Welcome to 'Learning''
                                     ^^^^^^^^
 SyntaxError: invalid syntax
 ```
 
-#### [str_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_type.py) - To find the string type variable using type() function:
+#### [str_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_type.py) - To find the string type variable using type() function:
 
 ```python
 x='viki'                        #single quotes
@@ -599,7 +599,7 @@ The type of triple quotes z is:  <class 'str'>
 
 - Indexing can be performed only with the total index present in the string;if we ask for return value that exceeds existing index range it throws Index error.
 
-#### [str_index_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_index_error.py) - To understand the Indexing range of string - Index error:
+#### [str_index_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_index_error.py) - To understand the Indexing range of string - Index error:
 
 ```python
 sequence = 'vignesh'
@@ -612,7 +612,7 @@ print('sequence[10]',sequence[10])
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/String_datatype/scripts/str_index_error.py", line 8, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_index_error.py", line 8, in <module>
     print('sequence[10]',sequence[10])
 IndexError: string index out of range
 ```
@@ -638,7 +638,7 @@ IndexError: string index out of range
 | **Positive Index**  |  ```0```   |  ```1``` | ```2``` | ```3``` |
 | **Negative Index**  |  ```-4```   |  ```-3``` | ```-2``` | ```-1``` |
 
-#### [str_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_indexing.py) - To find the index value of the string based on positive and negative index:
+#### [str_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_indexing.py) - To find the index value of the string based on positive and negative index:
 
 #### Positive Index:
 
@@ -701,7 +701,7 @@ sequence[-7] v
 ```
 
 
-#### [str_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_slicing.py) - To obtain sub-string from string based on positive and negative index:
+#### [str_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_slicing.py) - To obtain sub-string from string based on positive and negative index:
 
 #### Positive Index slicing:
 
@@ -767,7 +767,7 @@ Negative variable[start index:end index:step]:  vn
             str + str 
 ```
 
-#### [str_concatenate.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_concatenate.py) -  concatenate two strings using + operator:
+#### [str_concatenate.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_concatenate.py) -  concatenate two strings using + operator:
 
 ```python
 string_1="Hello"
@@ -790,7 +790,7 @@ final_concatenated string:  Hello      Good Morning!
             str+int
 ```
 
-#### [str_concatenate_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_concatenate_type_error.py) - concatenate strings with other datatype using + operator - Type error:
+#### [str_concatenate_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_concatenate_type_error.py) - concatenate strings with other datatype using + operator - Type error:
 
 ```python
 string_1="Hello"
@@ -806,7 +806,7 @@ print("final_concatenated string with other datatype : ",final)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/String_datatype/scripts/str_cat_type_error.py", line 16, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_cat_type_error.py", line 16, in <module>
     final=string_1+'\t'+int_2                   #Type error
 TypeError: can only concatenate str (not "int") to str
 ```
@@ -821,7 +821,7 @@ TypeError: can only concatenate str (not "int") to str
             #string repeating
             str * [Number of repetitive]
              
-#### [str_repetitive.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_repetitive.py) - concatenate string repetitively using * operator:
+#### [str_repetitive.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetitive.py) - concatenate string repetitively using * operator:
 
 ```python
 string="viki"
@@ -840,7 +840,7 @@ string repetitive: vikivikivikiviki
             str * str
 ```
 
-#### [str_repetitive_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/String_datatype/scripts/str_repetitive_type_error.py) -  concatenate two strings using * repetitive operator - Type error:
+#### [str_repetitive_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/String_datatypes/scripts/str_repetitive_type_error.py) -  concatenate two strings using * repetitive operator - Type error:
 
 ```python
 string_1="Hello"
@@ -853,7 +853,7 @@ print("final_concatenated string: ",final)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/String_datatype/scripts/str_repetitive_type_error.py", line 14, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/String_datatypes/scripts/str_repetitive_type_error.py", line 14, in <module>
     final=string_1*string_2                    #Hello*Good Morning! 
 TypeError: can't multiply sequence by non-int of type 'str'
 ```
@@ -882,7 +882,7 @@ TypeError: can't multiply sequence by non-int of type 'str'
 - Heterogeneous objects are allowed in list (i.e) it can hold int,str,list,dict,etc., elements within its collection enclosed in square bracket.
 - List is Mutable object.
 
-#### [list_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/List_datatype/scripts/list_type.py) - To find the list type variable using type() function:
+#### [list_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/List_datatypes/scripts/list_type.py) - To find the list type variable using type() function:
 
 ```python
 list_variable =[1,'viki',[2,3],1]
@@ -902,7 +902,7 @@ The type of list_variable is:  <class 'list'>
 | **Positive Index**  |  ```0```   |  ```1``` | ```2``` | ```3``` |
 | **Negative Index**  |  ```-4```   |  ```-3``` | ```-2``` | ```-1``` |
 
-#### [list_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/List_datatype/scripts/list_indexing.py) - To find the index value of the list based on positive and negative index
+#### [list_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/List_datatypes/scripts/list_indexing.py) - To find the index value of the list based on positive and negative index
 
 #### Positive Index:
 
@@ -943,7 +943,7 @@ sequence[-3] viki
 
 - Sequence of list elements can be accessed using slicing
 
-#### [list_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/List_datatype/scripts/list_slicing.py) - To obtain elements from list based on positive and negative index:
+#### [list_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/List_datatypes/scripts/list_slicing.py) - To obtain elements from list based on positive and negative index:
 
 #### Positive Index slicing:
 
@@ -1018,7 +1018,7 @@ Negative variable[start index:end index:step]:  [1, 1]
 - Heterogeneous objects are allowed in tuple (i.e) it can hold int,str,list,dict,etc., elements within its collection enclosed in () bracket.
 - Tuple is immutable object - (i.e) Values of tuple object cannot be changed
 
-#### [tuple_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Tuple_datatype/scripts/tuple_type.py) - To find the tuple variable using type() function:
+#### [tuple_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_type.py) - To find the tuple variable using type() function:
 
 ```python
 tuple_variable =(1,'viki',[2,3],1)
@@ -1038,7 +1038,7 @@ The type of tuple_variable is:  <class 'tuple'>
 | **Positive Index**  |  ```0```   |  ```1``` | ```2``` | ```3``` |
 | **Negative Index**  |  ```-4```   |  ```-3``` | ```-2``` | ```-1``` |
 
-#### [tuple_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Tuple_datatype/scripts/tuple_indexing.py) - To find the index value of the tuple based on positive and negative index:
+#### [tuple_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_indexing.py) - To find the index value of the tuple based on positive and negative index:
 
 #### Positive Index:
 
@@ -1079,7 +1079,7 @@ sequence[-3] viki
 
 - Sequence of tuple elements can be accessed using slicing.
 
-#### [tuple_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Tuple_datatype/scripts/tuple_slicing.py) - To obtain elements from tuple based on positive and negative index:
+#### [tuple_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_slicing.py) - To obtain elements from tuple based on positive and negative index:
 
 #### Positive Index slicing:
 
@@ -1141,7 +1141,7 @@ Negative variable[start index:end index:step]:  (1, 1)
 - Based on below dir() function tuple doesn't have any write related operation only read related operations.
 - If any attributes used apart from available one it throws attribute error
 
-#### [tuple_attribute_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Tuple_datatype/scripts/tuple_attribute_error.py) - tuple is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error:
+#### [tuple_attribute_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_attribute_error.py) - tuple is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error:
 
 ```python
 tuple_variable=(1,2,3,4,'viki')
@@ -1161,7 +1161,7 @@ tuple_variable.append(2)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Tuple_datatype/scripts/tuple_attribute_error.py", line 13, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Tuple_datatypes/scripts/tuple_attribute_error.py", line 13, in <module>
     tuple_variable.append(2)
 AttributeError: 'tuple' object has no attribute 'append'
 ```
@@ -1183,7 +1183,7 @@ AttributeError: 'tuple' object has no attribute 'append'
             x=(10,)
 ```
 
-#### [tuple_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Tuple_datatype/scripts/tuple_limitation.py) - Single value declaration with comma(",") to overcome above limitation:
+#### [tuple_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Tuple_datatypes/scripts/tuple_limitation.py) - Single value declaration with comma(",") to overcome above limitation:
 
 #### multiple value declaration:
 
@@ -1259,7 +1259,7 @@ The type of tuple_single_variable_bool with , is:  <class 'tuple'>
 
 - Set variable cannot contain duplicate elements.
 
-#### [set_dup_unorder.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Set_datatype/scripts/set_dup_unorder.py) - To find the set variable return unordered value and neglecting of duplicate values:
+#### [set_dup_unorder.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_dup_unorder.py) - To find the set variable return unordered value and neglecting of duplicate values:
 
 ```python
 set_variable={1,2,3,4,'viki',(1,2),3,4}
@@ -1275,7 +1275,7 @@ unordered set_variable: {1, 2, (1, 2), 3, 4, 'viki'} # Un-ordered value return f
 
 - Set variable un-ordered elements so indexing/Slicing operations cannot be performed.if tried indexing operation it throws type error.
 
-#### [set_index_slice_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Set_datatype/scripts/set_index_slice_type_error.py) - Index/slice operation in set objects throws error as it is un-ordered datatype - Type error:
+#### [set_index_slice_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_index_slice_type_error.py) - Index/slice operation in set objects throws error as it is un-ordered datatype - Type error:
 
 #### Indexing:
 ```python
@@ -1296,14 +1296,14 @@ print("unordered set_variable: {}".format(set_variable[1:2]))
 #### error:
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Set_datatype/scripts/set_index_type_error.py", line 11, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Set_datatypes/scripts/set_index_type_error.py", line 11, in <module>
     print("unordered set_variable: {}".format(set_variable[1]))
 TypeError: 'set' object is not subscriptable
 ```
 
 - Set is mutable object - (i.e) Values of set object can be changed.
 
-#### [set_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Set_datatype/scripts/set_type.py) - To find the set type variable using type() function:
+#### [set_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_type.py) - To find the set type variable using type() function:
 
 ```python
 set_variable={1,2,3,4,'viki',(1,2),3,4}
@@ -1329,7 +1329,7 @@ The type of set variable: <class 'set'>
             set(set_variable) # set object
 ```
 
-#### [set_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Set_datatype/scripts/set_limitation.py) - To convert default empty dict to set object by declaring set() function:
+#### [set_limitation.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_limitation.py) - To convert default empty dict to set object by declaring set() function:
 
 #### without set () fun returns dict:
 ```python
@@ -1360,7 +1360,7 @@ unordered set_variable type with set() function: <class 'set'>
 - Heterogeneous objects are allowed in set (i.e) it can hold int,str,tuple etc., elements within its collection enclosed in {} bracket.
 - If any values like dict,list,set( Mutable objects) inside set variable it throws Type error -  unhashable type
 
-#### [set_unhashable_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Set_datatype/scripts/set_unhashable_type_error.py)  - Declaring dict,list,set( Mutable objects) inside set variable it throws - Type error - unhashable type:
+#### [set_unhashable_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py)  - Declaring dict,list,set( Mutable objects) inside set variable it throws - Type error - unhashable type:
 
 #### set with list elements:
 
@@ -1373,7 +1373,7 @@ print(" The set variable with list elements: ",set_variable_list)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Set_datatype/scripts/set_unhashable_type_error.py", line 9, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py", line 9, in <module>
     set_variable_list={[1,2]}
 TypeError: unhashable type: 'list'
 ```
@@ -1387,7 +1387,7 @@ print(" The set variable with dict elements: ",set_variable_dict)
 #### error:
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Set_datatype/scripts/set_unhashable_type_error.py", line 12, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py", line 12, in <module>
     set_variable_dict={{1:'viki'}}
 TypeError: unhashable type: 'dict'
 ```
@@ -1403,7 +1403,7 @@ print(" The set variable with set elements: ",set_variable_set)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Set_datatype/scripts/set_unhashable_type_error.py", line 15, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Set_datatypes/scripts/set_unhashable_type_error.py", line 15, in <module>
     set_variable_set={{1,2}}
 TypeError: unhashable type: 'set'
 ```
@@ -1425,7 +1425,7 @@ TypeError: unhashable type: 'set'
 - The Main difference between set is ```Mutable``` and Frozenset is ```Immutable``` 
 - (i.e) "set objects values can be changed as it is mutable" but not for "frozen set as it is immutable"
 
-#### [frozenset_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Frozenset_datatype/scripts/frozenset_type.py) - To find the frozenset type variable using type() function:
+#### [frozenset_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Frozenset_datatypes/scripts/frozenset_type.py) - To find the frozenset type variable using type() function:
 
 ```python
 set_variable={1,2,3,4,'viki',(1,2),3,4}
@@ -1450,7 +1450,7 @@ The type of set variable after frozenset: <class 'frozenset'>
 - Based on below dir() function frozenset doesn't have any write related operation only read related operations.
 - If any attributes used apart from available one it throws attribute error.
 
-#### [frozenset_attribute_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Frozenset_datatype/scripts/frozenset_attribute_error.py) - frozenset is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error:
+#### [frozenset_attribute_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Frozenset_datatypes/scripts/frozenset_attribute_error.py) - frozenset is read-only immutable object is any changes are tried to made using attribute like list it throws error - Attribute error:
 
 #### dir() output:
 
@@ -1462,7 +1462,7 @@ The type of set variable after frozenset: <class 'frozenset'>
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Frozen_set_datatype/scripts/frozenset_attribute_error.py", line 18, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Frozen_set_datatypes/scripts/frozenset_attribute_error.py", line 18, in <module>
     frozenset_variable.add(3)
 AttributeError: 'frozenset' object has no attribute 'add'
 ```
@@ -1482,7 +1482,7 @@ AttributeError: 'frozenset' object has no attribute 'add'
 ```
 
 
-#### [dict_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Dictionary_datatype/scripts/dict_type.py) - To find the dictionary type variable using type() function:
+#### [dict_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_type.py) - To find the dictionary type variable using type() function:
 
 ```python
 dictionary_variable = {1:'viki',2:'siva'}
@@ -1499,7 +1499,7 @@ The type of dictionary_variable is:  <class 'dict'>
             dictionary_variable[key]=value 
 ```
                 
-#### [dict_add_value_key.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Dictionary_datatype/scripts/dict_add_value_key.py) - To add the value to key to empty dictionary or add key and value to dictionary:
+#### [dict_add_value_key.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_add_value_key.py) - To add the value to key to empty dictionary or add key and value to dictionary:
 
 
 ```python
@@ -1522,7 +1522,7 @@ The type of dictionary_variable is:  {1: 'viki', 2: 'siva', 3: 'karthi'}
 - Duplicate keys are not allowed but duplicate values are allowed.
 - It doesn't throw error when duplicate key is used instead it updates the existing key to new value assigned to it.
 
-#### [dict_dup_key_value.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Dictionary_datatype/scripts/dict_dup_key_value.py) - To verify the condition of duplicate key and value in dictionary:
+#### [dict_dup_key_value.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Dictionary_datatypes/scripts/dict_dup_key_value.py) - To verify the condition of duplicate key and value in dictionary:
 
 #### Duplicate key:
 ```python
@@ -1581,7 +1581,7 @@ dictionary_variable after adding duplicate value:  {1: 'karthi', 2: 'karthi', 3:
         # step - sequence of number in specific steps
 ```
 
-#### [range_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Range_datatype/scripts/range_type.py) - To find the range variable using type() function:
+#### [range_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_type.py) - To find the range variable using type() function:
 
 ```python
 range_variable=range(10)
@@ -1598,7 +1598,7 @@ The type of range_variable :  <class 'range'>
 
 - Elements of range can be accessed using indexing/slicing as range is ordered preserved.
 
-#### [range_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Range_datatype/scripts/range_indexing.py) - To find the index value of the range based on positive and negative index
+#### [range_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_indexing.py) - To find the index value of the range based on positive and negative index
 
 ```python
             range_variable[index]
@@ -1655,7 +1655,7 @@ sequence[-4] 0
             # step  - Sequence of number in specific index steps
 ```
 
-#### [range_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Range_datatype/scripts/range_slicing.py) - To find the index value of the range based on positive and negative index using slicing operation:
+#### [range_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_slicing.py) - To find the index value of the range based on positive and negative index using slicing operation:
 
 #### Positive Index slicing:
 
@@ -1715,7 +1715,7 @@ Negative variable[start index:end index:step]:  range(3, 8, 3)
 
 - Range Datatype is immutable (i.e) Its values cannot be Updated or changed.
 
-#### [range_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Range_datatype/scripts/range_type_error.py) - range values cannot be changed as it is immutable if tried to change it throws error - Type error:
+#### [range_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Range_datatypes/scripts/range_type_error.py) - range values cannot be changed as it is immutable if tried to change it throws error - Type error:
 
 
 ```python
@@ -1731,7 +1731,7 @@ print('sequence[0]',sequence[0])
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Range_datatype/scripts/range_type_error.py", line 9, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Range_datatypes/scripts/range_type_error.py", line 9, in <module>
     sequence[0]=10 
 TypeError: 'range' object does not support item assignment
 ```
@@ -1751,7 +1751,7 @@ TypeError: 'range' object does not support item assignment
 ```
 
 
-#### [bytes_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytes_datatype/scripts/bytes_type.py) - To find the bytes type variable using type() function:
+#### [bytes_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_type.py) - To find the bytes type variable using type() function:
 
 ```python
 # sequence of numbers range from 0-255
@@ -1776,7 +1776,7 @@ The type of bytes_variable :  <class 'bytes'>
 
 - Elements of bytes can be accessed using indexing/slicing as bytes is ordered preserved.
 
-#### [bytes_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytes_datatype/scripts/bytes_indexing.py) - To find the index value of the bytes based on positive and negative index:
+#### [bytes_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_indexing.py) - To find the index value of the bytes based on positive and negative index:
 
 #### Positive Index:
 
@@ -1823,7 +1823,7 @@ bytes_variable[-4] 65
 
 - Sequence of bytes elements can be accessed using slicing.
 
-#### [bytes_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytes_datatype/scripts/bytes_slicing.py) - To access the sequence of bytes based on positive and negative index usig slicing operation:
+#### [bytes_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_slicing.py) - To access the sequence of bytes based on positive and negative index usig slicing operation:
 
 #### Positive Index slicing:
 
@@ -1883,7 +1883,7 @@ Negative variable[start index:]:  b'BCDE\x01\x02\x03'
 Negative variable[start index:end index:step]:  b'BE'
 ```
 
-#### [bytes_256_value_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytes_datatype/scripts/bytes_256_value_error.py) - Bytes type support sequence of elements from range 0-255 if it exceeds it throws error - Value error:
+#### [bytes_256_value_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_256_value_error.py) - Bytes type support sequence of elements from range 0-255 if it exceeds it throws error - Value error:
 
 ```python
 # sequence of numbers exceeds range from 0-255 - value error
@@ -1899,12 +1899,12 @@ print("bytes_variable: ",bytes_variable)
 #### error:
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Bytes_datatype/scripts/bytes_256_value_error.py", line 12, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Bytes_datatypes/scripts/bytes_256_value_error.py", line 12, in <module>
     bytes_variable=bytes(list_variable)
 ValueError: bytes must be in range(0, 256)
 ```
 
-#### [bytes_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytes_datatype/scripts/bytes_type_error.py) - Bytes type cannot be updated or changed as it is immutable if done it throws error- Type error :
+#### [bytes_type_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytes_datatypes/scripts/bytes_type_error.py) - Bytes type cannot be updated or changed as it is immutable if done it throws error- Type error :
 
 ```python
 sequence = [65,66,67,68]
@@ -1919,13 +1919,13 @@ print(bytes_variable)
 
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Bytes_datatype/scripts/bytes_type_error.py", line 10, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Bytes_datatypes/scripts/bytes_type_error.py", line 10, in <module>
     bytes_variable[2]=60
 TypeError: 'bytes' object does not support item assignment
 ```
 
 #### NOTE: 
-- Above Type error is neglected by using the bytearray() datatype as it is Mutable object - [Bytearray datatype](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype)
+- Above Type error is neglected by using the bytearray() datatype as it is Mutable object - [Bytearray datatype](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatype)
 
 </details>
 <details>
@@ -1943,7 +1943,7 @@ TypeError: 'bytes' object does not support item assignment
                 bytearrray_variable=bytearray(list_variable)
 ```
 
-#### [bytearray_type.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype/scripts/bytearray_type.py) - To find the bytearray type variable using type() function:
+#### [bytearray_type.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_type.py) - To find the bytearray type variable using type() function:
 
 ```python
 # sequence of numbers range from 0-255
@@ -1968,7 +1968,7 @@ The type of bytearray_variable :  <class 'bytearray'>
 
 - Elements of bytes can be accessed using indexing/slicing as bytes is ordered preserved.
 
-#### [bytearray_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype/scripts/bytearray_indexing.py) - To find the index value of the bytearray based on positive and negative index:
+#### [bytearray_indexing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_indexing.py) - To find the index value of the bytearray based on positive and negative index:
 
 #### Positive Index:
 
@@ -2015,7 +2015,7 @@ bytes_variable[-4] 65
 
 - Sequence of bytes elements can be accessed using slicing.
 
-#### [bytearray_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype/scripts/bytearray_slicing.py) - To access the sequence of bytes based on positive and negative index using slicing operation:
+#### [bytearray_slicing.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_slicing.py) - To access the sequence of bytes based on positive and negative index using slicing operation:
 
 #### Positive Index slicing:
 
@@ -2084,7 +2084,7 @@ Negative variable[start index:]:  bytearray(b'BCDE\x01\x02\x03')
 Negative variable[start index:end index:step]:  bytearray(b'BE')
 ```
 
-#### [bytearray_256_value_error.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype/scripts/bytearray_256_value_error.py) - Bytearray type support sequence of elements from range 0-255 if it exceeds it throws error - Value error:
+#### [bytearray_256_value_error.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_256_value_error.py) - Bytearray type support sequence of elements from range 0-255 if it exceeds it throws error - Value error:
 
 ```python
 # sequence of numbers exceeds range from 0-255 - value error
@@ -2101,12 +2101,12 @@ print("bytearray_variable: ",bytearray_variable)
 #### error:
 ```python
 Traceback (most recent call last):
-File "/home/pknviki95/Learning/Python/concepts/datatype/Bytearray_datatype/scripts/bytearray_256_value_error.py", line 12, in <module>
+File "/home/pknviki95/Learning/Python/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_256_value_error.py", line 12, in <module>
     bytearray_variable=bytearray(list_variable)
 ValueError: byte must be in range(0, 256)
 ```
 
-#### [bytearray_assigning.py](https://github.com/pknviki95/Python/tree/main/concepts/datatype/Bytearray_datatype/scripts/bytearray_assigning.py) - Bytearray type can be updated or changed as it is mutable:
+#### [bytearray_assigning.py](https://github.com/pknviki95/Python/tree/main/concepts/Datatypes/Bytearray_datatypes/scripts/bytearray_assigning.py) - Bytearray type can be updated or changed as it is mutable:
 
 ```python
 sequence = [65,66,67,68]
@@ -2142,7 +2142,7 @@ bytearray_variable after assigning:  bytearray(b'AB\x01D')
 
 - None is mostly used in scenario where a object needs to be assigned and keep an address reserved or future use.
 
-#### [none_type.py](https://github.com/pknviki95/Python/tree/main/cconcepts/datatype/NONE_datatype/scripts/none_type.py) - To find the none type variable using type() function:
+#### [none_type.py](https://github.com/pknviki95/Python/tree/main/cconcepts/Datatypes/NONE_datatypes/scripts/none_type.py) - To find the none type variable using type() function:
 ```python
 none_variable=None
 none_variable_1=None
